@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/IndustryConstructibleElement.xsd">
+
+    <StarSystemImprovementDefinition Name="InflationReductor_1" SubCategory="SubCategoryDust" ScoreProvider="StarSystemImprovementBuilt">
+        <SupervisorGain Name="Dust" />
+        <Cost ResourceName="SystemProduction">20</Cost>
+        <Cost ResourceName="Strategic1" Instant="true">10</Cost>
+        <Cost ResourceName="Strategic2" Instant="true">10</Cost>
+        <PathPrerequisite                   Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Inverted="true"   Flags="Prerequisite,Discard">ClassColonizedStarSystem/InflationReductor_1,!FastForwardedImprovement</PathPrerequisite>
+        <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">InflationReductionTechnology_1</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="InflationReductor_1" />
+        <SimulationDescriptorReference Name="DustBuilding" />
+        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage1Weak" />
+        <PopulationEvent Name="InflationReductorPopulationEvent"/>
+    </StarSystemImprovementDefinition>
+
+    <StarSystemImprovementDefinition Name="InflationReductor_2" SubCategory="SubCategoryDust" ScoreProvider="StarSystemImprovementBuilt">
+        <SupervisorGain Name="Dust" />
+        <Cost ResourceName="SystemProduction">10</Cost>
+        <Cost ResourceName="Strategic1" Instant="true">50</Cost>
+        <Cost ResourceName="Strategic2" Instant="true">50</Cost>
+        <Cost ResourceName="Strategic3" Instant="true">15</Cost>
+        <Cost ResourceName="Strategic4" Instant="true">15</Cost>
+        <PathPrerequisite                   Flags="Prerequisite,Discard">ColonizedStarSystemStateColony,StarSystemImprovementLevel2</PathPrerequisite>
+        <PathPrerequisite Inverted="true"   Flags="Prerequisite,Discard">ClassColonizedStarSystem/InflationReductor_2,!FastForwardedImprovement</PathPrerequisite>
+        <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">InflationReductionTechnology_2</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="InflationReductor_2" />
+        <SimulationDescriptorReference Name="DustBuilding" />
+        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage2Weak" />
+        <PopulationEvent Name="InflationReductorPopulationEvent"/>
+    </StarSystemImprovementDefinition>
+
+    <StarSystemImprovementDefinition Name="InflationReductor_3" SubCategory="SubCategoryDust" ScoreProvider="StarSystemImprovementBuilt">
+        <SupervisorGain Name="Dust" />
+        <Cost ResourceName="SystemProduction">15</Cost>
+        <Cost ResourceName="Strategic3" Instant="true">35</Cost>
+        <Cost ResourceName="Strategic4" Instant="true">35</Cost>
+        <Cost ResourceName="Strategic5" Instant="true">20</Cost>
+        <Cost ResourceName="Strategic6" Instant="true">20</Cost>
+        <Cost ResourceName="EmpireMoney" Instant="true">300</Cost>
+        <PathPrerequisite                   Flags="Prerequisite,Discard">ColonizedStarSystemStateColony,StarSystemImprovementLevel3</PathPrerequisite>
+        <PathPrerequisite Inverted="true"   Flags="Prerequisite,Discard">ClassColonizedStarSystem/InflationReductor_3,!FastForwardedImprovement</PathPrerequisite>
+        <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">InflationReductionTechnology_3</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="InflationReductor_3" />
+        <SimulationDescriptorReference Name="DustBuilding" />
+        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage3Weak" />
+        <PopulationEvent Name="InflationReductorPopulationEvent"/>
+
+    </StarSystemImprovementDefinition>
+
+    <StarSystemImprovementDefinition Name="InflationReductor_4" SubCategory="SubCategoryDust" ScoreProvider="StarSystemImprovementBuilt">
+        <SupervisorGain Name="Dust" />
+        <Cost ResourceName="SystemProduction">15</Cost>
+        <Cost ResourceName="Strategic5" Instant="true">100</Cost>
+        <Cost ResourceName="Strategic6" Instant="true">100</Cost>
+        <Cost ResourceName="EmpireManpower" Instant="true">5000</Cost>
+        <PathPrerequisite Inverted="false" Flags="Prerequisite,Discard">ColonizedStarSystemStateColony,StarSystemImprovementLevel4</PathPrerequisite>
+        <PathPrerequisite Inverted="true"  Flags="Prerequisite,Discard">ClassColonizedStarSystem/InflationReductor_4,!FastForwardedImprovement</PathPrerequisite>
+        <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">InflationReductionTechnology_4</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="InflationReductor_4" />
+        <SimulationDescriptorReference Name="DustBuilding" />
+        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage3Weak" />
+        <PopulationEvent Name="InflationReductorPopulationEvent"/>
+    </StarSystemImprovementDefinition>
+
+
+</Datatable>

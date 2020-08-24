@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Documentation/Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+
+    <TechnologyGuiElement2 Name="InflationReductionTechnology_1" X="-2.5" Y="0">
+        <Title>%InflationReductionTechnology_1Title</Title>
+        <Description>%InflationReductionTechnology_1Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionScienceAndExploration1Small" />
+        </Icons>
+    </TechnologyGuiElement2>
+
+    <TechnologyGuiElement2 Name="InflationReductionTechnology_2" X="-3.5" Y="0">
+        <Title>%InflationReductionTechnology_2Title</Title>
+        <Description>%InflationReductionTechnology_2Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionScienceAndExploration2Small" />
+        </Icons>
+    </TechnologyGuiElement2>
+
+    <TechnologyGuiElement2 Name="InflationReductionTechnology_3" X="-4.5" Y="0">
+        <Title>%InflationReductionTechnology_3Title</Title>
+        <Description>%InflationReductionTechnology_3Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionScienceAndExploration32Small" />
+        </Icons>
+    </TechnologyGuiElement2>
+
+    <TechnologyGuiElement2 Name="InflationReductionTechnology_4" X="-5.5" Y="0">
+        <Title>%InflationReductionTechnology_4Title</Title>
+        <Description>%InflationReductionTechnology_4Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionScienceAndExploration4Small" />
+        </Icons>
+    </TechnologyGuiElement2>
+
+    <GuiElement Name="InflationReductor_1">
+        <Title>%InflationReductor_1Title</Title>
+        <Description>%InflationReductor_1Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/Planetary/PlanetaryImprovementDust1Small" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/Planetary/PlanetaryImprovementDust1Large" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="InflationReductor_2">
+        <Title>%InflationReductor_2Title</Title>
+        <Description>%InflationReductor_2Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/Planetary/PlanetaryImprovementDust2Small" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/Planetary/PlanetaryImprovementDust2Large" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="InflationReductor_3">
+        <Title>%InflationReductor_3Title</Title>
+        <Description>%InflationReductor_3Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/Planetary/PlanetaryImprovementDust3Small" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/Planetary/PlanetaryImprovementDust3Large" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="InflationReductor_4">
+        <Title>%InflationReductor_4Title</Title>
+        <Description>%InflationReductor_4Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/Planetary/PlanetaryImprovementDust4Small" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/Planetary/PlanetaryImprovementDust4Large" />
+        </Icons>
+    </GuiElement>
+
+    <ExtendedGuiElement Name="InflationReductorPopulationEvent">
+        <Title>%InflationReductorPopulationEventTitle</Title>
+        <Description>%InflationReductorPopulationEventDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="HeaderContructionQueue" />
+        </Icons>
+    </ExtendedGuiElement>
+	
+</Datatable>

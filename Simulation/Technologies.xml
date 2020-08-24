@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Documentation/Schemas/ScienceConstructibleElement.xsd">
+
+    <TechnologyDefinition Name="InflationReductionTechnology_1" TechnologyStage="TechnologyStageDefinitionScienceAndExploration1" Category="CategoryTechnologyScienceAndExploration" ScoreProvider="TechnologyUnlocked">
+        <Cost ResourceName="EmpireResearch">10</Cost>
+        <SimulationDescriptorReference Name="InflationReductionTechnology_1"/>
+        <SimulationDescriptorReference Name="TechnologyCountScienceAndExplorationIncreaseStage1"/>
+        <SimulationDescriptorReference Name="TechnologyCounter"/>
+        <PopulationEvent Name="PopulationPoliticalEventEcologistTechnology"/>
+    </TechnologyDefinition>
+
+    <TechnologyDefinition Name="InflationReductionTechnology_2" TechnologyStage="TechnologyStageDefinitionScienceAndExploration2" Category="CategoryTechnologyScienceAndExploration" ScoreProvider="TechnologyUnlocked">
+        <Cost ResourceName="EmpireResearch">20</Cost>
+		<TechnologyPrerequisite Inverted="true" Flags="Prerequisite,Link,Disable">TechnologyLinkDefinitionExampleCostReduction-1</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="InflationReductionTechnology_2"/>
+        <SimulationDescriptorReference Name="TechnologyCountScienceAndExplorationIncreaseStage2"/>
+        <SimulationDescriptorReference Name="TechnologyCounter"/>
+        <PopulationEvent Name="PopulationPoliticalEventEcologistTechnology"/>
+    </TechnologyDefinition>
+
+    <TechnologyDefinition Name="InflationReductionTechnology_3" TechnologyStage="TechnologyStageDefinitionScienceAndExploration3" Category="CategoryTechnologyScienceAndExploration" ScoreProvider="TechnologyUnlocked">
+        <Cost ResourceName="EmpireResearch">30</Cost>
+		<TechnologyPrerequisite Inverted="true" Flags="Prerequisite,Link,Disable">TechnologyLinkDefinitionExampleCostReduction-2</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="InflationReductionTechnology_3"/>
+        <SimulationDescriptorReference Name="TechnologyCountScienceAndExplorationIncreaseStage3"/>
+        <SimulationDescriptorReference Name="TechnologyCounter"/>
+        <PopulationEvent Name="PopulationPoliticalEventEcologistTechnology"/>
+    </TechnologyDefinition>
+
+    <TechnologyDefinition Name="InflationReductionTechnology_4" TechnologyStage="TechnologyStageDefinitionScienceAndExploration4" Category="CategoryTechnologyScienceAndExploration" ScoreProvider="TechnologyUnlocked">
+        <Cost ResourceName="EmpireResearch">30</Cost>
+        <TechnologyPrerequisite Inverted="true" Flags="Prerequisite,Link,Disable">TechnologyLinkDefinitionExampleCostReduction-3</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="InflationReductionTechnology_4"/>
+        <SimulationDescriptorReference Name="TechnologyCountScienceAndExplorationIncreaseStage4"/>
+        <SimulationDescriptorReference Name="TechnologyCounter"/>
+        <PopulationEvent Name="PopulationPoliticalEventEcologistTechnology"/>
+    </TechnologyDefinition>
+	
+</Datatable>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Documentation/Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
+
+	<RuntimeModule Name="InflationReductionMod" Type="Extension" Version="1.0.0">
+
+        <Title>Inflation reduction</Title>
+        <Description>Adds 4 Technologies and 4 related buildings</Description>
+        <Author>Samy Lerari</Author>
+        <Homepage>https://www.games2gether.com/</Homepage>
+
+        <PreviewImageFile>ModIcon.png</PreviewImageFile>
+
+        <ReleaseNotes>Added XSD validation for easier use.</ReleaseNotes>
+        <!-- Available tags: AI, Art, Buildings, Gameplay, Improvements, MajorFactions, Maps, MinorFactions, Multiplayer, Other, Resources, Technologies, Units -->
+        <Tags>Technologies, Buildings</Tags>
+
+
+		<Plugins>
+
+			<DatabasePlugin DataType="ScienceConstructibleElement, Assembly-CSharp">
+				<ExtraTypes>
+					<ExtraType DataType="TechnologyDefinition, Assembly-CSharp" />
+				</ExtraTypes>
+				<FilePath>Simulation/Technologies.xml</FilePath>
+			</DatabasePlugin>
+
+			<DatabasePlugin DataType="PopulationEventDefinition, Assembly-CSharp">
+				<ExtraTypes>
+					<ExtraType DataType="PopulationPoliticalEventDefinition, Assembly-CSharp" />
+				</ExtraTypes>
+				<FilePath>Simulation/PopulationPoliticalEvents.xml</FilePath>
+			</DatabasePlugin>
+
+			<DatabasePlugin DataType="IndustryConstructibleElement, Assembly-CSharp">
+				<ExtraTypes>
+					<ExtraType DataType="StarSystemImprovementDefinition, Assembly-CSharp" />
+				</ExtraTypes>
+				<FilePath>Simulation/SystemImprovments.xml</FilePath>
+			</DatabasePlugin>
+
+			<DatabasePlugin DataType="TechnologyLinkDefinition, Assembly-CSharp">
+				<FilePath>Simulation/TechnologyLinks.xml</FilePath>
+			</DatabasePlugin>
+
+			<DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
+				<ExtraTypes>
+					<ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass" />
+					<ExtraType DataType="TechnologyGuiElement2, Assembly-CSharp" />
+				</ExtraTypes>
+				<FilePath>Gui/GuiElements.xml</FilePath>
+			</DatabasePlugin>
+			
+			<DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">
+				<FilePath>Simulation/SimulationDescriptors.xml</FilePath>
+			</DatabasePlugin>
+
+            <LocalizationPlugin DefaultLanguage="english">
+				<Directory>Localization</Directory>
+			</LocalizationPlugin>
+		</Plugins>
+
+	</RuntimeModule>
+</Datatable>
