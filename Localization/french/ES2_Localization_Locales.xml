@@ -11,13 +11,13 @@
     <LocalizationPair Name="%InflationReductionTechnology_4Description">Si l'inflation est devenue incontrôlable, il suffit de rebattre les cartes : en utilisant les IAs et la rapidité de transfert de l'information à l'échelle galactique, il est possible de génerer puis de supprimer des devises à la volée en fonction du type de transaction.</LocalizationPair>
 
     <LocalizationPair Name="%InflationReductor_1Title">Administration de la collecte des taxes</LocalizationPair>
-    <LocalizationPair Name="%InflationReductor_1Description">Spécialiser des travailleurs en percépteurs permettra de plus rapidement corriger les dérives du marché qui mènent aux facteurs d'inflation</LocalizationPair>
+    <LocalizationPair Name="%InflationReductor_1Description">Spécialiser des travailleurs en percépteurs permettra de plus rapidement corriger les dérives du marché qui mènent aux facteurs d'inflation. Réduit l'inflation de 5%</LocalizationPair>
     <LocalizationPair Name="%InflationReductor_2Title">Centre d'émission et de retour des liquidités</LocalizationPair>
-    <LocalizationPair Name="%InflationReductor_2Description">En centralisant l'émission et la desctruction de liquidités on contrôle plus aisément leur circulation et leur usage</LocalizationPair>
+    <LocalizationPair Name="%InflationReductor_2Description">En centralisant l'émission et la destruction de liquidités on contrôle plus aisément leur circulation et leur usage.  Réduit l'inflation de 10%</LocalizationPair>
     <LocalizationPair Name="%InflationReductor_3Title">Ministère de la réforme fiscale</LocalizationPair>
-    <LocalizationPair Name="%InflationReductor_3Description">Prendre des décisions si importante sur notre politique fiscale et budgétaire pourra avoir un impact important sur nos relations avec les autres empires. Nous aurons besoin de diplomates pour seconder les économistes</LocalizationPair>
+    <LocalizationPair Name="%InflationReductor_3Description">Prendre des décisions si importante sur notre politique fiscale et budgétaire pourra avoir un impact important sur nos relations avec les autres empires. Nous aurons besoin de diplomates pour seconder les économistes.  Réduit l'inflation de 15%</LocalizationPair>
     <LocalizationPair Name="%InflationReductor_4Title">Hypercalculateur monétaire</LocalizationPair>
-    <LocalizationPair Name="%InflationReductor_4Description">La puissance de calcul et le niveau de sécurité nécessaires aux opérations de génération et destructions de devises adaptatives nécessitent un bâtiment, protégé par l'armée, à l'écart des principaux axes et principales villes</LocalizationPair>
+    <LocalizationPair Name="%InflationReductor_4Description">La puissance de calcul et le niveau de sécurité nécessaires aux opérations de génération et destructions de devises adaptatives nécessitent un bâtiment, protégé par l'armée, à l'écart des principaux axes et principales villes.  Réduit l'inflation de 20%</LocalizationPair>
 
     <LocalizationPair Name="%InflationReductorPopulationEventTitle">Réduction de l'inflation</LocalizationPair>
     <LocalizationPair Name="%InflationReductorPopulationEventDescription">Réduction de l'inflation description</LocalizationPair>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Documentation/Schemas/ScienceConstructibleElement.xsd">
 
-    <TechnologyDefinition Name="InflationReductionTechnology_1" TechnologyStage="TechnologyStageDefinitionScienceAndExploration1" Category="CategoryTechnologyScienceAndExploration" ScoreProvider="TechnologyUnlocked">
-        <Cost ResourceName="EmpireResearch">10</Cost>
+    <TechnologyDefinition Name="InflationReductionTechnology_1" TechnologyStage="TechnologyStageDefinitionEconomyAndTrade2" Category="CategoryTechnologyEconomyAndTrade" ScoreProvider="TechnologyUnlocked">
+        <CustomCost ResourceName="EmpireResearch">Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCurrentCost) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostStage2Multiplier) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostQuadrantEconomyAndTradeMultiplier)</CustomCost>
         <SimulationDescriptorReference Name="InflationReductionTechnology_1"/>
         <SimulationDescriptorReference Name="TechnologyCountScienceAndExplorationIncreaseStage1"/>
         <SimulationDescriptorReference Name="TechnologyCounter"/>
         <PopulationEvent Name="PopulationPoliticalEventEcologistTechnology"/>
     </TechnologyDefinition>
 
-    <TechnologyDefinition Name="InflationReductionTechnology_2" TechnologyStage="TechnologyStageDefinitionScienceAndExploration2" Category="CategoryTechnologyScienceAndExploration" ScoreProvider="TechnologyUnlocked">
-        <Cost ResourceName="EmpireResearch">20</Cost>
+    <TechnologyDefinition Name="InflationReductionTechnology_2" TechnologyStage="TechnologyStageDefinitionEconomyAndTrade3" Category="CategoryTechnologyEconomyAndTrade" ScoreProvider="TechnologyUnlocked">
+        <CustomCost ResourceName="EmpireResearch">1.15 * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCurrentCost) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostStage3Multiplier) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostQuadrantEconomyAndTradeMultiplier) * (1 - (Property(StockLocation,@ClassEmpire/ClassResearch , TechnologyLinkReductionValue) * Count(StockLocation, @'ClassEmpire/ClassResearch,TechnologyLinkExampleCostReduction')))</CustomCost>
 		<TechnologyPrerequisite Inverted="true" Flags="Prerequisite,Link,Disable">TechnologyLinkDefinitionExampleCostReduction-1</TechnologyPrerequisite>
         <SimulationDescriptorReference Name="InflationReductionTechnology_2"/>
         <SimulationDescriptorReference Name="TechnologyCountScienceAndExplorationIncreaseStage2"/>
@@ -18,8 +18,8 @@
         <PopulationEvent Name="PopulationPoliticalEventEcologistTechnology"/>
     </TechnologyDefinition>
 
-    <TechnologyDefinition Name="InflationReductionTechnology_3" TechnologyStage="TechnologyStageDefinitionScienceAndExploration3" Category="CategoryTechnologyScienceAndExploration" ScoreProvider="TechnologyUnlocked">
-        <Cost ResourceName="EmpireResearch">30</Cost>
+    <TechnologyDefinition Name="InflationReductionTechnology_3" TechnologyStage="TechnologyStageDefinitionEconomyAndTrade4" Category="CategoryTechnologyEconomyAndTrade" ScoreProvider="TechnologyUnlocked">
+        <CustomCost ResourceName="EmpireResearch">1.20 * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCurrentCost) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostStage4Multiplier) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostQuadrantEconomyAndTradeMultiplier) * (1 - (Property(StockLocation,@ClassEmpire/ClassResearch , TechnologyLinkReductionValue) * Count(StockLocation, @'ClassEmpire/ClassResearch,TechnologyLinkExampleCostReduction')))</CustomCost>
 		<TechnologyPrerequisite Inverted="true" Flags="Prerequisite,Link,Disable">TechnologyLinkDefinitionExampleCostReduction-2</TechnologyPrerequisite>
         <SimulationDescriptorReference Name="InflationReductionTechnology_3"/>
         <SimulationDescriptorReference Name="TechnologyCountScienceAndExplorationIncreaseStage3"/>
@@ -27,8 +27,8 @@
         <PopulationEvent Name="PopulationPoliticalEventEcologistTechnology"/>
     </TechnologyDefinition>
 
-    <TechnologyDefinition Name="InflationReductionTechnology_4" TechnologyStage="TechnologyStageDefinitionScienceAndExploration4" Category="CategoryTechnologyScienceAndExploration" ScoreProvider="TechnologyUnlocked">
-        <Cost ResourceName="EmpireResearch">30</Cost>
+    <TechnologyDefinition Name="InflationReductionTechnology_4" TechnologyStage="TechnologyStageDefinitionEconomyAndTrade5" Category="CategoryTechnologyEconomyAndTrade" ScoreProvider="TechnologyUnlocked">
+        <CustomCost ResourceName="EmpireResearch">1.25 * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCurrentCost) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostStage5Multiplier) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostQuadrantEconomyAndTradeMultiplier) * (1 - (Property(StockLocation,@ClassEmpire/ClassResearch , TechnologyLinkReductionValue) * Count(StockLocation, @'ClassEmpire/ClassResearch,TechnologyLinkExampleCostReduction')))</CustomCost>
         <TechnologyPrerequisite Inverted="true" Flags="Prerequisite,Link,Disable">TechnologyLinkDefinitionExampleCostReduction-3</TechnologyPrerequisite>
         <SimulationDescriptorReference Name="InflationReductionTechnology_4"/>
         <SimulationDescriptorReference Name="TechnologyCountScienceAndExplorationIncreaseStage4"/>
