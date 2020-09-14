@@ -4,4 +4,19 @@
         <Tags>BuildingConstruction,Construction</Tags>
         <Politics Name="Politics03"/>
     </PopulationPoliticalEventDefinition>
+
+    <PopulationPoliticalEventDefinition Name="Defence_to_food_event" Category="PoliticalEventConstruction" Scale="System" Duration="20" Power="1">
+        <Tags>BuildingConstruction,Construction</Tags>
+        <Politics Name="Politics03"/>
+    </PopulationPoliticalEventDefinition>
+
+    <!--
+        INDUSTRIALISTS  // Politics00
+        INDUSTRIALISTS  // Politics01
+        SCIENTISTS // Politics02
+        PACIFISTS  // Politics03
+        ECOLOGISTS  // Politics04
+        RELIGIOUS  // Politics05
+        MILITARISTS // Politics06
+    -->
 </Datatable>

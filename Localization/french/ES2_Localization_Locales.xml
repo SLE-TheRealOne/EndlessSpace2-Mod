@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Documentation/Schemas/Amplitude.Unity.Localization.LocalizationDatatableElement.xsd">
-
+    <!-- Technologies -->
     <LocalizationPair Name="%InflationReductionTechnology_1Title">Indexation et désindexation</LocalizationPair>
     <LocalizationPair Name="%InflationReductionTechnology_1Description">Stopper l'indexation automatique des salaires, prix et pensions au profit d'une gestion plus fine des taxes permet de limiter l'inflation automatique amenée par le système économique</LocalizationPair>
     <LocalizationPair Name="%InflationReductionTechnology_2Title">Contrôle des liquidités</LocalizationPair>
@@ -10,6 +10,7 @@
     <LocalizationPair Name="%InflationReductionTechnology_4Title">Devises adaptatives</LocalizationPair>
     <LocalizationPair Name="%InflationReductionTechnology_4Description">Si l'inflation est devenue incontrôlable, il suffit de rebattre les cartes : en utilisant les IAs et la rapidité de transfert de l'information à l'échelle galactique, il est possible de génerer puis de supprimer des devises à la volée en fonction du type de transaction.</LocalizationPair>
 
+    <!-- System improvments -->
     <LocalizationPair Name="%InflationReductor_1Title">Administration de la collecte des taxes</LocalizationPair>
     <LocalizationPair Name="%InflationReductor_1Description">Spécialiser des travailleurs en percépteurs permettra de plus rapidement corriger les dérives du marché qui mènent aux facteurs d'inflation. Réduit l'inflation de 5%</LocalizationPair>
     <LocalizationPair Name="%InflationReductor_2Title">Centre d'émission et de retour des liquidités</LocalizationPair>
@@ -18,8 +19,26 @@
     <LocalizationPair Name="%InflationReductor_3Description">Prendre des décisions si importante sur notre politique fiscale et budgétaire pourra avoir un impact important sur nos relations avec les autres empires. Nous aurons besoin de diplomates pour seconder les économistes.  Réduit l'inflation de 15%</LocalizationPair>
     <LocalizationPair Name="%InflationReductor_4Title">Hypercalculateur monétaire</LocalizationPair>
     <LocalizationPair Name="%InflationReductor_4Description">La puissance de calcul et le niveau de sécurité nécessaires aux opérations de génération et destructions de devises adaptatives nécessitent un bâtiment, protégé par l'armée, à l'écart des principaux axes et principales villes.  Réduit l'inflation de 20%</LocalizationPair>
+    <LocalizationPair Name="%Defence_to_food_convertor_title">Service d'intendance</LocalizationPair>
+    <LocalizationPair Name="%Defence_to_food_convertor_description">D'autres missions peuvent être envisgées, pour les garnisons de défense planétaire, que l'assignation à des positions de combat. Par exemple, dédier une partie du temps de service pour renforcer l'agriculture. Les officiers coordonnent et optimisent tandis que la troupe fournit la main d'oeuvre nécessaire à la logistique.</LocalizationPair>
 
+    <!-- Tooltips -->
+    <LocalizationPair Name="%InflationReductor_1_tooltip_system_level_limitation">Ne peut être construit que sur une colonie de niveau [green]1#REVERT# [red]uniquement#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%InflationReductor_2_tooltip_system_level_limitation">Ne peut être construit que sur une colonie de niveau [green]2#REVERT# [red]uniquement#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%InflationReductor_3_tooltip_system_level_limitation">Ne peut être construit que sur une colonie de niveau [green]3#REVERT# [red]uniquement#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%InflationReductor_4_tooltip_system_level_limitation">Ne peut être construit que sur une colonie de niveau [green]4#REVERT# [red]uniquement#REVERT#</LocalizationPair>
+
+    <LocalizationPair Name="%InflationReductor_1_tooltip_effect">Réduit l'inflation d'empire de 20%</LocalizationPair>
+    <LocalizationPair Name="%InflationReductor_2_tooltip_effect">Réduit l'inflation d'empire de 30%</LocalizationPair>
+    <LocalizationPair Name="%InflationReductor_3_tooltip_effect">Réduit l'inflation d'empire de 40%</LocalizationPair>
+    <LocalizationPair Name="%InflationReductor_4_tooltip_effect">Réduit l'inflation d'empire de 50%</LocalizationPair>
+
+    <!-- Population events -->
     <LocalizationPair Name="%InflationReductorPopulationEventTitle">Réduction de l'inflation</LocalizationPair>
     <LocalizationPair Name="%InflationReductorPopulationEventDescription">Réduction de l'inflation description</LocalizationPair>
+    <LocalizationPair Name="%Defence_to_food_event_title">Construction du service d'intendance</LocalizationPair>
+    <LocalizationPair Name="%Defence_to_food_event_description">Construction du service d'intendance desc</LocalizationPair>
+
 </Datatable>
+
 

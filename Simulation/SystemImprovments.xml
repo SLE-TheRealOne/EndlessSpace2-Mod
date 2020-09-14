@@ -1,83 +1,115 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/IndustryConstructibleElement.xsd">
 
-    <StarSystemImprovementDefinition Name="InflationReductor_1" SubCategory="SubCategoryDust" ScoreProvider="StarSystemImprovementBuilt">
+    <StarSystemImprovementDefinition Name="InflationReductor_1" Category="CategoryStarSystemImprovementUnique" SubCategory="SubCategoryDust" ScoreProvider="StarSystemImprovementBuilt">
         <SupervisorGain Name="Dust" />
         <Cost ResourceName="SystemProduction">1560</Cost>
         <Cost ResourceName="Strategic1" Instant="true">50</Cost>
         <Cost ResourceName="Strategic2" Instant="true">50</Cost>
-        <!-- Ne peut être construit qu'une fois par empire -->
-        <QueuedSimulationDescriptorReference Name="InflationReductor_1_unicity"/>
-        <InterpreterPrerequisite Inverted="true" Flags="Prerequisite,Discard">Path(Context,@'../ClassEmpire/ClassStarSystem,InflationReductor_1_unicity') and not(Path(Context,@'ClassStarSystem,InflationReductor_1_unicity'))</InterpreterPrerequisite>
-        <!-- Ne peut être construit qu'une fois par système -->
-        <PathPrerequisite                   Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
-        <PathPrerequisite Inverted="true"   Flags="Prerequisite,Discard">ClassColonizedStarSystem/InflationReductor_1,!FastForwardedImprovement</PathPrerequisite>
-        <!-- Débloqué par la technologie -->
+
+        <!-- Applied on the system whenever the improvment is queued -->
+        <QueuedSimulationDescriptorReference Name="InflationReductor_1_building" />
+        <!-- Checks if any other system has this descriptor, and causes the improvement to be invalid if it does -->
+        <InterpreterPrerequisite Inverted="true"   Flags="Prerequisite,Discard">Path(Context,@'../ClassEmpire/ClassStarSystem,InflationReductor_1_building') and not(Path(Context,@'ClassStarSystem,InflationReductor_1_building'))</InterpreterPrerequisite>
+        <!-- FastForwardImprovment is for riftborn Singularity ability -->
+        <PathPrerequisite        Inverted="true"   Flags="Prerequisite,Discard">ClassColonizedStarSystem/InflationReductor_1_building,!FastForwardedImprovement</PathPrerequisite>
+        <!-- For case described here : https://www.games2gether.com/amplitude-studios/endless-space-2/forums/75-modding/threads/30731-unique-improvements -->
+        <PathPrerequisite        Inverted="true"   Flags="Prerequisite,Discard">../ClassEmpire/Uniques,InflationReductor_1_building</PathPrerequisite>
+        <!-- Colony level 1 only -->
+        <PathPrerequisite                          Flags="Prerequisite,Discard">ColonizedStarSystemStateColony,StarSystemImprovementLevel1</PathPrerequisite>
+
+        <!-- Unlocked via technology -->
         <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">InflationReductionTechnology_1</TechnologyPrerequisite>
         <!-- Custom effect -->
-        <SimulationDescriptorReference Name="InflationReductor_1" />
-        <!-- Dust building -->
+        <SimulationDescriptorReference Name="InflationReductor_1_effect" />
+        <!-- Indicates it's a dust building -->
         <SimulationDescriptorReference Name="DustBuilding" />
-        <!-- Dust upkeep -->
-        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage1Weak" />
-        <!-- Ne peut être construit qu'une fois -->
+        <!-- Adds an upkeep -->
+        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage2High" />
+        <!-- Adds a "can only be build once per empire" in the tooltip -->
         <SimulationDescriptorReference Name="StarSystemImprovementOncePerEmpire" />
+        <!-- Add a "level 1 colony only" tooltip -->
+        <SimulationDescriptorReference Name="InflationReductor_1_tooltip_system_level_limitation" />
         <!-- Effet sur la population -->
         <PopulationEvent Name="InflationReductorPopulationEvent"/>
+        <!-- On completion, adds this tag on the Empire's Uniques simulation object -->
+        <UniqueTags>InflationReductor_1_building</UniqueTags>
     </StarSystemImprovementDefinition>
 
-    <StarSystemImprovementDefinition Name="InflationReductor_2" SubCategory="SubCategoryDust" ScoreProvider="StarSystemImprovementBuilt">
+    <StarSystemImprovementDefinition Name="InflationReductor_2" Category="CategoryStarSystemImprovementUnique" SubCategory="SubCategoryDust" ScoreProvider="StarSystemImprovementBuilt">
         <SupervisorGain Name="Dust" />
         <Cost ResourceName="SystemProduction">3120</Cost>
         <Cost ResourceName="Strategic1" Instant="true">100</Cost>
         <Cost ResourceName="Strategic2" Instant="true">100</Cost>
-        <QueuedSimulationDescriptorReference Name="InflationReductor_2_unicity"/>
-        <InterpreterPrerequisite Inverted="true" Flags="Prerequisite,Discard">Path(Context,@'../ClassEmpire/ClassStarSystem,InflationReductor_2_unicity') and not(Path(Context,@'ClassStarSystem,InflationReductor_2_unicity'))</InterpreterPrerequisite>
-        <PathPrerequisite                   Flags="Prerequisite,Discard">ColonizedStarSystemStateColony,StarSystemImprovementLevel2</PathPrerequisite>
-        <PathPrerequisite Inverted="true"   Flags="Prerequisite,Discard">ClassColonizedStarSystem/InflationReductor_2,!FastForwardedImprovement</PathPrerequisite>
+        <QueuedSimulationDescriptorReference Name="InflationReductor_2_building" />
+        <InterpreterPrerequisite Inverted="true"   Flags="Prerequisite,Discard">Path(Context,@'../ClassEmpire/ClassStarSystem,InflationReductor_2_building') and not(Path(Context,@'ClassStarSystem,InflationReductor_2_building'))</InterpreterPrerequisite>
+        <PathPrerequisite        Inverted="true"   Flags="Prerequisite,Discard">ClassColonizedStarSystem/InflationReductor_2_building,!FastForwardedImprovement</PathPrerequisite>
+        <PathPrerequisite        Inverted="true"   Flags="Prerequisite,Discard">../ClassEmpire/Uniques,InflationReductor_2_building</PathPrerequisite>
+        <PathPrerequisite                          Flags="Prerequisite,Discard">ColonizedStarSystemStateColony,StarSystemImprovementLevel2</PathPrerequisite>
         <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">InflationReductionTechnology_2</TechnologyPrerequisite>
-        <SimulationDescriptorReference Name="InflationReductor_2" />
+        <SimulationDescriptorReference Name="InflationReductor_2_effect" />
         <SimulationDescriptorReference Name="DustBuilding" />
-        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage2Weak" />
+        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage3High" />
         <SimulationDescriptorReference Name="StarSystemImprovementOncePerEmpire" />
+        <SimulationDescriptorReference Name="InflationReductor_2_tooltip_system_level_limitation" />
         <PopulationEvent Name="InflationReductorPopulationEvent"/>
+        <UniqueTags>InflationReductor_2_building</UniqueTags>
     </StarSystemImprovementDefinition>
 
-    <StarSystemImprovementDefinition Name="InflationReductor_3" SubCategory="SubCategoryDust" ScoreProvider="StarSystemImprovementBuilt">
+    <StarSystemImprovementDefinition Name="InflationReductor_3" Category="CategoryStarSystemImprovementUnique" SubCategory="SubCategoryDust" ScoreProvider="StarSystemImprovementBuilt">
         <SupervisorGain Name="Dust" />
         <Cost ResourceName="SystemProduction">6240</Cost>
         <Cost ResourceName="Strategic3" Instant="true">100</Cost>
         <Cost ResourceName="Strategic4" Instant="true">100</Cost>
         <Cost ResourceName="EmpireMoney" Instant="true">300</Cost>
-        <QueuedSimulationDescriptorReference Name="InflationReductor_3_unicity"/>
-        <PathPrerequisite                   Flags="Prerequisite,Discard">ColonizedStarSystemStateColony,StarSystemImprovementLevel3</PathPrerequisite>
-        <PathPrerequisite Inverted="true"   Flags="Prerequisite,Discard">ClassColonizedStarSystem/InflationReductor_3,!FastForwardedImprovement</PathPrerequisite>
-        <InterpreterPrerequisite Inverted="true" Flags="Prerequisite,Discard">Path(Context,@'../ClassEmpire/ClassStarSystem,InflationReductor_3_unicity') and not(Path(Context,@'ClassStarSystem,InflationReductor_3_unicity'))</InterpreterPrerequisite>
+        <QueuedSimulationDescriptorReference Name="InflationReductor_3_building" />
+        <InterpreterPrerequisite Inverted="true"   Flags="Prerequisite,Discard">Path(Context,@'../ClassEmpire/ClassStarSystem,InflationReductor_3_building') and not(Path(Context,@'ClassStarSystem,InflationReductor_3_building'))</InterpreterPrerequisite>
+        <PathPrerequisite        Inverted="true"   Flags="Prerequisite,Discard">ClassColonizedStarSystem/InflationReductor_3_building,!FastForwardedImprovement</PathPrerequisite>
+        <PathPrerequisite        Inverted="true"   Flags="Prerequisite,Discard">../ClassEmpire/Uniques,InflationReductor_3_building</PathPrerequisite>
+        <PathPrerequisite                          Flags="Prerequisite,Discard">ColonizedStarSystemStateColony,StarSystemImprovementLevel3</PathPrerequisite>
         <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">InflationReductionTechnology_3</TechnologyPrerequisite>
-        <SimulationDescriptorReference Name="InflationReductor_3" />
+        <SimulationDescriptorReference Name="InflationReductor_3_effect" />
         <SimulationDescriptorReference Name="DustBuilding" />
-        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage3Weak" />
+        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage4High" />
         <SimulationDescriptorReference Name="StarSystemImprovementOncePerEmpire" />
+        <SimulationDescriptorReference Name="InflationReductor_3_tooltip_system_level_limitation" />
         <PopulationEvent Name="InflationReductorPopulationEvent"/>
-
+        <UniqueTags>InflationReductor_3_building</UniqueTags>
     </StarSystemImprovementDefinition>
 
-    <StarSystemImprovementDefinition Name="InflationReductor_4" SubCategory="SubCategoryDust" ScoreProvider="StarSystemImprovementBuilt">
+    <StarSystemImprovementDefinition Name="InflationReductor_4" Category="CategoryStarSystemImprovementUnique" SubCategory="SubCategoryDust" ScoreProvider="StarSystemImprovementBuilt">
         <SupervisorGain Name="Dust" />
         <Cost ResourceName="SystemProduction">12480</Cost>
         <Cost ResourceName="Strategic5" Instant="true">100</Cost>
         <Cost ResourceName="Strategic6" Instant="true">100</Cost>
         <Cost ResourceName="EmpireManpower" Instant="true">5000</Cost>
-        <QueuedSimulationDescriptorReference Name="InflationReductor_4_unicity"/>
-        <PathPrerequisite Inverted="false" Flags="Prerequisite,Discard">ColonizedStarSystemStateColony,StarSystemImprovementLevel4</PathPrerequisite>
-        <PathPrerequisite Inverted="true"  Flags="Prerequisite,Discard">ClassColonizedStarSystem/InflationReductor_4,!FastForwardedImprovement</PathPrerequisite>
-        <InterpreterPrerequisite Inverted="true" Flags="Prerequisite,Discard">Path(Context,@'../ClassEmpire/ClassStarSystem,InflationReductor_4_unicity') and not(Path(Context,@'ClassStarSystem,InflationReductor_4_unicity'))</InterpreterPrerequisite>
+        <QueuedSimulationDescriptorReference Name="InflationReductor_4_building" />
+        <InterpreterPrerequisite Inverted="true"   Flags="Prerequisite,Discard">Path(Context,@'../ClassEmpire/ClassStarSystem,InflationReductor_4_building') and not(Path(Context,@'ClassStarSystem,InflationReductor_4_building'))</InterpreterPrerequisite>
+        <PathPrerequisite        Inverted="true"   Flags="Prerequisite,Discard">ClassColonizedStarSystem/InflationReductor_4_building,!FastForwardedImprovement</PathPrerequisite>
+        <PathPrerequisite        Inverted="true"   Flags="Prerequisite,Discard">../ClassEmpire/Uniques,InflationReductor_4_building</PathPrerequisite>
+        <PathPrerequisite                          Flags="Prerequisite,Discard">ColonizedStarSystemStateColony,StarSystemImprovementLevel4</PathPrerequisite>
         <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">InflationReductionTechnology_4</TechnologyPrerequisite>
-        <SimulationDescriptorReference Name="InflationReductor_4" />
+        <SimulationDescriptorReference Name="InflationReductor_4_effect" />
         <SimulationDescriptorReference Name="DustBuilding" />
-        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage3Weak" />
+        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage5High" />
         <SimulationDescriptorReference Name="StarSystemImprovementOncePerEmpire" />
+        <SimulationDescriptorReference Name="InflationReductor_4_tooltip_system_level_limitation" />
         <PopulationEvent Name="InflationReductorPopulationEvent"/>
+        <UniqueTags>InflationReductor_4_building</UniqueTags>
+    </StarSystemImprovementDefinition>
+
+    <StarSystemImprovementDefinition Name="Defence_to_food_convertor" SubCategory="SubCategoryFood" ScoreProvider="StarSystemImprovementBuilt">
+        <SupervisorGain Name="Food" />
+        <Cost ResourceName="SystemProduction">560</Cost>
+        <Cost ResourceName="Strategic1" Instant="true">25</Cost>
+        <Cost ResourceName="Strategic1" Instant="true">25</Cost>
+        <Cost ResourceName="EmpireManpower" Instant="true">1000</Cost>
+        <InterpreterPrerequisite Inverted="true"   Flags="Prerequisite,Discard">Path(Context,@'../ClassEmpire/ClassStarSystem,Defence_to_food_conversion') and not(Path(Context,@'ClassStarSystem,Defence_to_food_conversion'))</InterpreterPrerequisite>
+        <PathPrerequisite        Inverted="true"   Flags="Prerequisite,Discard">ClassColonizedStarSystem/Defence_to_food_conversion,!FastForwardedImprovement</PathPrerequisite>
+        <PathPrerequisite        Inverted="false"    Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
+        <SimulationDescriptorReference Name="Defence_to_food_conversion" />
+        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage2Normal" />
+        <PopulationEvent Name="Defence_to_food_event"/>
     </StarSystemImprovementDefinition>
 
 

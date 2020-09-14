@@ -84,5 +84,50 @@
             <Icon Size="Small" Path="HeaderContructionQueue" />
         </Icons>
     </ExtendedGuiElement>
-	
+
+    <ExtendedGuiElement Name="defence_to_food_event">
+        <Title>%defence_to_food_event_title</Title>
+        <Description>%defence_to_food_event_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="HeaderContructionQueue" />
+        </Icons>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="InflationReductor_1_tooltip_system_level_limitation">
+        <TooltipElement>
+            <EffectOverride>%InflationReductor_1_tooltip_system_level_limitation</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="InflationReductor_2_tooltip_system_level_limitation">
+        <TooltipElement>
+            <EffectOverride>%InflationReductor_2_tooltip_system_level_limitation</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="InflationReductor_3_tooltip_system_level_limitation">
+        <TooltipElement>
+            <EffectOverride>%InflationReductor_3_tooltip_system_level_limitation</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="InflationReductor_4_tooltip_system_level_limitation">
+        <TooltipElement>
+            <EffectOverride>%InflationReductor_4_tooltip_system_level_limitation</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+
+    <GuiElement Name="InflationReductor_1_effect">
+        <Title>%InflationReductor_1Title</Title>
+    </GuiElement>
+
+    <GuiElement Name="Defence_to_food_convertor">
+        <Title>%Defence_to_food_convertor_title</Title>
+        <Description>%Defence_to_food_convertor_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementCuriosity2Small" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementCuriosity2Large" />
+        </Icons>
+    </GuiElement>
+
 </Datatable>

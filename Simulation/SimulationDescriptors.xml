@@ -11,28 +11,39 @@
     <SimulationDescriptor Name="TechnologyLinkExampleCostReduction" Type="TechnologyLink"/>
 
     <!-- Building effects -->
-    <SimulationDescriptor Name="InflationReductor_1" Type="StarSystemImprovement">
-        <Modifier TargetProperty="DustInflation" Operation="Multiplication" Value="0.95" Path="../ClassEmpire"/>
-        <Modifier TargetProperty="Happiness" Operation="Subtraction" Value="10"   Path="./ClassColonizedStarSystem"/>
+    <SimulationDescriptor Name="InflationReductor_1_effect" Type="StarSystemImprovement" TooltipOverride="%InflationReductor_1_tooltip_effect">
+        <Modifier TargetProperty="DustInflation"    Operation="Percent"     Value="-0.20"   Path="../ClassEmpire"/>
+        <Modifier TargetProperty="Happiness"        Operation="Subtraction" Value="15"      Path="./ClassColonizedStarSystem"/>
     </SimulationDescriptor>
 
-    <SimulationDescriptor Name="InflationReductor_2" Type="StarSystemImprovement">
-        <Modifier TargetProperty="DustInflation" Operation="Multiplication" Value="0.90" Path="../ClassEmpire"/>
+    <SimulationDescriptor Name="InflationReductor_2_effect" Type="StarSystemImprovement" TooltipOverride="%InflationReductor_2_tooltip_effect">  >
+        <Modifier TargetProperty="DustInflation" Operation="Percent" Value="-0.30" Path="../ClassEmpire"/>
     </SimulationDescriptor>
 
-    <SimulationDescriptor Name="InflationReductor_3" Type="StarSystemImprovement">
-        <Modifier TargetProperty="DustInflation"        Operation="Multiplication"  Value="0.85"    Path="../ClassEmpire"/>
-        <Modifier TargetProperty="SystemEmpirePoint"    Operation="Subtraction"    Value="2"       Path="./ClassColonizedStarSystem"/>
+    <SimulationDescriptor Name="InflationReductor_3_effect" Type="StarSystemImprovement" TooltipOverride="%InflationReductor_3_tooltip_effect">  >
+        <Modifier TargetProperty="DustInflation"       Operation="Percent"   Value="-0.40"   Path="../ClassEmpire"/>
+        <Modifier TargetProperty="SystemEmpirePoint"   Operation="Percent"   Value="-0.15"   Path="./ClassColonizedStarSystem"/>
     </SimulationDescriptor>
 
-    <SimulationDescriptor Name="InflationReductor_4" Type="StarSystemImprovement">
-        <Modifier TargetProperty="DustInflation" Operation="Multiplication" Value="0.80" Path="../ClassEmpire"/>
+    <SimulationDescriptor Name="InflationReductor_4_effect" Type="StarSystemImprovement" TooltipOverride="%InflationReductor_4_tooltip_effect">  >
+        <Modifier TargetProperty="DustInflation"       Operation="Percent"   Value="-0.50"    Path="../ClassEmpire"/>
     </SimulationDescriptor>
 
-    <!-- Ensures buildings unicity -->
-    <SimulationDescriptor Name="InflationReductor_1_unicity" Type="BuildingStarSystemImprovement"/>
-    <SimulationDescriptor Name="InflationReductor_2_unicity" Type="BuildingStarSystemImprovement"/>
-    <SimulationDescriptor Name="InflationReductor_3_unicity" Type="BuildingStarSystemImprovement"/>
-    <SimulationDescriptor Name="InflationReductor_4_unicity" Type="BuildingStarSystemImprovement"/>
+    <!-- Queued during building constructions -->
+    <SimulationDescriptor Name="InflationReductor_1_building" Type="BuildingStarSystemImprovement"/>
+    <SimulationDescriptor Name="InflationReductor_2_building" Type="BuildingStarSystemImprovement"/>
+    <SimulationDescriptor Name="InflationReductor_3_building" Type="BuildingStarSystemImprovement"/>
+    <SimulationDescriptor Name="InflationReductor_4_building" Type="BuildingStarSystemImprovement"/>
+
+    <!-- Building tooltips -->
+    <SimulationDescriptor Name="InflationReductor_1_tooltip_system_level_limitation" Type="StarSystemImprovement"/>
+    <SimulationDescriptor Name="InflationReductor_2_tooltip_system_level_limitation" Type="StarSystemImprovement"/>
+    <SimulationDescriptor Name="InflationReductor_3_tooltip_system_level_limitation" Type="StarSystemImprovement"/>
+    <SimulationDescriptor Name="InflationReductor_4_tooltip_system_level_limitation" Type="StarSystemImprovement"/>
+
+    <!-- Use available defence for food -->
+    <SimulationDescriptor Name="Defence_to_food_conversion" Type="StarSystemImprovement">
+        <BinaryModifier TargetProperty="SystemGrowth" Operation="Addition" Left="0.1" BinaryOperation="Multiplication" Right="$(SystemManpowerStock)" Path="./ClassColonizedStarSystem" SearchValueFromPath="true"/>
+    </SimulationDescriptor>
 
 </Datatable>

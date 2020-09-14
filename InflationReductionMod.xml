@@ -16,7 +16,6 @@
 
 
 		<Plugins>
-
 			<DatabasePlugin DataType="ScienceConstructibleElement, Assembly-CSharp">
 				<ExtraTypes>
 					<ExtraType DataType="TechnologyDefinition, Assembly-CSharp" />
