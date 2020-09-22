@@ -1,0 +1,17 @@
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Documentation/Schemas/ModuleDefinition.xsd">
+
+    <SupportModule Name="ModuleSupportSiegeStrategic3" Family="SiegeStrategic3" Level="1">
+        <Cost ResourceName="SystemProduction">60</Cost>
+        <Cost ResourceName="Strategic3" Instant="true">1</Cost>
+        <TechnologyPrerequisite Flags="Edition">TechnologyWeaponModule4</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Edition,Discard,UnlockAvailability" Inverted="true">../ClassEmpire,AffinityGameplayMajorHisshos</PathPrerequisite>
+        <!--Descriptor used to apply effect-->
+        <SimulationDescriptorReference Name="ClassModuleSupport"/>
+        <SimulationDescriptorReference Name="ModuleTypeStrategic" />
+        <CategorizedSimulationDescriptors Category="CategorySiege">
+            <SimulationDescriptorReference Name="ModuleSupportSiege"/>
+            <SimulationDescriptorReference Name="ModuleSupportSiegeStrategic3"/>
+            <!--Descriptors used for tooltip-->
+        </CategorizedSimulationDescriptors>
+    </SupportModule>
+</Datatable>

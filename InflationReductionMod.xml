@@ -53,9 +53,22 @@
 				<FilePath>Simulation/SimulationDescriptors.xml</FilePath>
 			</DatabasePlugin>
 
-            <LocalizationPlugin DefaultLanguage="english">
+			<DatabasePlugin DataType="EmpireImprovementDefinition, Assembly-CSharp">
+				<FilePath>Simulation/EmpireImprovements.xml</FilePath>
+			</DatabasePlugin>
+
+			<DatabasePlugin DataType="ModuleDefinition, Assembly-CSharp">
+				<ExtraTypes>
+					<ExtraType DataType="SupportModuleDefinition, Assembly-CSharp" />
+				</ExtraTypes>
+				<FilePath>Simulation/ModulesDefinitions.xml</FilePath>
+			</DatabasePlugin>
+
+			<LocalizationPlugin DefaultLanguage="english">
 				<Directory>Localization</Directory>
 			</LocalizationPlugin>
+
+
 		</Plugins>
 
 	</RuntimeModule>

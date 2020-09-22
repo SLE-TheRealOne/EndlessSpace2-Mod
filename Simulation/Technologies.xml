@@ -4,7 +4,7 @@
     <TechnologyDefinition Name="InflationReductionTechnology_1" TechnologyStage="TechnologyStageDefinitionEconomyAndTrade2" Category="CategoryTechnologyEconomyAndTrade" ScoreProvider="TechnologyUnlocked">
         <CustomCost ResourceName="EmpireResearch">Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCurrentCost) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostStage2Multiplier) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostQuadrantEconomyAndTradeMultiplier)</CustomCost>
         <SimulationDescriptorReference Name="InflationReductionTechnology_1"/>
-        <SimulationDescriptorReference Name="TechnologyCountScienceAndExplorationIncreaseStage1"/>
+        <SimulationDescriptorReference Name="TechnologyCountEconomyAndTradeIncreaseStage2"/>
         <SimulationDescriptorReference Name="TechnologyCounter"/>
         <PopulationEvent Name="PopulationPoliticalEventEcologistTechnology"/>
     </TechnologyDefinition>
@@ -13,7 +13,7 @@
         <CustomCost ResourceName="EmpireResearch">1.15 * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCurrentCost) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostStage3Multiplier) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostQuadrantEconomyAndTradeMultiplier) * (1 - (Property(StockLocation,@ClassEmpire/ClassResearch , TechnologyLinkReductionValue) * Count(StockLocation, @'ClassEmpire/ClassResearch,TechnologyLinkExampleCostReduction')))</CustomCost>
 		<TechnologyPrerequisite Inverted="true" Flags="Prerequisite,Link,Disable">TechnologyLinkDefinitionExampleCostReduction-1</TechnologyPrerequisite>
         <SimulationDescriptorReference Name="InflationReductionTechnology_2"/>
-        <SimulationDescriptorReference Name="TechnologyCountScienceAndExplorationIncreaseStage2"/>
+        <SimulationDescriptorReference Name="TechnologyCountEconomyAndTradeIncreaseStage3"/>
         <SimulationDescriptorReference Name="TechnologyCounter"/>
         <PopulationEvent Name="PopulationPoliticalEventEcologistTechnology"/>
     </TechnologyDefinition>
@@ -22,7 +22,7 @@
         <CustomCost ResourceName="EmpireResearch">1.20 * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCurrentCost) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostStage4Multiplier) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostQuadrantEconomyAndTradeMultiplier) * (1 - (Property(StockLocation,@ClassEmpire/ClassResearch , TechnologyLinkReductionValue) * Count(StockLocation, @'ClassEmpire/ClassResearch,TechnologyLinkExampleCostReduction')))</CustomCost>
 		<TechnologyPrerequisite Inverted="true" Flags="Prerequisite,Link,Disable">TechnologyLinkDefinitionExampleCostReduction-2</TechnologyPrerequisite>
         <SimulationDescriptorReference Name="InflationReductionTechnology_3"/>
-        <SimulationDescriptorReference Name="TechnologyCountScienceAndExplorationIncreaseStage3"/>
+        <SimulationDescriptorReference Name="TechnologyCountEconomyAndTradeIncreaseStage4"/>
         <SimulationDescriptorReference Name="TechnologyCounter"/>
         <PopulationEvent Name="PopulationPoliticalEventEcologistTechnology"/>
     </TechnologyDefinition>
@@ -31,7 +31,7 @@
         <CustomCost ResourceName="EmpireResearch">1.25 * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCurrentCost) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostStage5Multiplier) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostQuadrantEconomyAndTradeMultiplier) * (1 - (Property(StockLocation,@ClassEmpire/ClassResearch , TechnologyLinkReductionValue) * Count(StockLocation, @'ClassEmpire/ClassResearch,TechnologyLinkExampleCostReduction')))</CustomCost>
         <TechnologyPrerequisite Inverted="true" Flags="Prerequisite,Link,Disable">TechnologyLinkDefinitionExampleCostReduction-3</TechnologyPrerequisite>
         <SimulationDescriptorReference Name="InflationReductionTechnology_4"/>
-        <SimulationDescriptorReference Name="TechnologyCountScienceAndExplorationIncreaseStage4"/>
+        <SimulationDescriptorReference Name="TechnologyCountEconomyAndTradeIncreaseStage5"/>
         <SimulationDescriptorReference Name="TechnologyCounter"/>
         <PopulationEvent Name="PopulationPoliticalEventEcologistTechnology"/>
     </TechnologyDefinition>

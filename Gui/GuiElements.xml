@@ -130,4 +130,21 @@
         </Icons>
     </GuiElement>
 
+    <GuiElement Name="EmpireImprovementAutomatedShipMovementAdditional">
+        <Title>%EmpireImprovementAutomatedShipMovementTitle</Title>
+        <Description>%EmpireImprovementAutomatedShipMovementDescription</Description>
+    </GuiElement>
+
+    <ExtendedGuiElement Name="ModuleSupportSiegeStrategic3">
+        <Title>%ModuleSupportSiegeStrategic3Title</Title>
+        <Description>%ModuleSupportSiegeStrategic3Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/Modules/ModuleSupportSiege1Strategic1" />
+        </Icons>
+        <Sounds>
+            <Sound EventName="Play_ES2_GUI_ShipDesignScreen_AddSupportModule" Type="OnEquipModule" />
+            <Sound EventName="Play_ES2_GUI_ShipDesignScreen_RemoveModule" Type="OnUnequipModule" />
+        </Sounds>
+    </ExtendedGuiElement>
+
 </Datatable>

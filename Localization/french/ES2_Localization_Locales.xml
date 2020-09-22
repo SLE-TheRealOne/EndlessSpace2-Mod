@@ -39,6 +39,10 @@
     <LocalizationPair Name="%Defence_to_food_event_title">Construction du service d'intendance</LocalizationPair>
     <LocalizationPair Name="%Defence_to_food_event_description">Construction du service d'intendance desc</LocalizationPair>
 
+    <!-- Modules -->
+    <LocalizationPair Name="%ModuleSupportSiegeStrategic3Title">Cartouches à l'adamantian Air-Sol</LocalizationPair>
+    <LocalizationPair Name="%ModuleSupportSiegeStrategic3Description">Projectiles renforcés à l'adamantian ; idéaux pour saper les défenses de l'ennemi avant l'invasion.</LocalizationPair>
+
 </Datatable>
 
 

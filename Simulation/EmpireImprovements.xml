@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Documentation/Schemas/EmpireImprovementDefinition.xsd">
+
+    <EmpireImprovementDefinition Name="EmpireImprovementAutomatedShipMovementAdditional" Category="CategoryMovementBonus" SubCategory="SubCategoryEmpire">
+        <TechnologyPrerequisite>TechnologyStageEmpireDevelopment2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="UnlockAvailability" Inverted="true">AffinityGameplayVampirilis</PathPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementAutomatedShipMovement1" />
+    </EmpireImprovementDefinition>
+
+</Datatable>
