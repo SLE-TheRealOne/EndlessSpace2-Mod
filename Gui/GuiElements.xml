@@ -117,13 +117,18 @@
         </TooltipElement>
     </ExtendedGuiElement>
 
-    <GuiElement Name="InflationReductor_1_effect">
-        <Title>%InflationReductor_1Title</Title>
-    </GuiElement>
-
     <GuiElement Name="Defence_to_food_convertor">
         <Title>%Defence_to_food_convertor_title</Title>
         <Description>%Defence_to_food_convertor_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementCuriosity2Small" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementCuriosity2Large" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="Food_to_industry_convertor">
+        <Title>%Food_to_industry_convertor_title</Title>
+        <Description>%Food_to_industry_convertor_description</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementCuriosity2Small" />
             <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementCuriosity2Large" />

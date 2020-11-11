@@ -3,14 +3,13 @@
 
 	<RuntimeModule Name="InflationReductionMod" Type="Extension" Version="1.0.0">
 
-        <Title>Inflation reduction</Title>
-        <Description>Adds 4 Technologies and 4 related buildings</Description>
+        <Title>SL CustomAdditions</Title>
+        <Description>Inflation reduction new technologies and buildings, new invasion module and technologies steps new elements</Description>
         <Author>Samy Lerari</Author>
         <Homepage>https://www.games2gether.com/</Homepage>
 
         <PreviewImageFile>ModIcon.png</PreviewImageFile>
 
-        <ReleaseNotes>Added XSD validation for easier use.</ReleaseNotes>
         <!-- Available tags: AI, Art, Buildings, Gameplay, Improvements, MajorFactions, Maps, MinorFactions, Multiplayer, Other, Resources, Technologies, Units -->
         <Tags>Technologies, Buildings</Tags>
 

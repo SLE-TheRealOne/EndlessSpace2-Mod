@@ -12,21 +12,23 @@
 
     <!-- Building effects -->
     <SimulationDescriptor Name="InflationReductor_1_effect" Type="StarSystemImprovement">
-        <Modifier TargetProperty="DustInflation"    Operation="Percent"     Value="-0.20"   Path="../ClassEmpire" TooltipOverride="%InflationReductor_1_tooltip_effect"/>
-        <Modifier TargetProperty="Happiness"        Operation="Subtraction" Value="15"      Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="DustInflation"        Operation="Percent"     Value="-0.02"   Path="../ClassEmpire" TooltipOverride="%InflationReductor_1_tooltip_effect"/>
+        <Modifier TargetProperty="Happiness"            Operation="Subtraction" Value="5"       Path="./ClassColonizedStarSystem"/>
     </SimulationDescriptor>
 
     <SimulationDescriptor Name="InflationReductor_2_effect" Type="StarSystemImprovement">
-        <Modifier TargetProperty="DustInflation" Operation="Percent" Value="-0.30" Path="../ClassEmpire" TooltipOverride="%InflationReductor_2_tooltip_effect"/>
+        <Modifier TargetProperty="DustInflation"        Operation="Percent"     Value="-0.04" Path="../ClassEmpire" TooltipOverride="%InflationReductor_2_tooltip_effect"/>
+        <Modifier TargetProperty="SystemResearch"       Operation="Percent"     Value="-0.05" Path="./ClassColonizedStarSystem"/>
     </SimulationDescriptor>
 
     <SimulationDescriptor Name="InflationReductor_3_effect" Type="StarSystemImprovement">
-        <Modifier TargetProperty="DustInflation"       Operation="Percent"   Value="-0.40"   Path="../ClassEmpire" TooltipOverride="%InflationReductor_3_tooltip_effect"/>
-        <Modifier TargetProperty="SystemEmpirePoint"   Operation="Percent"   Value="-0.15"   Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="DustInflation"       Operation="Percent"      Value="-0.06"   Path="../ClassEmpire" TooltipOverride="%InflationReductor_3_tooltip_effect"/>
+        <Modifier TargetProperty="SystemEmpirePoint"   Operation="Percent"      Value="-0.10"   Path="./ClassColonizedStarSystem"/>
     </SimulationDescriptor>
 
     <SimulationDescriptor Name="InflationReductor_4_effect" Type="StarSystemImprovement">
-        <Modifier TargetProperty="DustInflation"       Operation="Percent"   Value="-0.50"    Path="../ClassEmpire" TooltipOverride="%InflationReductor_4_tooltip_effect"/>
+        <Modifier TargetProperty="DustInflation"       Operation="Percent"      Value="-0.08"    Path="../ClassEmpire" TooltipOverride="%InflationReductor_4_tooltip_effect"/>
+        <Modifier TargetProperty="SystemProduction"    Operation="Percent"      Value="-0.20"    Path="./ClassColonizedStarSystem"/>
     </SimulationDescriptor>
 
     <!-- Queued during building constructions -->
@@ -44,6 +46,13 @@
     <!-- Use available defence for food -->
     <SimulationDescriptor Name="Defence_to_food_conversion" Type="StarSystemImprovement">
         <BinaryModifier TargetProperty="SystemGrowth" Operation="Addition" Left="0.1" BinaryOperation="Multiplication" Right="$(SystemManpowerStock)" Path="./ClassColonizedStarSystem" SearchValueFromPath="true"/>
+    </SimulationDescriptor>
+
+    <!-- Converts food to industry -->
+    <SimulationDescriptor Name="Food_to_industry_conversion" Type="StarSystemImprovement">
+        <Modifier TargetProperty="Happiness"            Operation="Subtraction" Value="5"      Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemProduction"     Operation="Addition"    Value="50"    Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemGrowth"         Operation="Subtraction" Value="50"    Path="./ClassColonizedStarSystem"/>
     </SimulationDescriptor>
 
     <!-- Modules -->

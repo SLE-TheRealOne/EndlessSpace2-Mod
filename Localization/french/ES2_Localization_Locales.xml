@@ -12,15 +12,17 @@
 
     <!-- System improvments -->
     <LocalizationPair Name="%InflationReductor_1Title">Administration de la collecte des taxes</LocalizationPair>
-    <LocalizationPair Name="%InflationReductor_1Description">Spécialiser des travailleurs en percépteurs permettra de plus rapidement corriger les dérives du marché qui mènent aux facteurs d'inflation. Réduit l'inflation de 5%</LocalizationPair>
+    <LocalizationPair Name="%InflationReductor_1Description">Spécialiser des travailleurs en percépteurs permettra de plus rapidement corriger les dérives du marché qui mènent aux facteurs d'inflation</LocalizationPair>
     <LocalizationPair Name="%InflationReductor_2Title">Centre d'émission et de retour des liquidités</LocalizationPair>
-    <LocalizationPair Name="%InflationReductor_2Description">En centralisant l'émission et la destruction de liquidités on contrôle plus aisément leur circulation et leur usage.  Réduit l'inflation de 10%</LocalizationPair>
+    <LocalizationPair Name="%InflationReductor_2Description">En centralisant l'émission et la destruction de liquidités on contrôle plus aisément leur circulation et leur usage</LocalizationPair>
     <LocalizationPair Name="%InflationReductor_3Title">Ministère de la réforme fiscale</LocalizationPair>
-    <LocalizationPair Name="%InflationReductor_3Description">Prendre des décisions si importante sur notre politique fiscale et budgétaire pourra avoir un impact important sur nos relations avec les autres empires. Nous aurons besoin de diplomates pour seconder les économistes.  Réduit l'inflation de 15%</LocalizationPair>
+    <LocalizationPair Name="%InflationReductor_3Description">Prendre des décisions si importante sur notre politique fiscale et budgétaire pourra avoir un impact important sur nos relations avec les autres empires. Nous aurons besoin de diplomates pour seconder les économistes</LocalizationPair>
     <LocalizationPair Name="%InflationReductor_4Title">Hypercalculateur monétaire</LocalizationPair>
-    <LocalizationPair Name="%InflationReductor_4Description">La puissance de calcul et le niveau de sécurité nécessaires aux opérations de génération et destructions de devises adaptatives nécessitent un bâtiment, protégé par l'armée, à l'écart des principaux axes et principales villes.  Réduit l'inflation de 20%</LocalizationPair>
+    <LocalizationPair Name="%InflationReductor_4Description">La puissance de calcul et le niveau de sécurité nécessaires aux opérations de génération et destructions de devises adaptatives nécessitent un bâtiment, protégé par l'armée, à l'écart des principaux axes et principales villes</LocalizationPair>
     <LocalizationPair Name="%Defence_to_food_convertor_title">Service d'intendance</LocalizationPair>
     <LocalizationPair Name="%Defence_to_food_convertor_description">D'autres missions peuvent être envisgées, pour les garnisons de défense planétaire, que l'assignation à des positions de combat. Par exemple, dédier une partie du temps de service pour renforcer l'agriculture. Les officiers coordonnent et optimisent tandis que la troupe fournit la main d'oeuvre nécessaire à la logistique.</LocalizationPair>
+    <LocalizationPair Name="%Food_to_industry_convertor_title">Centre de travail permanent</LocalizationPair>
+    <LocalizationPair Name="%Food_to_industry_convertor_description">En laissant la possibilité à des volontaires (ou en encourageant ceux qui ne le sont pas) à pouvoir travailler quelque soient le moment de la rotation journalière de la planète, l'espèce ou les circonstances, nous devrions pouvoir améliorer notre capacité de production industrielle en fournissant à ces travailleurs une contribution adéquate.</LocalizationPair>
 
     <!-- Tooltips -->
     <LocalizationPair Name="%InflationReductor_1_tooltip_system_level_limitation">Ne peut être construit que sur une colonie de niveau [green]1#REVERT# [red]uniquement#REVERT#</LocalizationPair>
@@ -28,10 +30,10 @@
     <LocalizationPair Name="%InflationReductor_3_tooltip_system_level_limitation">Ne peut être construit que sur une colonie de niveau [green]3#REVERT# [red]uniquement#REVERT#</LocalizationPair>
     <LocalizationPair Name="%InflationReductor_4_tooltip_system_level_limitation">Ne peut être construit que sur une colonie de niveau [green]4#REVERT# [red]uniquement#REVERT#</LocalizationPair>
 
-    <LocalizationPair Name="%InflationReductor_1_tooltip_effect">Réduit l'inflation d'empire de 20%</LocalizationPair>
-    <LocalizationPair Name="%InflationReductor_2_tooltip_effect">Réduit l'inflation d'empire de 30%</LocalizationPair>
-    <LocalizationPair Name="%InflationReductor_3_tooltip_effect">Réduit l'inflation d'empire de 40%</LocalizationPair>
-    <LocalizationPair Name="%InflationReductor_4_tooltip_effect">Réduit l'inflation d'empire de 50%</LocalizationPair>
+    <LocalizationPair Name="%InflationReductor_1_tooltip_effect">Réduit l'inflation d'empire de 2%</LocalizationPair>
+    <LocalizationPair Name="%InflationReductor_2_tooltip_effect">Réduit l'inflation d'empire de 4% supplémentaires (6% au total)</LocalizationPair>
+    <LocalizationPair Name="%InflationReductor_3_tooltip_effect">Réduit l'inflation d'empire de 6% supplémentaires (12% au total)</LocalizationPair>
+    <LocalizationPair Name="%InflationReductor_4_tooltip_effect">Réduit l'inflation d'empire de 8% supplémentaires (20% au total)</LocalizationPair>
 
     <!-- Population events -->
     <LocalizationPair Name="%InflationReductorPopulationEventTitle">Réduction de l'inflation</LocalizationPair>

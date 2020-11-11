@@ -6,6 +6,7 @@
         <Cost ResourceName="SystemProduction">1560</Cost>
         <Cost ResourceName="Strategic1" Instant="true">50</Cost>
         <Cost ResourceName="Strategic2" Instant="true">50</Cost>
+        <Cost ResourceName="EmpireManpower" Instant="true">500</Cost>
 
         <!-- Applied on the system whenever the improvment is queued -->
         <QueuedSimulationDescriptorReference Name="InflationReductor_1_building" />
@@ -24,8 +25,6 @@
         <SimulationDescriptorReference Name="InflationReductor_1_effect" />
         <!-- Indicates it's a dust building -->
         <SimulationDescriptorReference Name="DustBuilding" />
-        <!-- Adds an upkeep -->
-        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage2High" />
         <!-- Adds a "can only be build once per empire" in the tooltip -->
         <SimulationDescriptorReference Name="StarSystemImprovementOncePerEmpire" />
         <!-- Add a "level 1 colony only" tooltip -->
@@ -41,6 +40,7 @@
         <Cost ResourceName="SystemProduction">3120</Cost>
         <Cost ResourceName="Strategic1" Instant="true">100</Cost>
         <Cost ResourceName="Strategic2" Instant="true">100</Cost>
+        <Cost ResourceName="EmpireManpower" Instant="true">1000</Cost>
         <QueuedSimulationDescriptorReference Name="InflationReductor_2_building" />
         <InterpreterPrerequisite Inverted="true"   Flags="Prerequisite,Discard">Path(Context,@'../ClassEmpire/ClassStarSystem,InflationReductor_2_building') and not(Path(Context,@'ClassStarSystem,InflationReductor_2_building'))</InterpreterPrerequisite>
         <PathPrerequisite        Inverted="true"   Flags="Prerequisite,Discard">ClassColonizedStarSystem/InflationReductor_2_building,!FastForwardedImprovement</PathPrerequisite>
@@ -49,7 +49,6 @@
         <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">InflationReductionTechnology_2</TechnologyPrerequisite>
         <SimulationDescriptorReference Name="InflationReductor_2_effect" />
         <SimulationDescriptorReference Name="DustBuilding" />
-        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage3High" />
         <SimulationDescriptorReference Name="StarSystemImprovementOncePerEmpire" />
         <SimulationDescriptorReference Name="InflationReductor_2_tooltip_system_level_limitation" />
         <PopulationEvent Name="InflationReductorPopulationEvent"/>
@@ -61,7 +60,7 @@
         <Cost ResourceName="SystemProduction">6240</Cost>
         <Cost ResourceName="Strategic3" Instant="true">100</Cost>
         <Cost ResourceName="Strategic4" Instant="true">100</Cost>
-        <Cost ResourceName="EmpireMoney" Instant="true">300</Cost>
+        <Cost ResourceName="EmpireManpower" Instant="true">2000</Cost>
         <QueuedSimulationDescriptorReference Name="InflationReductor_3_building" />
         <InterpreterPrerequisite Inverted="true"   Flags="Prerequisite,Discard">Path(Context,@'../ClassEmpire/ClassStarSystem,InflationReductor_3_building') and not(Path(Context,@'ClassStarSystem,InflationReductor_3_building'))</InterpreterPrerequisite>
         <PathPrerequisite        Inverted="true"   Flags="Prerequisite,Discard">ClassColonizedStarSystem/InflationReductor_3_building,!FastForwardedImprovement</PathPrerequisite>
@@ -70,7 +69,6 @@
         <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">InflationReductionTechnology_3</TechnologyPrerequisite>
         <SimulationDescriptorReference Name="InflationReductor_3_effect" />
         <SimulationDescriptorReference Name="DustBuilding" />
-        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage4High" />
         <SimulationDescriptorReference Name="StarSystemImprovementOncePerEmpire" />
         <SimulationDescriptorReference Name="InflationReductor_3_tooltip_system_level_limitation" />
         <PopulationEvent Name="InflationReductorPopulationEvent"/>
@@ -82,7 +80,7 @@
         <Cost ResourceName="SystemProduction">12480</Cost>
         <Cost ResourceName="Strategic5" Instant="true">100</Cost>
         <Cost ResourceName="Strategic6" Instant="true">100</Cost>
-        <Cost ResourceName="EmpireManpower" Instant="true">5000</Cost>
+        <Cost ResourceName="EmpireManpower" Instant="true">4000</Cost>
         <QueuedSimulationDescriptorReference Name="InflationReductor_4_building" />
         <InterpreterPrerequisite Inverted="true"   Flags="Prerequisite,Discard">Path(Context,@'../ClassEmpire/ClassStarSystem,InflationReductor_4_building') and not(Path(Context,@'ClassStarSystem,InflationReductor_4_building'))</InterpreterPrerequisite>
         <PathPrerequisite        Inverted="true"   Flags="Prerequisite,Discard">ClassColonizedStarSystem/InflationReductor_4_building,!FastForwardedImprovement</PathPrerequisite>
@@ -91,7 +89,6 @@
         <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">InflationReductionTechnology_4</TechnologyPrerequisite>
         <SimulationDescriptorReference Name="InflationReductor_4_effect" />
         <SimulationDescriptorReference Name="DustBuilding" />
-        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage5High" />
         <SimulationDescriptorReference Name="StarSystemImprovementOncePerEmpire" />
         <SimulationDescriptorReference Name="InflationReductor_4_tooltip_system_level_limitation" />
         <PopulationEvent Name="InflationReductorPopulationEvent"/>
@@ -102,7 +99,7 @@
         <SupervisorGain Name="Food" />
         <Cost ResourceName="SystemProduction">560</Cost>
         <Cost ResourceName="Strategic1" Instant="true">15</Cost>
-        <Cost ResourceName="Strategic1" Instant="true">15</Cost>
+        <Cost ResourceName="Strategic2" Instant="true">15</Cost>
         <Cost ResourceName="EmpireManpower" Instant="true">500</Cost>
         <InterpreterPrerequisite Inverted="true"   Flags="Prerequisite,Discard">Path(Context,@'../ClassEmpire/ClassStarSystem,Defence_to_food_conversion') and not(Path(Context,@'ClassStarSystem,Defence_to_food_conversion'))</InterpreterPrerequisite>
         <PathPrerequisite        Inverted="true"   Flags="Prerequisite,Discard">ClassColonizedStarSystem/Defence_to_food_conversion,!FastForwardedImprovement</PathPrerequisite>
@@ -110,6 +107,21 @@
         <SimulationDescriptorReference Name="Defence_to_food_conversion" />
         <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage2Normal" />
         <PopulationEvent Name="Defence_to_food_event"/>
+    </StarSystemImprovementDefinition>
+
+
+    <StarSystemImprovementDefinition Name="Food_to_industry_convertor" SubCategory="SubCategoryIndustry" ScoreProvider="StarSystemImprovementBuilt">
+        <SupervisorGain Name="Industry" />
+        <Cost ResourceName="SystemProduction">560</Cost>
+        <Cost ResourceName="Strategic1" Instant="true">15</Cost>
+        <Cost ResourceName="Strategic2" Instant="true">15</Cost>
+        <Cost ResourceName="EmpireManpower" Instant="true">500</Cost>
+        <InterpreterPrerequisite Inverted="true"   Flags="Prerequisite,Discard">Path(Context,@'../ClassEmpire/ClassStarSystem,Food_to_industry_conversion') and not(Path(Context,@'ClassStarSystem,Food_to_industry_conversion'))</InterpreterPrerequisite>
+        <PathPrerequisite        Inverted="true"   Flags="Prerequisite,Discard">ClassColonizedStarSystem/Food_to_industryn,!FastForwardedImprovement</PathPrerequisite>
+        <PathPrerequisite        Inverted="false"  Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
+        <SimulationDescriptorReference Name="Food_to_industry_conversion" />
+        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage2Normal" />
+        <PopulationEvent Name="Food_to_industry_event"/>
     </StarSystemImprovementDefinition>
 
 
