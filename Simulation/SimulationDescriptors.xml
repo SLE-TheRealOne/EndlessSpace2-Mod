@@ -60,4 +60,41 @@
         <Modifier TargetProperty="SiegePower" Operation="Addition" Value="14"    Path="ModuleSupportSiege"/>
     </SimulationDescriptor>
 
+
+    <SimulationDescriptor Name="LuxuryResourcesUsage-Luxury01_effect" Type="StarSystemImprovement">
+        <Modifier TargetProperty="SystemGrowth"                     Operation="Addition" Value="10" Path="./ClassColonizedStarSystem" />
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="LuxuryResourcesUsage-Luxury02_effect" Type="StarSystemImprovement">
+        <Modifier TargetProperty="SystemProduction"                 Operation="Addition" Value="10" Path="./ClassColonizedStarSystem" />
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="LuxuryResourcesUsage-Luxury03_effect" Type="StarSystemImprovement">
+        <Modifier TargetProperty="SystemMoney"                 Operation="Addition" Value="10" Path="./ClassColonizedStarSystem" />
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="LuxuryResourcesUsage-Luxury04_effect" Type="StarSystemImprovement">
+        <Modifier TargetProperty="SystemResearch"            Operation="Addition" Value="10" Path="./ClassColonizedStarSystem" />
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="LuxuryResourcesUsage-Luxury05_effect" Type="StarSystemImprovement">
+        <Modifier TargetProperty="SystemEmpirePoint"            Operation="Addition" Value="10" Path="./ClassColonizedStarSystem" />
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="LuxuryResourcesUsage-Luxury10_effect" Type="StarSystemImprovement">
+        <Modifier TargetProperty="PlanetRawIndustry"        Operation="Addition" Value="1" Path="./ClassColonizedStarSystem/ClassColonizedPlanet" />
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="LuxuryResourcesUsage-Luxury11_effect" Type="StarSystemImprovement">
+        <Modifier TargetProperty="PlanetRawDust"            Operation="Addition" Value="1" Path="./ClassColonizedStarSystem/ClassColonizedPlanet" />
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="LuxuryResourcesUsage-Luxury13_effect" Type="StarSystemImprovement">
+        <Modifier TargetProperty="PlanetRawPrestige"        Operation="Addition" Value="1" Path="./ClassColonizedStarSystem/ClassColonizedPlanet" />
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="LuxuryResourcesUsage-Luxury18_effect" Type="StarSystemImprovement">
+        <BinaryModifier TargetProperty="SystemProduction"   Operation="Percent" Left="0.02" BinaryOperation="Multiplication" Right="$(SystemLevel)" Path="./ClassColonizedStarSystem" SearchValueFromPath="true" />
+    </SimulationDescriptor>
+
 </Datatable>

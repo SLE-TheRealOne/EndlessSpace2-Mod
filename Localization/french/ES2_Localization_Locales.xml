@@ -24,6 +24,44 @@
     <LocalizationPair Name="%Food_to_industry_convertor_title">Centre de travail permanent</LocalizationPair>
     <LocalizationPair Name="%Food_to_industry_convertor_description">En laissant la possibilité à des volontaires (ou en encourageant ceux qui ne le sont pas) à pouvoir travailler quelque soient le moment de la rotation journalière de la planète, l'espèce ou les circonstances, nous devrions pouvoir améliorer notre capacité de production industrielle en fournissant à ces travailleurs une contribution adéquate.</LocalizationPair>
 
+    <LocalizationPair Name="%LuxuryResourcesUsage-LuxuryXX_effect">Enhancement</LocalizationPair>
+
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury01_title">Enhancement-Sanguine</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury01_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury01_tooltip">Convertit 150 [Lux01Redsang] en 50 [foodColored]</LocalizationPair>
+
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury02_title">Enhancement-Jadonyx</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury02_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury02_tooltip">Convertit 150 [Lux02Jadonyx] en 50 [industryColored]</LocalizationPair>
+
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury03_title">Enhancement-Arbres Brumilicieux</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury03_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury03_tooltip">Convertit 150 [Lux03Dustciduous] en 50 [dustColored]</LocalizationPair>
+
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury04_title">Enhancement-Moisi bleu</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury04_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury04_tooltip">Convertit 150 [Lux04Bluecap] en 50 [scienceColored]</LocalizationPair>
+
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury05_title">Enhancement-Encens d'Eden</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury05_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury05_tooltip">Convertit 150 [Lux05EdenIncense] en 50 [prestigeColored]</LocalizationPair>
+
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury10_title">Enhancement-Pierre de vide</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury10_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury10_tooltip">Convertit 100 [Lux05EdenIncense] en +2 [industryColored] par [population] sur Système</LocalizationPair>
+
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury11_title">Enhancement-Proto-orchidée</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury11_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury11_tooltip">Convertit 100 [Lux11ProtoOrchid] en +2 [dustColored] par [population] sur Système</LocalizationPair>
+
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury13_title">Enhancement-Giga lacis</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury13_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury13_tooltip">Convertit 100 [Lux13GigaLattice] en +2 [prestigeColored] par [population] sur Système</LocalizationPair>
+
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury18_title">Enhancement-Fonderies endless</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury18_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury18_tooltip">Convertit 50 [Lux18EndlessFoundries] en +1 % [industryColored] par niveau de Système</LocalizationPair>
+
     <!-- Tooltips -->
     <LocalizationPair Name="%InflationReductor_1_tooltip_system_level_limitation">Ne peut être construit que sur une colonie de niveau [green]1#REVERT# [red]uniquement#REVERT#</LocalizationPair>
     <LocalizationPair Name="%InflationReductor_2_tooltip_system_level_limitation">Ne peut être construit que sur une colonie de niveau [green]2#REVERT# [red]uniquement#REVERT#</LocalizationPair>
@@ -44,6 +82,7 @@
     <!-- Modules -->
     <LocalizationPair Name="%ModuleSupportSiegeStrategic3Title">Cartouches à l'adamantian Air-Sol</LocalizationPair>
     <LocalizationPair Name="%ModuleSupportSiegeStrategic3Description">Projectiles renforcés à l'adamantian ; idéaux pour saper les défenses de l'ennemi avant l'invasion.</LocalizationPair>
+
 
 </Datatable>
 

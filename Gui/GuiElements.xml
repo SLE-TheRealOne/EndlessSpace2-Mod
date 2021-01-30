@@ -135,6 +135,132 @@
         </Icons>
     </GuiElement>
 
+    <StarSystemResourceImprovementGuiElement Name="LuxuryResourcesUsage-Luxury01">
+        <Title>%LuxuryResourcesUsage-Luxury01_title</Title>
+        <Description>%LuxuryResourcesUsage-Luxury01_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/Luxury01" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Luxuries/Luxury01Large" />
+        </Icons>
+        <ResourcesDescription>%LuxuryResourcesUsage-Luxury01_tooltip</ResourcesDescription>
+    </StarSystemResourceImprovementGuiElement>
+
+    <GuiElement Name="LuxuryResourcesUsage-Luxury01_effect" >
+        <Title>%LuxuryResourcesUsage-LuxuryXX_effect</Title>
+    </GuiElement>
+
+    <StarSystemResourceImprovementGuiElement Name="LuxuryResourcesUsage-Luxury02">
+        <Title>%LuxuryResourcesUsage-Luxury02_title</Title>
+        <Description>%LuxuryResourcesUsage-Luxury02_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/Luxury02" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Luxuries/Luxury02Large" />
+        </Icons>
+        <ResourcesDescription>%LuxuryResourcesUsage-Luxury02_tooltip</ResourcesDescription>
+    </StarSystemResourceImprovementGuiElement>
+
+    <GuiElement Name="LuxuryResourcesUsage-Luxury02_effect" >
+        <Title>%LuxuryResourcesUsage-LuxuryXX_effect</Title>
+    </GuiElement>
+
+    <StarSystemResourceImprovementGuiElement Name="LuxuryResourcesUsage-Luxury03">
+        <Title>%LuxuryResourcesUsage-Luxury03_title</Title>
+        <Description>%LuxuryResourcesUsage-Luxury03_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/Luxury03" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Luxuries/Luxury03Large" />
+        </Icons>
+        <ResourcesDescription>%LuxuryResourcesUsage-Luxury03_tooltip</ResourcesDescription>
+    </StarSystemResourceImprovementGuiElement>
+
+    <GuiElement Name="LuxuryResourcesUsage-Luxury03_effect" >
+        <Title>%LuxuryResourcesUsage-LuxuryXX_effect</Title>
+    </GuiElement>
+
+    <StarSystemResourceImprovementGuiElement Name="LuxuryResourcesUsage-Luxury04">
+        <Title>%LuxuryResourcesUsage-Luxury04_title</Title>
+        <Description>%LuxuryResourcesUsage-Luxury04_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/Luxury04" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Luxuries/Luxury04Large" />
+        </Icons>
+        <ResourcesDescription>%LuxuryResourcesUsage-Luxury04_tooltip</ResourcesDescription>
+    </StarSystemResourceImprovementGuiElement>
+
+    <GuiElement Name="LuxuryResourcesUsage-Luxury04_effect" >
+        <Title>%LuxuryResourcesUsage-LuxuryXX_effect</Title>
+    </GuiElement>
+
+    <StarSystemResourceImprovementGuiElement Name="LuxuryResourcesUsage-Luxury05">
+        <Title>%LuxuryResourcesUsage-Luxury05_title</Title>
+        <Description>%LuxuryResourcesUsage-Luxury05_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/Luxury05" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Luxuries/Luxury05Large" />
+        </Icons>
+        <ResourcesDescription>%LuxuryResourcesUsage-Luxury05_tooltip</ResourcesDescription>
+    </StarSystemResourceImprovementGuiElement>
+
+    <GuiElement Name="LuxuryResourcesUsage-Luxury05_effect" >
+        <Title>%LuxuryResourcesUsage-LuxuryXX_effect</Title>
+    </GuiElement>
+
+    <StarSystemResourceImprovementGuiElement Name="LuxuryResourcesUsage-Luxury10">
+        <Title>%LuxuryResourcesUsage-Luxury10_title</Title>
+        <Description>%LuxuryResourcesUsage-Luxury10_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/Luxury10" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Luxuries/Luxury10Large" />
+        </Icons>
+        <ResourcesDescription>%LuxuryResourcesUsage-Luxury10_tooltip</ResourcesDescription>
+    </StarSystemResourceImprovementGuiElement>
+
+    <GuiElement Name="LuxuryResourcesUsage-Luxury10_effect" >
+        <Title>%LuxuryResourcesUsage-LuxuryXX_effect</Title>
+    </GuiElement>
+
+    <StarSystemResourceImprovementGuiElement Name="LuxuryResourcesUsage-Luxury11">
+        <Title>%LuxuryResourcesUsage-Luxury11_title</Title>
+        <Description>%LuxuryResourcesUsage-Luxury11_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/Luxury11" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Luxuries/Luxury11Large" />
+        </Icons>
+        <ResourcesDescription>%LuxuryResourcesUsage-Luxury11_tooltip</ResourcesDescription>
+    </StarSystemResourceImprovementGuiElement>
+
+    <GuiElement Name="LuxuryResourcesUsage-Luxury11_effect" >
+        <Title>%LuxuryResourcesUsage-LuxuryXX_effect</Title>
+    </GuiElement>
+
+    <StarSystemResourceImprovementGuiElement Name="LuxuryResourcesUsage-Luxury13">
+        <Title>%LuxuryResourcesUsage-Luxury13_title</Title>
+        <Description>%LuxuryResourcesUsage-Luxury13_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/Luxury13" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Luxuries/Luxury13Large" />
+        </Icons>
+        <ResourcesDescription>%LuxuryResourcesUsage-Luxury13_tooltip</ResourcesDescription>
+    </StarSystemResourceImprovementGuiElement>
+
+    <GuiElement Name="LuxuryResourcesUsage-Luxury13_effect" >
+        <Title>%LuxuryResourcesUsage-LuxuryXX_effect</Title>
+    </GuiElement>
+
+    <StarSystemResourceImprovementGuiElement Name="LuxuryResourcesUsage-Luxury18">
+        <Title>%LuxuryResourcesUsage-Luxury18_title</Title>
+        <Description>%LuxuryResourcesUsage-Luxury18_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/Luxury18" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Luxuries/Luxury18Large" />
+        </Icons>
+        <ResourcesDescription>%LuxuryResourcesUsage-Luxury18_tooltip</ResourcesDescription>
+    </StarSystemResourceImprovementGuiElement>
+
+    <GuiElement Name="LuxuryResourcesUsage-Luxury18_effect" >
+        <Title>%LuxuryResourcesUsage-LuxuryXX_effect</Title>
+    </GuiElement>
+
     <GuiElement Name="EmpireImprovementAutomatedShipMovementAdditional">
         <Title>%EmpireImprovementAutomatedShipMovementTitle</Title>
         <Description>%EmpireImprovementAutomatedShipMovementDescription</Description>

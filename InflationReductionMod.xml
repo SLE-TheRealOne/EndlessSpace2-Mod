@@ -32,6 +32,7 @@
 			<DatabasePlugin DataType="IndustryConstructibleElement, Assembly-CSharp">
 				<ExtraTypes>
 					<ExtraType DataType="StarSystemImprovementDefinition, Assembly-CSharp" />
+					<ExtraType DataType="StarSystemResourceImprovementDefinition, Assembly-CSharp" />
 				</ExtraTypes>
 				<FilePath>Simulation/SystemImprovments.xml</FilePath>
 			</DatabasePlugin>
@@ -44,6 +45,7 @@
 				<ExtraTypes>
 					<ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass" />
 					<ExtraType DataType="TechnologyGuiElement2, Assembly-CSharp" />
+					<ExtraType DataType="StarSystemResourceImprovementGuiElement, Assembly-CSharp" />
 				</ExtraTypes>
 				<FilePath>Gui/GuiElements.xml</FilePath>
 			</DatabasePlugin>
