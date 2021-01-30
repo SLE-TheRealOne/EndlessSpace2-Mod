@@ -97,4 +97,16 @@
         <BinaryModifier TargetProperty="SystemProduction"   Operation="Percent" Left="0.02" BinaryOperation="Multiplication" Right="$(SystemLevel)" Path="./ClassColonizedStarSystem" SearchValueFromPath="true" />
     </SimulationDescriptor>
 
+    <SimulationDescriptor Name="StrategicResourcesUsage1" Type="StarSystemImprovement" />
+
+    <SimulationDescriptor Name="TemporaryEffectStrategicResourcesUsage1Effect" Type="TemporaryEffect">
+        <Modifier TargetProperty="SystemProduction" Operation="Percent" Value="0.10" Path="ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="StrategicResourcesUsage2" Type="StarSystemImprovement" />
+
+    <SimulationDescriptor Name="TemporaryEffectStrategicResourcesUsage2Effect" Type="TemporaryEffect">
+        <Modifier TargetProperty="SystemDust" Operation="Percent" Value="0.10" Path="ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+
 </Datatable>

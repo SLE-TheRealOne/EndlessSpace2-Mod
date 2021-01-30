@@ -146,7 +146,7 @@
     </StarSystemResourceImprovementGuiElement>
 
     <GuiElement Name="LuxuryResourcesUsage-Luxury01_effect" >
-        <Title>%LuxuryResourcesUsage-LuxuryXX_effect</Title>
+        <Title>%LuxuryResourcesUsage-Luxury01_effect</Title>
     </GuiElement>
 
     <StarSystemResourceImprovementGuiElement Name="LuxuryResourcesUsage-Luxury02">
@@ -160,7 +160,7 @@
     </StarSystemResourceImprovementGuiElement>
 
     <GuiElement Name="LuxuryResourcesUsage-Luxury02_effect" >
-        <Title>%LuxuryResourcesUsage-LuxuryXX_effect</Title>
+        <Title>%LuxuryResourcesUsage-Luxury02_effect</Title>
     </GuiElement>
 
     <StarSystemResourceImprovementGuiElement Name="LuxuryResourcesUsage-Luxury03">
@@ -174,7 +174,7 @@
     </StarSystemResourceImprovementGuiElement>
 
     <GuiElement Name="LuxuryResourcesUsage-Luxury03_effect" >
-        <Title>%LuxuryResourcesUsage-LuxuryXX_effect</Title>
+        <Title>%LuxuryResourcesUsage-Luxury03_effect</Title>
     </GuiElement>
 
     <StarSystemResourceImprovementGuiElement Name="LuxuryResourcesUsage-Luxury04">
@@ -188,7 +188,7 @@
     </StarSystemResourceImprovementGuiElement>
 
     <GuiElement Name="LuxuryResourcesUsage-Luxury04_effect" >
-        <Title>%LuxuryResourcesUsage-LuxuryXX_effect</Title>
+        <Title>%LuxuryResourcesUsage-Luxury04_effect</Title>
     </GuiElement>
 
     <StarSystemResourceImprovementGuiElement Name="LuxuryResourcesUsage-Luxury05">
@@ -202,7 +202,7 @@
     </StarSystemResourceImprovementGuiElement>
 
     <GuiElement Name="LuxuryResourcesUsage-Luxury05_effect" >
-        <Title>%LuxuryResourcesUsage-LuxuryXX_effect</Title>
+        <Title>%LuxuryResourcesUsage-Luxury05_effect</Title>
     </GuiElement>
 
     <StarSystemResourceImprovementGuiElement Name="LuxuryResourcesUsage-Luxury10">
@@ -216,7 +216,7 @@
     </StarSystemResourceImprovementGuiElement>
 
     <GuiElement Name="LuxuryResourcesUsage-Luxury10_effect" >
-        <Title>%LuxuryResourcesUsage-LuxuryXX_effect</Title>
+        <Title>%LuxuryResourcesUsage-Luxury10_effect</Title>
     </GuiElement>
 
     <StarSystemResourceImprovementGuiElement Name="LuxuryResourcesUsage-Luxury11">
@@ -230,7 +230,7 @@
     </StarSystemResourceImprovementGuiElement>
 
     <GuiElement Name="LuxuryResourcesUsage-Luxury11_effect" >
-        <Title>%LuxuryResourcesUsage-LuxuryXX_effect</Title>
+        <Title>%LuxuryResourcesUsage-Luxury11_effect</Title>
     </GuiElement>
 
     <StarSystemResourceImprovementGuiElement Name="LuxuryResourcesUsage-Luxury13">
@@ -244,7 +244,7 @@
     </StarSystemResourceImprovementGuiElement>
 
     <GuiElement Name="LuxuryResourcesUsage-Luxury13_effect" >
-        <Title>%LuxuryResourcesUsage-LuxuryXX_effect</Title>
+        <Title>%LuxuryResourcesUsage-Luxury13_effect</Title>
     </GuiElement>
 
     <StarSystemResourceImprovementGuiElement Name="LuxuryResourcesUsage-Luxury18">
@@ -258,7 +258,7 @@
     </StarSystemResourceImprovementGuiElement>
 
     <GuiElement Name="LuxuryResourcesUsage-Luxury18_effect" >
-        <Title>%LuxuryResourcesUsage-LuxuryXX_effect</Title>
+        <Title>%LuxuryResourcesUsage-Luxury18_effect</Title>
     </GuiElement>
 
     <GuiElement Name="EmpireImprovementAutomatedShipMovementAdditional">
@@ -277,5 +277,37 @@
             <Sound EventName="Play_ES2_GUI_ShipDesignScreen_RemoveModule" Type="OnUnequipModule" />
         </Sounds>
     </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="StrategicResourcesUsage1">
+        <Title>%StrategicResourcesUsage1_E</Title>
+        <Description>%StrategicResourcesUsage1_F</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/Strategic1" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Strategics/Strategic01Large" />
+        </Icons>
+        <TemporaryEffectTooltipElement TemporaryEffectName="StrategicResourcesUsage1" >
+            <EffectOverride>%StrategicResourcesUsage1_D</EffectOverride>
+        </TemporaryEffectTooltipElement>
+    </ExtendedGuiElement>
+
+    <GuiElement Name="TemporaryEffectStrategicResourcesUsage1Effect" >
+        <Title>%StrategicResourcesUsage1_A</Title>
+    </GuiElement>
+
+    <ExtendedGuiElement Name="StrategicResourcesUsage2">
+        <Title>%StrategicResourcesUsage2_E</Title>
+        <Description>%StrategicResourcesUsage2_F</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/Strategic2" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Strategics/Strategic02Large" />
+        </Icons>
+        <TemporaryEffectTooltipElement TemporaryEffectName="StrategicResourcesUsage2" >
+            <EffectOverride>%StrategicResourcesUsage2_D</EffectOverride>
+        </TemporaryEffectTooltipElement>
+    </ExtendedGuiElement>
+
+    <GuiElement Name="TemporaryEffectStrategicResourcesUsage2Effect" >
+        <Title>%StrategicResourcesUsage2_A</Title>
+    </GuiElement>
 
 </Datatable>

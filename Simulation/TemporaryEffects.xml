@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/TemporaryEffectDefinition.xsd">
+
+    <TemporaryEffectDefinition Name="StrategicResourcesUsage1" Category="StrategicResourceUsages" Duration="5">
+        <Path>ClassColonizedStarSystem</Path>
+        <SimulationDescriptorReference Name="TemporaryEffectStrategicResourcesUsage1Effect"/>
+    </TemporaryEffectDefinition>
+
+    <TemporaryEffectDefinition Name="StrategicResourcesUsage2" Category="StrategicResourceUsages" Duration="5">
+        <Path>ClassColonizedStarSystem</Path>
+        <SimulationDescriptorReference Name="TemporaryEffectStrategicResourcesUsage2Effect"/>
+    </TemporaryEffectDefinition>
+</Datatable>

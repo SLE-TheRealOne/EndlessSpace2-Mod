@@ -1,66 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Documentation/Schemas/Amplitude.Unity.Localization.LocalizationDatatableElement.xsd">
     <!-- Technologies -->
-    <LocalizationPair Name="%InflationReductionTechnology_1Title">Indexation et désindexation</LocalizationPair>
+    <LocalizationPair Name="%InflationReductionTechnology_1Title">#1595D9#Indexation et désindexation#REVERT#</LocalizationPair>
     <LocalizationPair Name="%InflationReductionTechnology_1Description">Stopper l'indexation automatique des salaires, prix et pensions au profit d'une gestion plus fine des taxes permet de limiter l'inflation automatique amenée par le système économique</LocalizationPair>
-    <LocalizationPair Name="%InflationReductionTechnology_2Title">Contrôle des liquidités</LocalizationPair>
+    <LocalizationPair Name="%InflationReductionTechnology_2Title">#1595D9#Contrôle des liquidités#REVERT#</LocalizationPair>
     <LocalizationPair Name="%InflationReductionTechnology_2Description">Les autorités monétaires stopperont les émissions de nouvelles liquidités, valeurs, bons, obligations ou devises pour faire baisser l'inflation</LocalizationPair>
-    <LocalizationPair Name="%InflationReductionTechnology_3Title">Politique budgétaire et fiscale</LocalizationPair>
+    <LocalizationPair Name="%InflationReductionTechnology_3Title">#1595D9#Politique budgétaire et fiscale#REVERT#</LocalizationPair>
     <LocalizationPair Name="%InflationReductionTechnology_3Description">L'équilibre des forces entre offre et demande est un critère prépondérant pour l'établissement des prix, donc de l'inflation qui en découle. En baissant la demande dans les secteurs où les prix augmentent ou en stimulant la production dans les secteurs en déficit, on limite, de facto, la hausse galopante des prix</LocalizationPair>
-    <LocalizationPair Name="%InflationReductionTechnology_4Title">Devises adaptatives</LocalizationPair>
+    <LocalizationPair Name="%InflationReductionTechnology_4Title">#1595D9#Devises adaptatives#REVERT#</LocalizationPair>
     <LocalizationPair Name="%InflationReductionTechnology_4Description">Si l'inflation est devenue incontrôlable, il suffit de rebattre les cartes : en utilisant les IAs et la rapidité de transfert de l'information à l'échelle galactique, il est possible de génerer puis de supprimer des devises à la volée en fonction du type de transaction.</LocalizationPair>
 
     <!-- System improvments -->
-    <LocalizationPair Name="%InflationReductor_1Title">Administration de la collecte des taxes</LocalizationPair>
+    <LocalizationPair Name="%InflationReductor_1Title">#1595D9#Administration de la collecte des taxes#REVERT#</LocalizationPair>
     <LocalizationPair Name="%InflationReductor_1Description">Spécialiser des travailleurs en percépteurs permettra de plus rapidement corriger les dérives du marché qui mènent aux facteurs d'inflation</LocalizationPair>
-    <LocalizationPair Name="%InflationReductor_2Title">Centre d'émission et de retour des liquidités</LocalizationPair>
+    <LocalizationPair Name="%InflationReductor_2Title">#1595D9#Centre d'émission et de retour des liquidités#REVERT#</LocalizationPair>
     <LocalizationPair Name="%InflationReductor_2Description">En centralisant l'émission et la destruction de liquidités on contrôle plus aisément leur circulation et leur usage</LocalizationPair>
-    <LocalizationPair Name="%InflationReductor_3Title">Ministère de la réforme fiscale</LocalizationPair>
+    <LocalizationPair Name="%InflationReductor_3Title">#1595D9#Ministère de la réforme fiscale#REVERT#</LocalizationPair>
     <LocalizationPair Name="%InflationReductor_3Description">Prendre des décisions si importante sur notre politique fiscale et budgétaire pourra avoir un impact important sur nos relations avec les autres empires. Nous aurons besoin de diplomates pour seconder les économistes</LocalizationPair>
-    <LocalizationPair Name="%InflationReductor_4Title">Hypercalculateur monétaire</LocalizationPair>
+    <LocalizationPair Name="%InflationReductor_4Title">#1595D9#Hypercalculateur monétaire#REVERT#</LocalizationPair>
     <LocalizationPair Name="%InflationReductor_4Description">La puissance de calcul et le niveau de sécurité nécessaires aux opérations de génération et destructions de devises adaptatives nécessitent un bâtiment, protégé par l'armée, à l'écart des principaux axes et principales villes</LocalizationPair>
-    <LocalizationPair Name="%Defence_to_food_convertor_title">Service d'intendance</LocalizationPair>
+    <LocalizationPair Name="%Defence_to_food_convertor_title">#1595D9#Service d'intendance#REVERT#</LocalizationPair>
     <LocalizationPair Name="%Defence_to_food_convertor_description">D'autres missions peuvent être envisgées, pour les garnisons de défense planétaire, que l'assignation à des positions de combat. Par exemple, dédier une partie du temps de service pour renforcer l'agriculture. Les officiers coordonnent et optimisent tandis que la troupe fournit la main d'oeuvre nécessaire à la logistique.</LocalizationPair>
-    <LocalizationPair Name="%Food_to_industry_convertor_title">Centre de travail permanent</LocalizationPair>
+    <LocalizationPair Name="%Food_to_industry_convertor_title">#1595D9#Centre de travail permanent#REVERT#</LocalizationPair>
     <LocalizationPair Name="%Food_to_industry_convertor_description">En laissant la possibilité à des volontaires (ou en encourageant ceux qui ne le sont pas) à pouvoir travailler quelque soient le moment de la rotation journalière de la planète, l'espèce ou les circonstances, nous devrions pouvoir améliorer notre capacité de production industrielle en fournissant à ces travailleurs une contribution adéquate.</LocalizationPair>
 
-    <LocalizationPair Name="%LuxuryResourcesUsage-LuxuryXX_effect">Enhancement</LocalizationPair>
-
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury01_title">Enhancement-Sanguine</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury01_title">#1595D9#Enhancement-Sanguine#REVERT#</LocalizationPair>
     <LocalizationPair Name="%LuxuryResourcesUsage-Luxury01_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
     <LocalizationPair Name="%LuxuryResourcesUsage-Luxury01_tooltip">Convertit 150 [Lux01Redsang] en 50 [foodColored]</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury01_effect">#1595D9#Enhancement-Sanguine#REVERT#</LocalizationPair>
 
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury02_title">Enhancement-Jadonyx</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury02_title">#1595D9#Enhancement-Jadonyx#REVERT#</LocalizationPair>
     <LocalizationPair Name="%LuxuryResourcesUsage-Luxury02_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
     <LocalizationPair Name="%LuxuryResourcesUsage-Luxury02_tooltip">Convertit 150 [Lux02Jadonyx] en 50 [industryColored]</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury02_effect">#1595D9#Enhancement-Jadonyx#REVERT#</LocalizationPair>
 
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury03_title">Enhancement-Arbres Brumilicieux</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury03_title">#1595D9#Enhancement-Arbres Brumilicieux#REVERT#</LocalizationPair>
     <LocalizationPair Name="%LuxuryResourcesUsage-Luxury03_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
     <LocalizationPair Name="%LuxuryResourcesUsage-Luxury03_tooltip">Convertit 150 [Lux03Dustciduous] en 50 [dustColored]</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury03_effect">#1595D9#Enhancement-Arbres Brumilicieux#REVERT#</LocalizationPair>
 
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury04_title">Enhancement-Moisi bleu</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury04_title">#1595D9#Enhancement-Moisi bleu#REVERT#</LocalizationPair>
     <LocalizationPair Name="%LuxuryResourcesUsage-Luxury04_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
     <LocalizationPair Name="%LuxuryResourcesUsage-Luxury04_tooltip">Convertit 150 [Lux04Bluecap] en 50 [scienceColored]</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury04_effect">#1595D9#Enhancement-Moisi bleu#REVERT#</LocalizationPair>
 
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury05_title">Enhancement-Encens d'Eden</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury05_title">#1595D9#Enhancement-Encens d'Eden#REVERT#</LocalizationPair>
     <LocalizationPair Name="%LuxuryResourcesUsage-Luxury05_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
     <LocalizationPair Name="%LuxuryResourcesUsage-Luxury05_tooltip">Convertit 150 [Lux05EdenIncense] en 50 [prestigeColored]</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury05_effect">#1595D9#Enhancement-Encens d'Eden#REVERT#</LocalizationPair>
 
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury10_title">Enhancement-Pierre de vide</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury10_title">#1595D9#Enhancement-Pierre de vide#REVERT#</LocalizationPair>
     <LocalizationPair Name="%LuxuryResourcesUsage-Luxury10_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
     <LocalizationPair Name="%LuxuryResourcesUsage-Luxury10_tooltip">Convertit 100 [Lux05EdenIncense] en +2 [industryColored] par [population] sur Système</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury10_effect">#1595D9#Enhancement-Pierre de vide#REVERT#</LocalizationPair>
 
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury11_title">Enhancement-Proto-orchidée</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury11_title">#1595D9#Enhancement-Proto-orchidée#REVERT#</LocalizationPair>
     <LocalizationPair Name="%LuxuryResourcesUsage-Luxury11_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
     <LocalizationPair Name="%LuxuryResourcesUsage-Luxury11_tooltip">Convertit 100 [Lux11ProtoOrchid] en +2 [dustColored] par [population] sur Système</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury11_effect">#1595D9#Enhancement-Proto-orchidée#REVERT#</LocalizationPair>
 
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury13_title">Enhancement-Giga lacis</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury13_title">#1595D9#Enhancement-Giga lacis#REVERT#</LocalizationPair>
     <LocalizationPair Name="%LuxuryResourcesUsage-Luxury13_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
     <LocalizationPair Name="%LuxuryResourcesUsage-Luxury13_tooltip">Convertit 100 [Lux13GigaLattice] en +2 [prestigeColored] par [population] sur Système</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury13_effect">#1595D9#Enhancement-Giga lacis#REVERT#</LocalizationPair>
 
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury18_title">Enhancement-Fonderies endless</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury18_title">#1595D9#Enhancement-Fonderies endless#REVERT#</LocalizationPair>
     <LocalizationPair Name="%LuxuryResourcesUsage-Luxury18_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
     <LocalizationPair Name="%LuxuryResourcesUsage-Luxury18_tooltip">Convertit 50 [Lux18EndlessFoundries] en +1 % [industryColored] par niveau de Système</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury18_effect">#1595D9#Enhancement-Fonderies endless#REVERT#</LocalizationPair>
+
+    <!--
+    <LocalizationPair Name="%StrategicResourcesUsage1_A">Effet temporaire - Titane</LocalizationPair>
+    <LocalizationPair Name="%StrategicResourcesUsage1_B">Description</LocalizationPair>
+    <LocalizationPair Name="%StrategicResourcesUsage1_C">Ajoute +50 % [industryColored] pendant 10 [turnColored]</LocalizationPair>
+    <LocalizationPair Name="%StrategicResourcesUsage1_D">Effet temporaire - Titane</LocalizationPair>
+    <LocalizationPair Name="%StrategicResourcesUsage1_E">E</LocalizationPair>
+    <LocalizationPair Name="%StrategicResourcesUsage1_F">F</LocalizationPair>
+    [red]
+    [green]
+    [blue-gray]
+    [pink]
+    -->
+
+    <LocalizationPair Name="%StrategicResourcesUsage1_A">#1595D9#Enhancement - Titane#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%StrategicResourcesUsage1_D">Ajoute +10 % [industryColored] pendant 10 [turnColored]</LocalizationPair>
+    <LocalizationPair Name="%StrategicResourcesUsage1_E">#1595D9#Enhancement - Titane#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%StrategicResourcesUsage1_F">Utilise le surplus de Titane pour obtenir un effet temporaire</LocalizationPair>
+
+    <LocalizationPair Name="%StrategicResourcesUsage2_A">#1595D9#Enhancement - Hypérium#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%StrategicResourcesUsage2_D">Ajoute +10 % [dustColored] pendant 10 [turnColored]</LocalizationPair>
+    <LocalizationPair Name="%StrategicResourcesUsage2_E">#1595D9#Enhancement - Hypérium#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%StrategicResourcesUsage2_F">Utilise le surplus de Titane pour obtenir un effet temporaire</LocalizationPair>
 
     <!-- Tooltips -->
     <LocalizationPair Name="%InflationReductor_1_tooltip_system_level_limitation">Ne peut être construit que sur une colonie de niveau [green]1#REVERT# [red]uniquement#REVERT#</LocalizationPair>
@@ -74,13 +104,13 @@
     <LocalizationPair Name="%InflationReductor_4_tooltip_effect">Réduit l'inflation d'empire de 8% supplémentaires (20% au total)</LocalizationPair>
 
     <!-- Population events -->
-    <LocalizationPair Name="%InflationReductorPopulationEventTitle">Réduction de l'inflation</LocalizationPair>
+    <LocalizationPair Name="%InflationReductorPopulationEventTitle">#1595D9#Réduction de l'inflation#REVERT#</LocalizationPair>
     <LocalizationPair Name="%InflationReductorPopulationEventDescription">Réduction de l'inflation description</LocalizationPair>
-    <LocalizationPair Name="%Defence_to_food_event_title">Construction du service d'intendance</LocalizationPair>
+    <LocalizationPair Name="%Defence_to_food_event_title">#1595D9#Construction du service d'intendance#REVERT#</LocalizationPair>
     <LocalizationPair Name="%Defence_to_food_event_description">Construction du service d'intendance desc</LocalizationPair>
 
     <!-- Modules -->
-    <LocalizationPair Name="%ModuleSupportSiegeStrategic3Title">Cartouches à l'adamantian Air-Sol</LocalizationPair>
+    <LocalizationPair Name="%ModuleSupportSiegeStrategic3Title">#1595D9#Cartouches à l'adamantian Air-Sol#REVERT#</LocalizationPair>
     <LocalizationPair Name="%ModuleSupportSiegeStrategic3Description">Projectiles renforcés à l'adamantian ; idéaux pour saper les défenses de l'ennemi avant l'invasion.</LocalizationPair>
 
 

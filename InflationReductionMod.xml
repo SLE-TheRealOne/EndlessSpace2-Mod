@@ -33,6 +33,7 @@
 				<ExtraTypes>
 					<ExtraType DataType="StarSystemImprovementDefinition, Assembly-CSharp" />
 					<ExtraType DataType="StarSystemResourceImprovementDefinition, Assembly-CSharp" />
+					<ExtraType DataType="StarSystemPopulationTransformImprovementDefinition, Assembly-CSharp" />
 				</ExtraTypes>
 				<FilePath>Simulation/SystemImprovments.xml</FilePath>
 			</DatabasePlugin>
@@ -52,6 +53,10 @@
 			
 			<DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">
 				<FilePath>Simulation/SimulationDescriptors.xml</FilePath>
+			</DatabasePlugin>
+
+			<DatabasePlugin DataType="TemporaryEffectDefinition, Assembly-CSharp">
+				<FilePath>Simulation/TemporaryEffects.xml</FilePath>
 			</DatabasePlugin>
 
 			<DatabasePlugin DataType="EmpireImprovementDefinition, Assembly-CSharp">
