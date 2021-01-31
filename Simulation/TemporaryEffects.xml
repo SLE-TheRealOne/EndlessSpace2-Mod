@@ -10,4 +10,16 @@
         <Path>ClassColonizedStarSystem</Path>
         <SimulationDescriptorReference Name="TemporaryEffectStrategicResourcesUsage2Effect"/>
     </TemporaryEffectDefinition>
+
+    <TemporaryEffectDefinition Name="LuxuryResourcesUsage08-1" Category="LuxuryResourceUsages" Duration="5">
+        <Path>ClassColonizedStarSystem</Path>
+        <SimulationDescriptorReference Name="TemporaryEffectLuxuryResourcesUsage08Effect_1"/>
+    </TemporaryEffectDefinition>
+
+    <TemporaryEffectDefinition Name="LuxuryResourcesUsage08-2" Category="LuxuryResourceUsages" Duration="5">
+        <Path>ClassColonizedStarSystem</Path>
+        <SimulationDescriptorReference Name="TemporaryEffectLuxuryResourcesUsage08Effect_2"/>
+    </TemporaryEffectDefinition>
+
+
 </Datatable>

@@ -194,4 +194,14 @@
         <TemporaryEffect>StrategicResourcesUsage2</TemporaryEffect>
     </StarSystemPopulationTransformImprovementDefinition>
 
+    <StarSystemPopulationTransformImprovementDefinition Category="CategoryStarSystemResourceImprovement" Name="LuxuryResourcesUsage08" SubCategory="SubCategoryIndustry" ScoreProvider="StarSystemImprovementBuilt">
+        <Tags>NoBuyout</Tags>
+        <CustomCost ResourceName="Luxury8" Instant="true">Property(StockLocation, @ClassColonizedStarSystem,NumberOfImprovementsBuilt) * Property(StockLocation, @ClassColonizedStarSystem, SystemLevel)</CustomCost>
+        <PathPrerequisite        Flags="Prerequisite,Disable,AlreadyActive" Inverted="true">ClassColonizedStarSystem,TemporaryEffectLuxuryResourcesUsage08Effect_1</PathPrerequisite>
+        <PathPrerequisite        Flags="Prerequisite,Disable,AlreadyActive" Inverted="true">ClassColonizedStarSystem,TemporaryEffectLuxuryResourcesUsage08Effect_2</PathPrerequisite>
+        <SimulationDescriptorReference Name="LuxuryResourcesUsage08" />
+        <TemporaryEffect>LuxuryResourcesUsage08-1</TemporaryEffect>
+        <TemporaryEffect>LuxuryResourcesUsage08-2</TemporaryEffect>
+    </StarSystemPopulationTransformImprovementDefinition>
+
 </Datatable>

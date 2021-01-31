@@ -310,4 +310,19 @@
         <Title>%StrategicResourcesUsage2_A</Title>
     </GuiElement>
 
+    <ExtendedGuiElement Name="LuxuryResourcesUsage08">
+        <Title>%LuxuryResourcesUsage08_E</Title>
+        <Description>%LuxuryResourcesUsage08_F</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/Luxury08" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Luxuries/Luxury08Large" />
+        </Icons>
+        <TemporaryEffectTooltipElement TemporaryEffectName="LuxuryResourcesUsage08-1" >
+            <EffectOverride>%LuxuryResourcesUsage08-1_D</EffectOverride>
+        </TemporaryEffectTooltipElement>
+        <TemporaryEffectTooltipElement TemporaryEffectName="LuxuryResourcesUsage08-1" >
+            <EffectOverride>%LuxuryResourcesUsage08-2_D</EffectOverride>
+        </TemporaryEffectTooltipElement>
+    </ExtendedGuiElement>
+
 </Datatable>

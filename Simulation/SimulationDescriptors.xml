@@ -109,4 +109,13 @@
         <Modifier TargetProperty="SystemDust" Operation="Percent" Value="0.10" Path="ClassColonizedStarSystem"/>
     </SimulationDescriptor>
 
+    <SimulationDescriptor Name="LuxuryResourcesUsage08" Type="StarSystemImprovement" />
+
+    <SimulationDescriptor Name="TemporaryEffectLuxuryResourcesUsage08Effect_1" Type="TemporaryEffect">
+        <Modifier TargetProperty="BuildingBuyoutReduction"  Operation="Addition" Value="0.1" Path="ClassColonizedStarSystem" />
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="TemporaryEffectLuxuryResourcesUsage08Effect_2" Type="TemporaryEffect">
+        <Modifier TargetProperty="ShipBuyoutReduction"      Operation="Addition" Value="0.1" Path="ClassColonizedStarSystem" />
+    </SimulationDescriptor>
 </Datatable>

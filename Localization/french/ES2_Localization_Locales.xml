@@ -69,19 +69,6 @@
     <LocalizationPair Name="%LuxuryResourcesUsage-Luxury18_tooltip">Convertit 50 [Lux18EndlessFoundries] en +1 % [industryColored] par niveau de Système</LocalizationPair>
     <LocalizationPair Name="%LuxuryResourcesUsage-Luxury18_effect">#1595D9#Enhancement-Fonderies endless#REVERT#</LocalizationPair>
 
-    <!--
-    <LocalizationPair Name="%StrategicResourcesUsage1_A">Effet temporaire - Titane</LocalizationPair>
-    <LocalizationPair Name="%StrategicResourcesUsage1_B">Description</LocalizationPair>
-    <LocalizationPair Name="%StrategicResourcesUsage1_C">Ajoute +50 % [industryColored] pendant 10 [turnColored]</LocalizationPair>
-    <LocalizationPair Name="%StrategicResourcesUsage1_D">Effet temporaire - Titane</LocalizationPair>
-    <LocalizationPair Name="%StrategicResourcesUsage1_E">E</LocalizationPair>
-    <LocalizationPair Name="%StrategicResourcesUsage1_F">F</LocalizationPair>
-    [red]
-    [green]
-    [blue-gray]
-    [pink]
-    -->
-
     <LocalizationPair Name="%StrategicResourcesUsage1_A">#1595D9#Enhancement - Titane#REVERT#</LocalizationPair>
     <LocalizationPair Name="%StrategicResourcesUsage1_D">Ajoute +10 % [industryColored] pendant 10 [turnColored]</LocalizationPair>
     <LocalizationPair Name="%StrategicResourcesUsage1_E">#1595D9#Enhancement - Titane#REVERT#</LocalizationPair>
@@ -91,6 +78,11 @@
     <LocalizationPair Name="%StrategicResourcesUsage2_D">Ajoute +10 % [dustColored] pendant 10 [turnColored]</LocalizationPair>
     <LocalizationPair Name="%StrategicResourcesUsage2_E">#1595D9#Enhancement - Hypérium#REVERT#</LocalizationPair>
     <LocalizationPair Name="%StrategicResourcesUsage2_F">Utilise le surplus de Titane pour obtenir un effet temporaire</LocalizationPair>
+
+    <LocalizationPair Name="%LuxuryResourcesUsage08_E">#1595D9#Enhancement - Super patates#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage08_F">Utilise le surplus de Super patates pour obtenir un effet temporaire</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage08-1_D">Ajoute 10% Réduction d'achat de construction sur Système pendant 10 [turnColored]</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage08-2_D">Ajoute 10% Réduction d'achat de vaisseau sur Système pendant 10 [turnColored]</LocalizationPair>
 
     <!-- Tooltips -->
     <LocalizationPair Name="%InflationReductor_1_tooltip_system_level_limitation">Ne peut être construit que sur une colonie de niveau [green]1#REVERT# [red]uniquement#REVERT#</LocalizationPair>
