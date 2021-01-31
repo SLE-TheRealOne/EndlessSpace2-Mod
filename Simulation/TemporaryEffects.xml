@@ -1,24 +1,71 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/TemporaryEffectDefinition.xsd">
 
-    <TemporaryEffectDefinition Name="StrategicResourcesUsage1" Category="StrategicResourceUsages" Duration="5">
+    <!-- Strategic resources -->
+    <TemporaryEffectDefinition Name="StrategicResourcesUsage1" Category="ResourceUsages" Duration="5">
         <Path>ClassColonizedStarSystem</Path>
-        <SimulationDescriptorReference Name="TemporaryEffectStrategicResourcesUsage1Effect"/>
+        <SimulationDescriptorReference Name="TStrategicResourcesUsage1Effect"/>
     </TemporaryEffectDefinition>
 
-    <TemporaryEffectDefinition Name="StrategicResourcesUsage2" Category="StrategicResourceUsages" Duration="5">
+    <TemporaryEffectDefinition Name="StrategicResourcesUsage2" Category="ResourceUsages" Duration="5">
         <Path>ClassColonizedStarSystem</Path>
-        <SimulationDescriptorReference Name="TemporaryEffectStrategicResourcesUsage2Effect"/>
+        <SimulationDescriptorReference Name="StrategicResourcesUsage2Effect"/>
     </TemporaryEffectDefinition>
 
-    <TemporaryEffectDefinition Name="LuxuryResourcesUsage08-1" Category="LuxuryResourceUsages" Duration="5">
+    <!-- Luxury resources -->
+    <TemporaryEffectDefinition Name="LuxuryResourcesUsage01" Category="ResourcesUsages" Duration="5">
         <Path>ClassColonizedStarSystem</Path>
-        <SimulationDescriptorReference Name="TemporaryEffectLuxuryResourcesUsage08Effect_1"/>
+        <SimulationDescriptorReference Name="LuxuryResourcesUsage01Effect"/>
     </TemporaryEffectDefinition>
 
-    <TemporaryEffectDefinition Name="LuxuryResourcesUsage08-2" Category="LuxuryResourceUsages" Duration="5">
+    <TemporaryEffectDefinition Name="LuxuryResourcesUsage02" Category="ResourcesUsages" Duration="5">
         <Path>ClassColonizedStarSystem</Path>
-        <SimulationDescriptorReference Name="TemporaryEffectLuxuryResourcesUsage08Effect_2"/>
+        <SimulationDescriptorReference Name="LuxuryResourcesUsage02Effect"/>
+    </TemporaryEffectDefinition>
+
+    <TemporaryEffectDefinition Name="LuxuryResourcesUsage03" Category="ResourcesUsages" Duration="5">
+        <Path>ClassColonizedStarSystem</Path>
+        <SimulationDescriptorReference Name="LuxuryResourcesUsage03Effect"/>
+    </TemporaryEffectDefinition>
+
+    <TemporaryEffectDefinition Name="LuxuryResourcesUsage04" Category="ResourcesUsages" Duration="5">
+        <Path>ClassColonizedStarSystem</Path>
+        <SimulationDescriptorReference Name="LuxuryResourcesUsage04Effect"/>
+    </TemporaryEffectDefinition>
+
+    <TemporaryEffectDefinition Name="LuxuryResourcesUsage05" Category="ResourcesUsages" Duration="5">
+        <Path>ClassColonizedStarSystem</Path>
+        <SimulationDescriptorReference Name="LuxuryResourcesUsage05Effect"/>
+    </TemporaryEffectDefinition>
+
+    <TemporaryEffectDefinition Name="LuxuryResourcesUsage10" Category="ResourcesUsages" Duration="5">
+        <Path>ClassColonizedStarSystem</Path>
+        <SimulationDescriptorReference Name="LuxuryResourcesUsage10Effect"/>
+    </TemporaryEffectDefinition>
+
+    <TemporaryEffectDefinition Name="LuxuryResourcesUsage11" Category="ResourcesUsages" Duration="5">
+        <Path>ClassColonizedStarSystem</Path>
+        <SimulationDescriptorReference Name="LuxuryResourcesUsage11Effect"/>
+    </TemporaryEffectDefinition>
+
+    <TemporaryEffectDefinition Name="LuxuryResourcesUsage13" Category="ResourcesUsages" Duration="5">
+        <Path>ClassColonizedStarSystem</Path>
+        <SimulationDescriptorReference Name="LuxuryResourcesUsage13Effect"/>
+    </TemporaryEffectDefinition>
+
+    <TemporaryEffectDefinition Name="LuxuryResourcesUsage18" Category="ResourcesUsages" Duration="5">
+        <Path>ClassColonizedStarSystem</Path>
+        <SimulationDescriptorReference Name="LuxuryResourcesUsage18Effect"/>
+    </TemporaryEffectDefinition>
+
+    <TemporaryEffectDefinition Name="LuxuryResourcesUsage08-1" Category="ResourcesUsages" Duration="5">
+        <Path>ClassColonizedStarSystem</Path>
+        <SimulationDescriptorReference Name="LuxuryResourcesUsage08Effect_1"/>
+    </TemporaryEffectDefinition>
+
+    <TemporaryEffectDefinition Name="LuxuryResourcesUsage08-2" Category="ResourcesUsages" Duration="5">
+        <Path>ClassColonizedStarSystem</Path>
+        <SimulationDescriptorReference Name="LuxuryResourcesUsage08Effect_2"/>
     </TemporaryEffectDefinition>
 
 

@@ -109,7 +109,6 @@
         <PopulationEvent Name="Defence_to_food_event"/>
     </StarSystemImprovementDefinition>
 
-
     <StarSystemImprovementDefinition Name="Food_to_industry_convertor" SubCategory="SubCategoryIndustry" ScoreProvider="StarSystemImprovementBuilt">
         <SupervisorGain Name="Industry" />
         <Cost ResourceName="SystemProduction">560</Cost>
@@ -124,81 +123,99 @@
         <PopulationEvent Name="Food_to_industry_event"/>
     </StarSystemImprovementDefinition>
 
-    <StarSystemImprovementDefinition Name="LuxuryResourcesUsage-Luxury01" SubCategory="SubCategoryFood" ScoreProvider="StarSystemImprovementBuilt">
+    <StarSystemPopulationTransformImprovementDefinition Name="LuxuryResourcesUsage01" Category="CategoryStarSystemResourceImprovement" SubCategory="SubCategoryIndustry" ScoreProvider="StarSystemImprovementBuilt">
         <Tags>NoBuyout</Tags>
-        <CustomCost ResourceName="Luxury1" Instant="true">100</CustomCost>
-        <SimulationDescriptorReference Name="LuxuryResourcesUsage-Luxury01_effect" />
-    </StarSystemImprovementDefinition>
+        <CustomCost ResourceName="Luxury01" Instant="true">Property(StockLocation, @ClassColonizedStarSystem,NumberOfImprovementsBuilt) * Property(StockLocation, @ClassColonizedStarSystem, SystemLevel)</CustomCost>
+        <PathPrerequisite        Flags="Prerequisite,Disable,AlreadyActive" Inverted="true">ClassColonizedStarSystem,LuxuryResourcesUsage01Effect</PathPrerequisite>
+        <SimulationDescriptorReference Name="LuxuryResourcesUsage01" />
+        <TemporaryEffect>LuxuryResourcesUsage01</TemporaryEffect>
+    </StarSystemPopulationTransformImprovementDefinition>
 
-    <StarSystemImprovementDefinition Name="LuxuryResourcesUsage-Luxury02" SubCategory="SubCategoryIndustry" ScoreProvider="StarSystemImprovementBuilt">
+    <StarSystemPopulationTransformImprovementDefinition Name="LuxuryResourcesUsage02" Category="CategoryStarSystemResourceImprovement" SubCategory="SubCategoryIndustry" ScoreProvider="StarSystemImprovementBuilt">
         <Tags>NoBuyout</Tags>
-        <CustomCost ResourceName="Luxury2" Instant="true">100</CustomCost>
-        <SimulationDescriptorReference Name="LuxuryResourcesUsage-Luxury02_effect" />
-    </StarSystemImprovementDefinition>
+        <CustomCost ResourceName="Luxury02" Instant="true">Property(StockLocation, @ClassColonizedStarSystem,NumberOfImprovementsBuilt) * Property(StockLocation, @ClassColonizedStarSystem, SystemLevel)</CustomCost>
+        <PathPrerequisite        Flags="Prerequisite,Disable,AlreadyActive" Inverted="true">ClassColonizedStarSystem,LuxuryResourcesUsage02Effect</PathPrerequisite>
+        <SimulationDescriptorReference Name="LuxuryResourcesUsage02" />
+        <TemporaryEffect>LuxuryResourcesUsage02</TemporaryEffect>
+    </StarSystemPopulationTransformImprovementDefinition>
 
-    <StarSystemImprovementDefinition Name="LuxuryResourcesUsage-Luxury03" SubCategory="SubCategoryDust" ScoreProvider="StarSystemImprovementBuilt">
+    <StarSystemPopulationTransformImprovementDefinition Name="LuxuryResourcesUsage03" Category="CategoryStarSystemResourceImprovement" SubCategory="SubCategoryIndustry" ScoreProvider="StarSystemImprovementBuilt">
         <Tags>NoBuyout</Tags>
-        <CustomCost ResourceName="Luxury3" Instant="true">100</CustomCost>
-        <SimulationDescriptorReference Name="LuxuryResourcesUsage-Luxury03_effect" />
-    </StarSystemImprovementDefinition>
+        <CustomCost ResourceName="Luxury03" Instant="true">Property(StockLocation, @ClassColonizedStarSystem,NumberOfImprovementsBuilt) * Property(StockLocation, @ClassColonizedStarSystem, SystemLevel)</CustomCost>
+        <PathPrerequisite        Flags="Prerequisite,Disable,AlreadyActive" Inverted="true">ClassColonizedStarSystem,LuxuryResourcesUsage03Effect</PathPrerequisite>
+        <SimulationDescriptorReference Name="LuxuryResourcesUsage03" />
+        <TemporaryEffect>LuxuryResourcesUsage03</TemporaryEffect>
+    </StarSystemPopulationTransformImprovementDefinition>
 
-    <StarSystemImprovementDefinition Name="LuxuryResourcesUsage-Luxury04" SubCategory="SubCategoryScience" ScoreProvider="StarSystemImprovementBuilt">
+    <StarSystemPopulationTransformImprovementDefinition Name="LuxuryResourcesUsage04" Category="CategoryStarSystemResourceImprovement" SubCategory="SubCategoryIndustry" ScoreProvider="StarSystemImprovementBuilt">
         <Tags>NoBuyout</Tags>
-        <CustomCost ResourceName="Luxury4" Instant="true">100</CustomCost>
-        <SimulationDescriptorReference Name="LuxuryResourcesUsage-Luxury04_effect" />
-    </StarSystemImprovementDefinition>
+        <CustomCost ResourceName="Luxury04" Instant="true">Property(StockLocation, @ClassColonizedStarSystem,NumberOfImprovementsBuilt) * Property(StockLocation, @ClassColonizedStarSystem, SystemLevel)</CustomCost>
+        <PathPrerequisite        Flags="Prerequisite,Disable,AlreadyActive" Inverted="true">ClassColonizedStarSystem,LuxuryResourcesUsage04Effect</PathPrerequisite>
+        <SimulationDescriptorReference Name="LuxuryResourcesUsage04" />
+        <TemporaryEffect>LuxuryResourcesUsage04</TemporaryEffect>
+    </StarSystemPopulationTransformImprovementDefinition>
 
-    <StarSystemImprovementDefinition Name="LuxuryResourcesUsage-Luxury05" SubCategory="SubCategoryInfluence" ScoreProvider="StarSystemImprovementBuilt">
+    <StarSystemPopulationTransformImprovementDefinition Name="LuxuryResourcesUsage05" Category="CategoryStarSystemResourceImprovement" SubCategory="SubCategoryIndustry" ScoreProvider="StarSystemImprovementBuilt">
         <Tags>NoBuyout</Tags>
-        <CustomCost ResourceName="Luxury5" Instant="true">100</CustomCost>
-        <SimulationDescriptorReference Name="LuxuryResourcesUsage-Luxury05_effect" />
-    </StarSystemImprovementDefinition>
+        <CustomCost ResourceName="Luxury05" Instant="true">Property(StockLocation, @ClassColonizedStarSystem,NumberOfImprovementsBuilt) * Property(StockLocation, @ClassColonizedStarSystem, SystemLevel)</CustomCost>
+        <PathPrerequisite        Flags="Prerequisite,Disable,AlreadyActive" Inverted="true">ClassColonizedStarSystem,LuxuryResourcesUsage05Effect</PathPrerequisite>
+        <SimulationDescriptorReference Name="LuxuryResourcesUsage05" />
+        <TemporaryEffect>LuxuryResourcesUsage05</TemporaryEffect>
+    </StarSystemPopulationTransformImprovementDefinition>
 
-    <StarSystemImprovementDefinition Name="LuxuryResourcesUsage-Luxury10" SubCategory="SubCategoryIndustry" ScoreProvider="StarSystemImprovementBuilt">
+    <StarSystemPopulationTransformImprovementDefinition Name="LuxuryResourcesUsage10" Category="CategoryStarSystemResourceImprovement" SubCategory="SubCategoryIndustry" ScoreProvider="StarSystemImprovementBuilt">
         <Tags>NoBuyout</Tags>
-        <CustomCost ResourceName="Luxury10" Instant="true">50</CustomCost>
-        <SimulationDescriptorReference Name="LuxuryResourcesUsage-Luxury10_effect" />
-    </StarSystemImprovementDefinition>
+        <CustomCost ResourceName="Luxury10" Instant="true">Property(StockLocation, @ClassColonizedStarSystem,NumberOfImprovementsBuilt) * Property(StockLocation, @ClassColonizedStarSystem, SystemLevel)</CustomCost>
+        <PathPrerequisite        Flags="Prerequisite,Disable,AlreadyActive" Inverted="true">ClassColonizedStarSystem,LuxuryResourcesUsage10Effect</PathPrerequisite>
+        <SimulationDescriptorReference Name="LuxuryResourcesUsage10" />
+        <TemporaryEffect>LuxuryResourcesUsage10</TemporaryEffect>
+    </StarSystemPopulationTransformImprovementDefinition>
 
-    <StarSystemImprovementDefinition Name="LuxuryResourcesUsage-Luxury11" SubCategory="SubCategoryDust" ScoreProvider="StarSystemImprovementBuilt">
+    <StarSystemPopulationTransformImprovementDefinition Name="LuxuryResourcesUsage11" Category="CategoryStarSystemResourceImprovement" SubCategory="SubCategoryIndustry" ScoreProvider="StarSystemImprovementBuilt">
         <Tags>NoBuyout</Tags>
-        <CustomCost ResourceName="Luxury11" Instant="true">50</CustomCost>
-        <SimulationDescriptorReference Name="LuxuryResourcesUsage-Luxury11_effect" />
-    </StarSystemImprovementDefinition>
+        <CustomCost ResourceName="Luxury11" Instant="true">Property(StockLocation, @ClassColonizedStarSystem,NumberOfImprovementsBuilt) * Property(StockLocation, @ClassColonizedStarSystem, SystemLevel)</CustomCost>
+        <PathPrerequisite        Flags="Prerequisite,Disable,AlreadyActive" Inverted="true">ClassColonizedStarSystem,LuxuryResourcesUsage11Effect</PathPrerequisite>
+        <SimulationDescriptorReference Name="LuxuryResourcesUsage11" />
+        <TemporaryEffect>LuxuryResourcesUsage11</TemporaryEffect>
+    </StarSystemPopulationTransformImprovementDefinition>
 
-    <StarSystemImprovementDefinition Name="LuxuryResourcesUsage-Luxury13" SubCategory="SubCategoryInfluence" ScoreProvider="StarSystemImprovementBuilt">
+    <StarSystemPopulationTransformImprovementDefinition Name="LuxuryResourcesUsage13" Category="CategoryStarSystemResourceImprovement" SubCategory="SubCategoryIndustry" ScoreProvider="StarSystemImprovementBuilt">
         <Tags>NoBuyout</Tags>
-        <CustomCost ResourceName="Luxury13" Instant="true">50</CustomCost>
-        <SimulationDescriptorReference Name="LuxuryResourcesUsage-Luxury13_effect" />
-    </StarSystemImprovementDefinition>
+        <CustomCost ResourceName="Luxury13" Instant="true">Property(StockLocation, @ClassColonizedStarSystem,NumberOfImprovementsBuilt) * Property(StockLocation, @ClassColonizedStarSystem, SystemLevel)</CustomCost>
+        <PathPrerequisite        Flags="Prerequisite,Disable,AlreadyActive" Inverted="true">ClassColonizedStarSystem,LuxuryResourcesUsage13Effect</PathPrerequisite>
+        <SimulationDescriptorReference Name="LuxuryResourcesUsage13" />
+        <TemporaryEffect>LuxuryResourcesUsage13</TemporaryEffect>
+    </StarSystemPopulationTransformImprovementDefinition>
 
-    <StarSystemImprovementDefinition Name="LuxuryResourcesUsage-Luxury18" SubCategory="SubCategoryIndustry" ScoreProvider="StarSystemImprovementBuilt">
+    <StarSystemPopulationTransformImprovementDefinition Name="LuxuryResourcesUsage18" Category="CategoryStarSystemResourceImprovement" SubCategory="SubCategoryIndustry" ScoreProvider="StarSystemImprovementBuilt">
         <Tags>NoBuyout</Tags>
-        <CustomCost ResourceName="Luxury13" Instant="true">15</CustomCost>
-        <SimulationDescriptorReference Name="LuxuryResourcesUsage-Luxury18_effect" />
-    </StarSystemImprovementDefinition>
+        <CustomCost ResourceName="Luxury18" Instant="true">Property(StockLocation, @ClassColonizedStarSystem,NumberOfImprovementsBuilt) * Property(StockLocation, @ClassColonizedStarSystem, SystemLevel)</CustomCost>
+        <PathPrerequisite        Flags="Prerequisite,Disable,AlreadyActive" Inverted="true">ClassColonizedStarSystem,LuxuryResourcesUsage18Effect</PathPrerequisite>
+        <SimulationDescriptorReference Name="LuxuryResourcesUsage18" />
+        <TemporaryEffect>LuxuryResourcesUsage18</TemporaryEffect>
+    </StarSystemPopulationTransformImprovementDefinition>
 
-    <StarSystemPopulationTransformImprovementDefinition Category="CategoryStarSystemResourceImprovement" Name="StrategicResourcesUsage1" SubCategory="SubCategoryIndustry" ScoreProvider="StarSystemImprovementBuilt">
+    <StarSystemPopulationTransformImprovementDefinition Name="StrategicResourcesUsage1" Category="CategoryStarSystemResourceImprovement" SubCategory="SubCategoryIndustry" ScoreProvider="StarSystemImprovementBuilt">
         <Tags>NoBuyout</Tags>
         <CustomCost ResourceName="Strategic1" Instant="true">Property(StockLocation, @ClassColonizedStarSystem,NumberOfImprovementsBuilt) * Property(StockLocation, @ClassColonizedStarSystem, SystemLevel)</CustomCost>
-        <PathPrerequisite        Flags="Prerequisite,Disable,AlreadyActive" Inverted="true">ClassColonizedStarSystem,TemporaryEffectStrategicResourcesUsage1Effect</PathPrerequisite>
+        <PathPrerequisite        Flags="Prerequisite,Disable,AlreadyActive" Inverted="true">ClassColonizedStarSystem,StrategicResourcesUsage1Effect</PathPrerequisite>
         <SimulationDescriptorReference Name="StrategicResourcesUsage1" />
         <TemporaryEffect>StrategicResourcesUsage1</TemporaryEffect>
     </StarSystemPopulationTransformImprovementDefinition>
 
-    <StarSystemPopulationTransformImprovementDefinition Category="CategoryStarSystemResourceImprovement" Name="StrategicResourcesUsage2" SubCategory="SubCategoryIndustry" ScoreProvider="StarSystemImprovementBuilt">
+    <StarSystemPopulationTransformImprovementDefinition Name="StrategicResourcesUsage2" Category="CategoryStarSystemResourceImprovement" SubCategory="SubCategoryIndustry" ScoreProvider="StarSystemImprovementBuilt">
         <Tags>NoBuyout</Tags>
         <CustomCost ResourceName="Strategic2" Instant="true">Property(StockLocation, @ClassColonizedStarSystem,NumberOfImprovementsBuilt) * Property(StockLocation, @ClassColonizedStarSystem, SystemLevel)</CustomCost>
-        <PathPrerequisite        Flags="Prerequisite,Disable,AlreadyActive" Inverted="true">ClassColonizedStarSystem,TemporaryEffectStrategicResourcesUsage2Effect</PathPrerequisite>
+        <PathPrerequisite        Flags="Prerequisite,Disable,AlreadyActive" Inverted="true">ClassColonizedStarSystem,StrategicResourcesUsage2Effect</PathPrerequisite>
         <SimulationDescriptorReference Name="StrategicResourcesUsage2" />
         <TemporaryEffect>StrategicResourcesUsage2</TemporaryEffect>
     </StarSystemPopulationTransformImprovementDefinition>
 
-    <StarSystemPopulationTransformImprovementDefinition Category="CategoryStarSystemResourceImprovement" Name="LuxuryResourcesUsage08" SubCategory="SubCategoryIndustry" ScoreProvider="StarSystemImprovementBuilt">
+    <StarSystemPopulationTransformImprovementDefinition Name="LuxuryResourcesUsage08" Category="CategoryStarSystemResourceImprovement" SubCategory="SubCategoryIndustry" ScoreProvider="StarSystemImprovementBuilt">
         <Tags>NoBuyout</Tags>
         <CustomCost ResourceName="Luxury8" Instant="true">Property(StockLocation, @ClassColonizedStarSystem,NumberOfImprovementsBuilt) * Property(StockLocation, @ClassColonizedStarSystem, SystemLevel)</CustomCost>
-        <PathPrerequisite        Flags="Prerequisite,Disable,AlreadyActive" Inverted="true">ClassColonizedStarSystem,TemporaryEffectLuxuryResourcesUsage08Effect_1</PathPrerequisite>
-        <PathPrerequisite        Flags="Prerequisite,Disable,AlreadyActive" Inverted="true">ClassColonizedStarSystem,TemporaryEffectLuxuryResourcesUsage08Effect_2</PathPrerequisite>
+        <PathPrerequisite        Flags="Prerequisite,Disable,AlreadyActive" Inverted="true">ClassColonizedStarSystem,LuxuryResourcesUsage08Effect_1</PathPrerequisite>
+        <PathPrerequisite        Flags="Prerequisite,Disable,AlreadyActive" Inverted="true">ClassColonizedStarSystem,LuxuryResourcesUsage08Effect_2</PathPrerequisite>
         <SimulationDescriptorReference Name="LuxuryResourcesUsage08" />
         <TemporaryEffect>LuxuryResourcesUsage08-1</TemporaryEffect>
         <TemporaryEffect>LuxuryResourcesUsage08-2</TemporaryEffect>

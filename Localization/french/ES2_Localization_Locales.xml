@@ -24,65 +24,65 @@
     <LocalizationPair Name="%Food_to_industry_convertor_title">#1595D9#Centre de travail permanent#REVERT#</LocalizationPair>
     <LocalizationPair Name="%Food_to_industry_convertor_description">En laissant la possibilité à des volontaires (ou en encourageant ceux qui ne le sont pas) à pouvoir travailler quelque soient le moment de la rotation journalière de la planète, l'espèce ou les circonstances, nous devrions pouvoir améliorer notre capacité de production industrielle en fournissant à ces travailleurs une contribution adéquate.</LocalizationPair>
 
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury01_title">#1595D9#Enhancement-Sanguine#REVERT#</LocalizationPair>
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury01_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury01_tooltip">Convertit 150 [Lux01Redsang] en 50 [foodColored]</LocalizationPair>
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury01_effect">#1595D9#Enhancement-Sanguine#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage01_title">#1595D9#Enhancement-Sanguine#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage01_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage01_tooltip">Convertit 150 [Lux01Redsang] en 50 [foodColored]</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage01_effect">#1595D9#Enhancement-Sanguine#REVERT#</LocalizationPair>
 
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury02_title">#1595D9#Enhancement-Jadonyx#REVERT#</LocalizationPair>
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury02_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury02_tooltip">Convertit 150 [Lux02Jadonyx] en 50 [industryColored]</LocalizationPair>
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury02_effect">#1595D9#Enhancement-Jadonyx#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage02_title">#1595D9#Enhancement-Jadonyx#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage02_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage02_tooltip">Convertit 150 [Lux02Jadonyx] en 50 [industryColored]</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage02_effect">#1595D9#Enhancement-Jadonyx#REVERT#</LocalizationPair>
 
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury03_title">#1595D9#Enhancement-Arbres Brumilicieux#REVERT#</LocalizationPair>
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury03_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury03_tooltip">Convertit 150 [Lux03Dustciduous] en 50 [dustColored]</LocalizationPair>
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury03_effect">#1595D9#Enhancement-Arbres Brumilicieux#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage03_title">#1595D9#Enhancement-Arbres Brumilicieux#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage03_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage03_tooltip">Convertit 150 [Lux03Dustciduous] en 50 [dustColored]</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage03_effect">#1595D9#Enhancement-Arbres Brumilicieux#REVERT#</LocalizationPair>
 
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury04_title">#1595D9#Enhancement-Moisi bleu#REVERT#</LocalizationPair>
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury04_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury04_tooltip">Convertit 150 [Lux04Bluecap] en 50 [scienceColored]</LocalizationPair>
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury04_effect">#1595D9#Enhancement-Moisi bleu#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage04_title">#1595D9#Enhancement-Moisi bleu#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage04_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage04_tooltip">Convertit 150 [Lux04Bluecap] en 50 [scienceColored]</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage04_effect">#1595D9#Enhancement-Moisi bleu#REVERT#</LocalizationPair>
 
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury05_title">#1595D9#Enhancement-Encens d'Eden#REVERT#</LocalizationPair>
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury05_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury05_tooltip">Convertit 150 [Lux05EdenIncense] en 50 [prestigeColored]</LocalizationPair>
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury05_effect">#1595D9#Enhancement-Encens d'Eden#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage05_title">#1595D9#Enhancement-Encens d'Eden#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage05_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage05_tooltip">Convertit 150 [Lux05EdenIncense] en 50 [prestigeColored]</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage05_effect">#1595D9#Enhancement-Encens d'Eden#REVERT#</LocalizationPair>
 
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury10_title">#1595D9#Enhancement-Pierre de vide#REVERT#</LocalizationPair>
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury10_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury10_tooltip">Convertit 100 [Lux05EdenIncense] en +2 [industryColored] par [population] sur Système</LocalizationPair>
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury10_effect">#1595D9#Enhancement-Pierre de vide#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage08_title">#1595D9#Enhancement - Super patates#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage08_description">Utilise le surplus de Super patates pour obtenir un effet temporaire</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage08-1_tooltip">Ajoute 10% Réduction d'achat de construction sur Système pendant 10 [turnColored]</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage08-2_tooltip">Ajoute 10% Réduction d'achat de vaisseau sur Système pendant 10 [turnColored]</LocalizationPair> 
 
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury11_title">#1595D9#Enhancement-Proto-orchidée#REVERT#</LocalizationPair>
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury11_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury11_tooltip">Convertit 100 [Lux11ProtoOrchid] en +2 [dustColored] par [population] sur Système</LocalizationPair>
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury11_effect">#1595D9#Enhancement-Proto-orchidée#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage10_title">#1595D9#Enhancement-Pierre de vide#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage10_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage10_tooltip">Convertit 100 [Lux05EdenIncense] en +2 [industryColored] par [population] sur Système</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage10_effect">#1595D9#Enhancement-Pierre de vide#REVERT#</LocalizationPair>
 
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury13_title">#1595D9#Enhancement-Giga lacis#REVERT#</LocalizationPair>
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury13_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury13_tooltip">Convertit 100 [Lux13GigaLattice] en +2 [prestigeColored] par [population] sur Système</LocalizationPair>
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury13_effect">#1595D9#Enhancement-Giga lacis#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage11_title">#1595D9#Enhancement-Proto-orchidée#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage11_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage11_tooltip">Convertit 100 [Lux11ProtoOrchid] en +2 [dustColored] par [population] sur Système</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage11_effect">#1595D9#Enhancement-Proto-orchidée#REVERT#</LocalizationPair>
 
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury18_title">#1595D9#Enhancement-Fonderies endless#REVERT#</LocalizationPair>
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury18_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury18_tooltip">Convertit 50 [Lux18EndlessFoundries] en +1 % [industryColored] par niveau de Système</LocalizationPair>
-    <LocalizationPair Name="%LuxuryResourcesUsage-Luxury18_effect">#1595D9#Enhancement-Fonderies endless#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage13_title">#1595D9#Enhancement-Giga lacis#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage13_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage13_tooltip">Convertit 100 [Lux13GigaLattice] en +2 [prestigeColored] par [population] sur Système</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage13_effect">#1595D9#Enhancement-Giga lacis#REVERT#</LocalizationPair>
 
-    <LocalizationPair Name="%StrategicResourcesUsage1_A">#1595D9#Enhancement - Titane#REVERT#</LocalizationPair>
-    <LocalizationPair Name="%StrategicResourcesUsage1_D">Ajoute +10 % [industryColored] pendant 10 [turnColored]</LocalizationPair>
-    <LocalizationPair Name="%StrategicResourcesUsage1_E">#1595D9#Enhancement - Titane#REVERT#</LocalizationPair>
-    <LocalizationPair Name="%StrategicResourcesUsage1_F">Utilise le surplus de Titane pour obtenir un effet temporaire</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage18_title">#1595D9#Enhancement-Fonderies endless#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage18_description">Utilisons nos stocks de resources de luxe pour encore améliorer et spécialiser notre système</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage18_tooltip">Convertit 50 [Lux18EndlessFoundries] en +1 % [industryColored] par niveau de Système</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage18_effect">#1595D9#Enhancement-Fonderies endless#REVERT#</LocalizationPair>
 
-    <LocalizationPair Name="%StrategicResourcesUsage2_A">#1595D9#Enhancement - Hypérium#REVERT#</LocalizationPair>
-    <LocalizationPair Name="%StrategicResourcesUsage2_D">Ajoute +10 % [dustColored] pendant 10 [turnColored]</LocalizationPair>
-    <LocalizationPair Name="%StrategicResourcesUsage2_E">#1595D9#Enhancement - Hypérium#REVERT#</LocalizationPair>
-    <LocalizationPair Name="%StrategicResourcesUsage2_F">Utilise le surplus de Titane pour obtenir un effet temporaire</LocalizationPair>
+    <LocalizationPair Name="%StrategicResourcesUsage1_title">#1595D9#Enhancement - Titane#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%StrategicResourcesUsage1_description">Utilise le surplus de Titane pour obtenir un effet temporaire</LocalizationPair>
+    <LocalizationPair Name="%StrategicResourcesUsage1_tooltip">Ajoute +10 % [industryColored] pendant 10 [turnColored]</LocalizationPair>
+    <LocalizationPair Name="%StrategicResourcesUsage1_effect">#1595D9#Enhancement - Titane#REVERT#</LocalizationPair>
 
-    <LocalizationPair Name="%LuxuryResourcesUsage08_E">#1595D9#Enhancement - Super patates#REVERT#</LocalizationPair>
-    <LocalizationPair Name="%LuxuryResourcesUsage08_F">Utilise le surplus de Super patates pour obtenir un effet temporaire</LocalizationPair>
-    <LocalizationPair Name="%LuxuryResourcesUsage08-1_D">Ajoute 10% Réduction d'achat de construction sur Système pendant 10 [turnColored]</LocalizationPair>
-    <LocalizationPair Name="%LuxuryResourcesUsage08-2_D">Ajoute 10% Réduction d'achat de vaisseau sur Système pendant 10 [turnColored]</LocalizationPair>
+    <LocalizationPair Name="%StrategicResourcesUsage2_title">#1595D9#Enhancement - Hypérium#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%StrategicResourcesUsage2_description">Utilise le surplus de Titane pour obtenir un effet temporaire</LocalizationPair>
+    <LocalizationPair Name="%StrategicResourcesUsage2_tooltip">Ajoute +10 % [dustColored] pendant 10 [turnColored]</LocalizationPair>
+    <LocalizationPair Name="%StrategicResourcesUsage2_effect">#1595D9#Enhancement - Hypérium#REVERT#</LocalizationPair>
 
     <!-- Tooltips -->
     <LocalizationPair Name="%InflationReductor_1_tooltip_system_level_limitation">Ne peut être construit que sur une colonie de niveau [green]1#REVERT# [red]uniquement#REVERT#</LocalizationPair>

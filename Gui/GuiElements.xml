@@ -139,131 +139,148 @@
         <Title>%Food_to_industry_convertor_title</Title>
     </GuiElement>
 
-
-    <StarSystemResourceImprovementGuiElement Name="LuxuryResourcesUsage-Luxury01">
-        <Title>%LuxuryResourcesUsage-Luxury01_title</Title>
-        <Description>%LuxuryResourcesUsage-Luxury01_description</Description>
+    <ExtendedGuiElement Name="LuxuryResourcesUsage01">
+        <Title>%LuxuryResourcesUsage_title</Title>
+        <Description>%LuxuryResourcesUsage_description</Description>
         <Icons>
             <Icon Size="Small" Path="Gui/Luxury01" />
             <Icon Size="Large" Path="Bitmaps/Dynamic/Luxuries/Luxury01Large" />
         </Icons>
-        <ResourcesDescription>%LuxuryResourcesUsage-Luxury01_tooltip</ResourcesDescription>
-    </StarSystemResourceImprovementGuiElement>
+        <TemporaryEffectTooltipElement TemporaryEffectName="LuxuryResourcesUsage01" >
+            <EffectOverride>%LuxuryResourcesUsage01_tooltip</EffectOverride>
+        </TemporaryEffectTooltipElement>
+    </ExtendedGuiElement>
 
-    <GuiElement Name="LuxuryResourcesUsage-Luxury01_effect" >
-        <Title>%LuxuryResourcesUsage-Luxury01_effect</Title>
+    <GuiElement Name="LuxuryResourcesUsage01_effect" >
+        <Title>%LuxuryResourcesUsage01_effect</Title>
     </GuiElement>
 
-    <StarSystemResourceImprovementGuiElement Name="LuxuryResourcesUsage-Luxury02">
-        <Title>%LuxuryResourcesUsage-Luxury02_title</Title>
-        <Description>%LuxuryResourcesUsage-Luxury02_description</Description>
+    <ExtendedGuiElement Name="LuxuryResourcesUsage02">
+        <Title>%LuxuryResourcesUsage02_title</Title>
+        <Description>%LuxuryResourcesUsage02_description</Description>
         <Icons>
             <Icon Size="Small" Path="Gui/Luxury02" />
             <Icon Size="Large" Path="Bitmaps/Dynamic/Luxuries/Luxury02Large" />
         </Icons>
-        <ResourcesDescription>%LuxuryResourcesUsage-Luxury02_tooltip</ResourcesDescription>
-    </StarSystemResourceImprovementGuiElement>
+        <TemporaryEffectTooltipElement TemporaryEffectName="LuxuryResourcesUsage02" >
+            <EffectOverride>%LuxuryResourcesUsage02_tooltip</EffectOverride>
+        </TemporaryEffectTooltipElement>
+    </ExtendedGuiElement>
 
-    <GuiElement Name="LuxuryResourcesUsage-Luxury02_effect" >
-        <Title>%LuxuryResourcesUsage-Luxury02_effect</Title>
+    <GuiElement Name="LuxuryResourcesUsage02_effect" >
+        <Title>%LuxuryResourcesUsage02_effect</Title>
     </GuiElement>
 
-    <StarSystemResourceImprovementGuiElement Name="LuxuryResourcesUsage-Luxury03">
-        <Title>%LuxuryResourcesUsage-Luxury03_title</Title>
-        <Description>%LuxuryResourcesUsage-Luxury03_description</Description>
+    <ExtendedGuiElement Name="LuxuryResourcesUsage03">
+        <Title>%LuxuryResourcesUsage03_title</Title>
+        <Description>%LuxuryResourcesUsage03_description</Description>
         <Icons>
             <Icon Size="Small" Path="Gui/Luxury03" />
             <Icon Size="Large" Path="Bitmaps/Dynamic/Luxuries/Luxury03Large" />
         </Icons>
-        <ResourcesDescription>%LuxuryResourcesUsage-Luxury03_tooltip</ResourcesDescription>
-    </StarSystemResourceImprovementGuiElement>
+        <TemporaryEffectTooltipElement TemporaryEffectName="LuxuryResourcesUsage03" >
+            <EffectOverride>%LuxuryResourcesUsage03_tooltip</EffectOverride>
+        </TemporaryEffectTooltipElement>
+    </ExtendedGuiElement>
 
-    <GuiElement Name="LuxuryResourcesUsage-Luxury03_effect" >
-        <Title>%LuxuryResourcesUsage-Luxury03_effect</Title>
+    <GuiElement Name="LuxuryResourcesUsage03_effect" >
+        <Title>%LuxuryResourcesUsage03_effect</Title>
     </GuiElement>
 
-    <StarSystemResourceImprovementGuiElement Name="LuxuryResourcesUsage-Luxury04">
-        <Title>%LuxuryResourcesUsage-Luxury04_title</Title>
-        <Description>%LuxuryResourcesUsage-Luxury04_description</Description>
+    <ExtendedGuiElement Name="LuxuryResourcesUsage04">
+        <Title>%LuxuryResourcesUsage04_title</Title>
+        <Description>%LuxuryResourcesUsage04_description</Description>
         <Icons>
             <Icon Size="Small" Path="Gui/Luxury04" />
             <Icon Size="Large" Path="Bitmaps/Dynamic/Luxuries/Luxury04Large" />
         </Icons>
-        <ResourcesDescription>%LuxuryResourcesUsage-Luxury04_tooltip</ResourcesDescription>
-    </StarSystemResourceImprovementGuiElement>
+        <TemporaryEffectTooltipElement TemporaryEffectName="LuxuryResourcesUsage04" >
+            <EffectOverride>%LuxuryResourcesUsage04_tooltip</EffectOverride>
+        </TemporaryEffectTooltipElement>
+    </ExtendedGuiElement>
 
-    <GuiElement Name="LuxuryResourcesUsage-Luxury04_effect" >
-        <Title>%LuxuryResourcesUsage-Luxury04_effect</Title>
+    <GuiElement Name="LuxuryResourcesUsage04_effect" >
+        <Title>%LuxuryResourcesUsage04_effect</Title>
     </GuiElement>
 
-    <StarSystemResourceImprovementGuiElement Name="LuxuryResourcesUsage-Luxury05">
-        <Title>%LuxuryResourcesUsage-Luxury05_title</Title>
-        <Description>%LuxuryResourcesUsage-Luxury05_description</Description>
+    <ExtendedGuiElement Name="LuxuryResourcesUsage05">
+        <Title>%LuxuryResourcesUsage05_title</Title>
+        <Description>%LuxuryResourcesUsage05_description</Description>
         <Icons>
             <Icon Size="Small" Path="Gui/Luxury05" />
             <Icon Size="Large" Path="Bitmaps/Dynamic/Luxuries/Luxury05Large" />
         </Icons>
-        <ResourcesDescription>%LuxuryResourcesUsage-Luxury05_tooltip</ResourcesDescription>
-    </StarSystemResourceImprovementGuiElement>
+        <TemporaryEffectTooltipElement TemporaryEffectName="LuxuryResourcesUsage05" >
+            <EffectOverride>%LuxuryResourcesUsage05_tooltip</EffectOverride>
+        </TemporaryEffectTooltipElement>
+    </ExtendedGuiElement>
 
-    <GuiElement Name="LuxuryResourcesUsage-Luxury05_effect" >
-        <Title>%LuxuryResourcesUsage-Luxury05_effect</Title>
+    <GuiElement Name="LuxuryResourcesUsage05_effect" >
+        <Title>%LuxuryResourcesUsage05_effect</Title>
     </GuiElement>
 
-    <StarSystemResourceImprovementGuiElement Name="LuxuryResourcesUsage-Luxury10">
-        <Title>%LuxuryResourcesUsage-Luxury10_title</Title>
-        <Description>%LuxuryResourcesUsage-Luxury10_description</Description>
+    <ExtendedGuiElement Name="LuxuryResourcesUsage10">
+        <Title>%LuxuryResourcesUsage10_title</Title>
+        <Description>%LuxuryResourcesUsage10_description</Description>
         <Icons>
             <Icon Size="Small" Path="Gui/Luxury10" />
             <Icon Size="Large" Path="Bitmaps/Dynamic/Luxuries/Luxury10Large" />
         </Icons>
-        <ResourcesDescription>%LuxuryResourcesUsage-Luxury10_tooltip</ResourcesDescription>
-    </StarSystemResourceImprovementGuiElement>
+        <TemporaryEffectTooltipElement TemporaryEffectName="LuxuryResourcesUsage10" >
+            <EffectOverride>%LuxuryResourcesUsage10_tooltip</EffectOverride>
+        </TemporaryEffectTooltipElement>
+    </ExtendedGuiElement>
 
-    <GuiElement Name="LuxuryResourcesUsage-Luxury10_effect" >
-        <Title>%LuxuryResourcesUsage-Luxury10_effect</Title>
+    <GuiElement Name="LuxuryResourcesUsage10_effect" >
+        <Title>%LuxuryResourcesUsage10_effect</Title>
     </GuiElement>
 
-    <StarSystemResourceImprovementGuiElement Name="LuxuryResourcesUsage-Luxury11">
-        <Title>%LuxuryResourcesUsage-Luxury11_title</Title>
-        <Description>%LuxuryResourcesUsage-Luxury11_description</Description>
+    <ExtendedGuiElement Name="LuxuryResourcesUsage11">
+        <Title>%LuxuryResourcesUsage11_title</Title>
+        <Description>%LuxuryResourcesUsage11_description</Description>
         <Icons>
             <Icon Size="Small" Path="Gui/Luxury11" />
             <Icon Size="Large" Path="Bitmaps/Dynamic/Luxuries/Luxury11Large" />
         </Icons>
-        <ResourcesDescription>%LuxuryResourcesUsage-Luxury11_tooltip</ResourcesDescription>
-    </StarSystemResourceImprovementGuiElement>
+        <TemporaryEffectTooltipElement TemporaryEffectName="LuxuryResourcesUsage11" >
+            <EffectOverride>%LuxuryResourcesUsage11_tooltip</EffectOverride>
+        </TemporaryEffectTooltipElement>
+    </ExtendedGuiElement>
 
-    <GuiElement Name="LuxuryResourcesUsage-Luxury11_effect" >
-        <Title>%LuxuryResourcesUsage-Luxury11_effect</Title>
+    <GuiElement Name="LuxuryResourcesUsage11_effect" >
+        <Title>%LuxuryResourcesUsage11_effect</Title>
     </GuiElement>
 
-    <StarSystemResourceImprovementGuiElement Name="LuxuryResourcesUsage-Luxury13">
-        <Title>%LuxuryResourcesUsage-Luxury13_title</Title>
-        <Description>%LuxuryResourcesUsage-Luxury13_description</Description>
+    <ExtendedGuiElement Name="LuxuryResourcesUsage13">
+        <Title>%LuxuryResourcesUsage13_title</Title>
+        <Description>%LuxuryResourcesUsage13_description</Description>
         <Icons>
             <Icon Size="Small" Path="Gui/Luxury13" />
             <Icon Size="Large" Path="Bitmaps/Dynamic/Luxuries/Luxury13Large" />
         </Icons>
-        <ResourcesDescription>%LuxuryResourcesUsage-Luxury13_tooltip</ResourcesDescription>
-    </StarSystemResourceImprovementGuiElement>
+        <TemporaryEffectTooltipElement TemporaryEffectName="LuxuryResourcesUsage13" >
+            <EffectOverride>%LuxuryResourcesUsage13_tooltip</EffectOverride>
+        </TemporaryEffectTooltipElement>
+    </ExtendedGuiElement>
 
-    <GuiElement Name="LuxuryResourcesUsage-Luxury13_effect" >
-        <Title>%LuxuryResourcesUsage-Luxury13_effect</Title>
+    <GuiElement Name="LuxuryResourcesUsage13_effect" >
+        <Title>%LuxuryResourcesUsage13_effect</Title>
     </GuiElement>
 
-    <StarSystemResourceImprovementGuiElement Name="LuxuryResourcesUsage-Luxury18">
-        <Title>%LuxuryResourcesUsage-Luxury18_title</Title>
-        <Description>%LuxuryResourcesUsage-Luxury18_description</Description>
+    <ExtendedGuiElement Name="LuxuryResourcesUsage18">
+        <Title>%LuxuryResourcesUsage18_title</Title>
+        <Description>%LuxuryResourcesUsage18_description</Description>
         <Icons>
             <Icon Size="Small" Path="Gui/Luxury18" />
             <Icon Size="Large" Path="Bitmaps/Dynamic/Luxuries/Luxury18Large" />
         </Icons>
-        <ResourcesDescription>%LuxuryResourcesUsage-Luxury18_tooltip</ResourcesDescription>
-    </StarSystemResourceImprovementGuiElement>
+        <TemporaryEffectTooltipElement TemporaryEffectName="LuxuryResourcesUsage18" >
+            <EffectOverride>%LuxuryResourcesUsage18_tooltip</EffectOverride>
+        </TemporaryEffectTooltipElement>
+    </ExtendedGuiElement>
 
-    <GuiElement Name="LuxuryResourcesUsage-Luxury18_effect" >
-        <Title>%LuxuryResourcesUsage-Luxury18_effect</Title>
+    <GuiElement Name="LuxuryResourcesUsage18_effect" >
+        <Title>%LuxuryResourcesUsage18_effect</Title>
     </GuiElement>
 
     <GuiElement Name="EmpireImprovementAutomatedShipMovementAdditional">
@@ -284,19 +301,19 @@
     </ExtendedGuiElement>
 
     <ExtendedGuiElement Name="StrategicResourcesUsage1">
-        <Title>%StrategicResourcesUsage1_E</Title>
-        <Description>%StrategicResourcesUsage1_F</Description>
+        <Title>%StrategicResourcesUsage1_title</Title>
+        <Description>%StrategicResourcesUsage1_description</Description>
         <Icons>
             <Icon Size="Small" Path="Gui/Strategic1" />
             <Icon Size="Large" Path="Bitmaps/Dynamic/Strategics/Strategic01Large" />
         </Icons>
         <TemporaryEffectTooltipElement TemporaryEffectName="StrategicResourcesUsage1" >
-            <EffectOverride>%StrategicResourcesUsage1_D</EffectOverride>
+            <EffectOverride>%StrategicResourcesUsage1_tooltip</EffectOverride>
         </TemporaryEffectTooltipElement>
     </ExtendedGuiElement>
 
-    <GuiElement Name="TemporaryEffectStrategicResourcesUsage1Effect" >
-        <Title>%StrategicResourcesUsage1_A</Title>
+    <GuiElement Name="StrategicResourcesUsage1Effect" >
+        <Title>%StrategicResourcesUsage1_effect</Title>
     </GuiElement>
 
     <GuiElement Name="TemporaryEffectStrategicResourcesUsage1">
@@ -308,17 +325,17 @@
     </GuiElement>
 
     <ExtendedGuiElement Name="StrategicResourcesUsage2">
-        <Title>%StrategicResourcesUsage2_E</Title>
-        <Description>%StrategicResourcesUsage2_F</Description>
+        <Title>%StrategicResourcesUsage2_title</Title>
+        <Description>%StrategicResourcesUsage2_description</Description>
         <Icons>
             <Icon Size="Small" Path="Gui/Strategic2" />
             <Icon Size="Large" Path="Bitmaps/Dynamic/Strategics/Strategic02Large" />
         </Icons>
         <TemporaryEffectTooltipElement TemporaryEffectName="StrategicResourcesUsage2" >
-            <EffectOverride>%StrategicResourcesUsage2_D</EffectOverride>
+            <EffectOverride>%StrategicResourcesUsage2_tooltip</EffectOverride>
         </TemporaryEffectTooltipElement>
     </ExtendedGuiElement>
-
+    
     <GuiElement Name="TemporaryEffectStrategicResourcesUsage2">
         <Title>%StrategicResourcesUsage2_E</Title>
         <Description>%StrategicResourcesUsage2_F</Description>
@@ -327,22 +344,22 @@
         </Icons>
     </GuiElement>
 
-    <GuiElement Name="TemporaryEffectStrategicResourcesUsage2Effect" >
-        <Title>%StrategicResourcesUsage2_A</Title>
+    <GuiElement Name="StrategicResourcesUsage2Effect" >
+        <Title>%StrategicResourcesUsage2_effect</Title>
     </GuiElement>
 
     <ExtendedGuiElement Name="LuxuryResourcesUsage08">
-        <Title>%LuxuryResourcesUsage08_E</Title>
-        <Description>%LuxuryResourcesUsage08_F</Description>
+        <Title>%LuxuryResourcesUsage08_title</Title>
+        <Description>%LuxuryResourcesUsage08_description</Description>
         <Icons>
             <Icon Size="Small" Path="Gui/Luxury08" />
             <Icon Size="Large" Path="Bitmaps/Dynamic/Luxuries/Luxury08Large" />
         </Icons>
         <TemporaryEffectTooltipElement TemporaryEffectName="LuxuryResourcesUsage08-1" >
-            <EffectOverride>%LuxuryResourcesUsage08-1_D</EffectOverride>
+            <EffectOverride>%LuxuryResourcesUsage08-1_tooltip</EffectOverride>
         </TemporaryEffectTooltipElement>
         <TemporaryEffectTooltipElement TemporaryEffectName="LuxuryResourcesUsage08-1" >
-            <EffectOverride>%LuxuryResourcesUsage08-2_D</EffectOverride>
+            <EffectOverride>%LuxuryResourcesUsage08-2_tooltip</EffectOverride>
         </TemporaryEffectTooltipElement>
     </ExtendedGuiElement>
 
