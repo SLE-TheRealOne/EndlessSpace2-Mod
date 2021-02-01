@@ -135,6 +135,11 @@
         </Icons>
     </GuiElement>
 
+    <GuiElement Name="Food_to_industry_conversion" >
+        <Title>%Food_to_industry_convertor_title</Title>
+    </GuiElement>
+
+
     <StarSystemResourceImprovementGuiElement Name="LuxuryResourcesUsage-Luxury01">
         <Title>%LuxuryResourcesUsage-Luxury01_title</Title>
         <Description>%LuxuryResourcesUsage-Luxury01_description</Description>
