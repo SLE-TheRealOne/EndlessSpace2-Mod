@@ -299,6 +299,14 @@
         <Title>%StrategicResourcesUsage1_A</Title>
     </GuiElement>
 
+    <GuiElement Name="TemporaryEffectStrategicResourcesUsage1">
+        <Title>%StrategicResourcesUsage1_E</Title>
+        <Description>%StrategicResourcesUsage1_F</Description>
+        <Icons>
+            <Icon Size="Small" Path="FIDSIIndustry" />
+        </Icons>
+    </GuiElement>
+
     <ExtendedGuiElement Name="StrategicResourcesUsage2">
         <Title>%StrategicResourcesUsage2_E</Title>
         <Description>%StrategicResourcesUsage2_F</Description>
@@ -310,6 +318,14 @@
             <EffectOverride>%StrategicResourcesUsage2_D</EffectOverride>
         </TemporaryEffectTooltipElement>
     </ExtendedGuiElement>
+
+    <GuiElement Name="TemporaryEffectStrategicResourcesUsage2">
+        <Title>%StrategicResourcesUsage2_E</Title>
+        <Description>%StrategicResourcesUsage2_F</Description>
+        <Icons>
+            <Icon Size="Small" Path="FIDSIDust" />
+        </Icons>
+    </GuiElement>
 
     <GuiElement Name="TemporaryEffectStrategicResourcesUsage2Effect" >
         <Title>%StrategicResourcesUsage2_A</Title>
@@ -329,5 +345,21 @@
             <EffectOverride>%LuxuryResourcesUsage08-2_D</EffectOverride>
         </TemporaryEffectTooltipElement>
     </ExtendedGuiElement>
+
+    <GuiElement Name="TemporaryEffectLuxuryResourcesUsage08-1">
+        <Title>%LuxuryResourcesUsage08_E</Title>
+        <Description>%LuxuryResourcesUsage08_F</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/GameVariables/Upkeep" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="TemporaryEffectLuxuryResourcesUsage08-2">
+        <Title>%LuxuryResourcesUsage08_E</Title>
+        <Description>%LuxuryResourcesUsage08_F</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/GameVariables/Upkeep" />
+        </Icons>
+    </GuiElement>
 
 </Datatable>
