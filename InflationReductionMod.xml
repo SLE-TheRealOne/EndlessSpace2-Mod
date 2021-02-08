@@ -48,7 +48,9 @@
 					<ExtraType DataType="TechnologyGuiElement2, Assembly-CSharp" />
 					<ExtraType DataType="StarSystemResourceImprovementGuiElement, Assembly-CSharp" />
 				</ExtraTypes>
-				<FilePath>Gui/GuiElements.xml</FilePath>
+				<FilePath>Gui/BuildingsGuiElements.xml</FilePath>
+				<FilePath>Gui/RessourcesUsageGuiElements.xml</FilePath>
+				<FilePath>Gui/TechnologiesGuiElements.xml</FilePath>
 			</DatabasePlugin>
 			
 			<DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">

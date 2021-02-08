@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Documentation/Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+    <!-- Replacing base tech -->
+    <TechnologyGuiElement2 Name="TechnologyDefinitionEconomyAndTrade3" X="-3" Y="0">
+        <Title>%TechnologyDefinitionEconomyAndTrade3Title</Title>
+        <Description>%TechnologyDefinitionEconomyAndTrade3Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionEconomyAndTrade3Small" />
+        </Icons>
+    </TechnologyGuiElement2>
+
+    <TechnologyGuiElement2 Name="InflationReductionTechnology_1" X="-2.15" Y="0">
+        <Title>%InflationReductionTechnology_1Title</Title>
+        <Description>%InflationReductionTechnology_1Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionEconomyAndTrade27Small" />
+        </Icons>
+    </TechnologyGuiElement2>
+
+    <TechnologyGuiElement2 Name="InflationReductionTechnology_2" X="-2" Y="0">
+        <Title>%InflationReductionTechnology_2Title</Title>
+        <Description>%InflationReductionTechnology_2Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionEconomyAndTrade12Small" />
+        </Icons>
+    </TechnologyGuiElement2>
+
+    <TechnologyGuiElement2 Name="InflationReductionTechnology_3" X="-2" Y="0">
+        <Title>%InflationReductionTechnology_3Title</Title>
+        <Description>%InflationReductionTechnology_3Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionEconomyAndTrade9Small" />
+        </Icons>
+    </TechnologyGuiElement2>
+
+    <TechnologyGuiElement2 Name="InflationReductionTechnology_4" X="-2.5" Y="0">
+        <Title>%InflationReductionTechnology_4Title</Title>
+        <Description>%InflationReductionTechnology_4Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionEconomyAndTrade17Small" />
+        </Icons>
+    </TechnologyGuiElement2>
+
+</Datatable>

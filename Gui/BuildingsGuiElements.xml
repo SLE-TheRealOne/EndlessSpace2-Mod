@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Documentation/Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+    <GuiElement Name="InflationReductor_1">
+        <Title>%InflationReductor_1Title</Title>
+        <Description>%InflationReductor_1Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/Planetary/PlanetaryImprovementDust1Small" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/Planetary/PlanetaryImprovementDust1Large" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="InflationReductor_2">
+        <Title>%InflationReductor_2Title</Title>
+        <Description>%InflationReductor_2Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/Planetary/PlanetaryImprovementDust2Small" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/Planetary/PlanetaryImprovementDust2Large" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="InflationReductor_3">
+        <Title>%InflationReductor_3Title</Title>
+        <Description>%InflationReductor_3Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/Planetary/PlanetaryImprovementDust3Small" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/Planetary/PlanetaryImprovementDust3Large" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="InflationReductor_4">
+        <Title>%InflationReductor_4Title</Title>
+        <Description>%InflationReductor_4Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/Planetary/PlanetaryImprovementDust4Small" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/Planetary/PlanetaryImprovementDust4Large" />
+        </Icons>
+    </GuiElement>
+
+    <ExtendedGuiElement Name="InflationReductorPopulationEvent">
+        <Title>%InflationReductorPopulationEventTitle</Title>
+        <Description>%InflationReductorPopulationEventDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="HeaderContructionQueue" />
+        </Icons>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="defence_to_food_event">
+        <Title>%defence_to_food_event_title</Title>
+        <Description>%defence_to_food_event_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="HeaderContructionQueue" />
+        </Icons>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="InflationReductor_1_tooltip_system_level_limitation">
+        <TooltipElement>
+            <EffectOverride>%InflationReductor_1_tooltip_system_level_limitation</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="InflationReductor_2_tooltip_system_level_limitation">
+        <TooltipElement>
+            <EffectOverride>%InflationReductor_2_tooltip_system_level_limitation</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="InflationReductor_3_tooltip_system_level_limitation">
+        <TooltipElement>
+            <EffectOverride>%InflationReductor_3_tooltip_system_level_limitation</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="InflationReductor_4_tooltip_system_level_limitation">
+        <TooltipElement>
+            <EffectOverride>%InflationReductor_4_tooltip_system_level_limitation</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+
+    <GuiElement Name="Defence_to_food_convertor">
+        <Title>%Defence_to_food_convertor_title</Title>
+        <Description>%Defence_to_food_convertor_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementCuriosity2Small" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementCuriosity2Large" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="Food_to_industry_convertor">
+        <Title>%Food_to_industry_convertor_title</Title>
+        <Description>%Food_to_industry_convertor_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementCuriosity2Small" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementCuriosity2Large" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="Food_to_industry_conversion" >
+        <Title>%Food_to_industry_convertor_title</Title>
+    </GuiElement>
+
+</Datatable>
