@@ -4,7 +4,7 @@
     <!-- Strategic resources -->
     <TemporaryEffectDefinition Name="StrategicResourcesUsage1" Category="ResourceUsages" Duration="5">
         <Path>ClassColonizedStarSystem</Path>
-        <SimulationDescriptorReference Name="TStrategicResourcesUsage1Effect"/>
+        <SimulationDescriptorReference Name="StrategicResourcesUsage1Effect"/>
     </TemporaryEffectDefinition>
 
     <TemporaryEffectDefinition Name="StrategicResourcesUsage2" Category="ResourceUsages" Duration="5">

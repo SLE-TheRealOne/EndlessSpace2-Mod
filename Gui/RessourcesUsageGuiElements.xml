@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Documentation/Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+    <!--
+    Each boos should have 3 GUI elements
+      * An ExtendedGuiElement for the construction item
+      * A GuiElement for the effect itself where it applies
+      * A GuiElement to indicate that boost is active on StarSystem screen
+    -->
+    <!-- LUX 01 -->
     <ExtendedGuiElement Name="LuxuryResourcesUsage01">
         <Title>%LuxuryResourcesUsage01_title</Title>
         <Description>%LuxuryResourcesUsage01_description</Description>
@@ -12,10 +19,19 @@
         </TemporaryEffectTooltipElement>
     </ExtendedGuiElement>
 
-    <GuiElement Name="LuxuryResourcesUsage01_effect" >
+    <GuiElement Name="LuxuryResourcesUsage01Effect" >
         <Title>%LuxuryResourcesUsage01_effect</Title>
     </GuiElement>
 
+    <GuiElement Name="TemporaryEffectLuxuryResourcesUsage01">
+        <Title>%LuxuryResourcesUsage01_title</Title>
+        <Description>%LuxuryResourcesUsage01_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="FIDSIFood" />
+        </Icons>
+    </GuiElement>
+
+    <!-- LUX 02 -->
     <ExtendedGuiElement Name="LuxuryResourcesUsage02">
         <Title>%LuxuryResourcesUsage02_title</Title>
         <Description>%LuxuryResourcesUsage02_description</Description>
@@ -28,10 +44,19 @@
         </TemporaryEffectTooltipElement>
     </ExtendedGuiElement>
 
-    <GuiElement Name="LuxuryResourcesUsage02_effect" >
+    <GuiElement Name="LuxuryResourcesUsage02Effect" >
         <Title>%LuxuryResourcesUsage02_effect</Title>
     </GuiElement>
 
+    <GuiElement Name="TemporaryEffectLuxuryResourcesUsage02">
+        <Title>%LuxuryResourcesUsage02_title</Title>
+        <Description>%LuxuryResourcesUsage02_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="FIDSIIndustry" />
+        </Icons>
+    </GuiElement>
+
+    <!-- LUX 03 -->
     <ExtendedGuiElement Name="LuxuryResourcesUsage03">
         <Title>%LuxuryResourcesUsage03_title</Title>
         <Description>%LuxuryResourcesUsage03_description</Description>
@@ -44,10 +69,19 @@
         </TemporaryEffectTooltipElement>
     </ExtendedGuiElement>
 
-    <GuiElement Name="LuxuryResourcesUsage03_effect" >
+    <GuiElement Name="LuxuryResourcesUsage03Effect" >
         <Title>%LuxuryResourcesUsage03_effect</Title>
     </GuiElement>
 
+    <GuiElement Name="TemporaryEffectLuxuryResourcesUsage03">
+        <Title>%LuxuryResourcesUsage03_title</Title>
+        <Description>%LuxuryResourcesUsage03_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="FIDSIDust" />
+        </Icons>
+    </GuiElement>
+
+    <!-- LUX 04 -->
     <ExtendedGuiElement Name="LuxuryResourcesUsage04">
         <Title>%LuxuryResourcesUsage04_title</Title>
         <Description>%LuxuryResourcesUsage04_description</Description>
@@ -60,10 +94,19 @@
         </TemporaryEffectTooltipElement>
     </ExtendedGuiElement>
 
-    <GuiElement Name="LuxuryResourcesUsage04_effect" >
+    <GuiElement Name="LuxuryResourcesUsage04Effect" >
         <Title>%LuxuryResourcesUsage04_effect</Title>
     </GuiElement>
 
+    <GuiElement Name="TemporaryEffectLuxuryResourcesUsage04">
+        <Title>%LuxuryResourcesUsage04_title</Title>
+        <Description>%LuxuryResourcesUsage04_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="FIDSIDust" />
+        </Icons>
+    </GuiElement>
+
+    <!-- LUX 05 -->
     <ExtendedGuiElement Name="LuxuryResourcesUsage05">
         <Title>%LuxuryResourcesUsage05_title</Title>
         <Description>%LuxuryResourcesUsage05_description</Description>
@@ -76,8 +119,56 @@
         </TemporaryEffectTooltipElement>
     </ExtendedGuiElement>
 
-    <GuiElement Name="LuxuryResourcesUsage05_effect" >
+    <GuiElement Name="LuxuryResourcesUsage05Effect" >
         <Title>%LuxuryResourcesUsage05_effect</Title>
+    </GuiElement>
+
+    <GuiElement Name="TemporaryEffectLuxuryResourcesUsage05">
+        <Title>%LuxuryResourcesUsage05_title</Title>
+        <Description>%LuxuryResourcesUsage05_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="FIDSIDust" />
+        </Icons>
+    </GuiElement>
+
+    <!-- LUX 08 -->
+    <ExtendedGuiElement Name="LuxuryResourcesUsage08">
+        <Title>%LuxuryResourcesUsage08_title</Title>
+        <Description>%LuxuryResourcesUsage08_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/Luxury08" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Luxuries/Luxury08Large" />
+        </Icons>
+        <TemporaryEffectTooltipElement TemporaryEffectName="LuxuryResourcesUsage08-1" >
+            <EffectOverride>%LuxuryResourcesUsage08-1_tooltip</EffectOverride>
+        </TemporaryEffectTooltipElement>
+        <TemporaryEffectTooltipElement TemporaryEffectName="LuxuryResourcesUsage08-1" >
+            <EffectOverride>%LuxuryResourcesUsage08-2_tooltip</EffectOverride>
+        </TemporaryEffectTooltipElement>
+    </ExtendedGuiElement>
+
+    <GuiElement Name="TemporaryEffectLuxuryResourcesUsage08-1">
+        <Title>%LuxuryResourcesUsage08_E</Title>
+        <Description>%LuxuryResourcesUsage08_F</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/GameVariables/Upkeep" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="TemporaryEffectLuxuryResourcesUsage08-2">
+        <Title>%LuxuryResourcesUsage08_E</Title>
+        <Description>%LuxuryResourcesUsage08_F</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/GameVariables/Upkeep" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="TemporaryEffectLuxuryResourcesUsage08">
+        <Title>%LuxuryResourcesUsage08_title</Title>
+        <Description>%LuxuryResourcesUsage08_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="FIDSIDust" />
+        </Icons>
     </GuiElement>
 
     <ExtendedGuiElement Name="LuxuryResourcesUsage10">
@@ -161,6 +252,7 @@
         </Sounds>
     </ExtendedGuiElement>
 
+    <!-- STRAT 1 -->
     <ExtendedGuiElement Name="StrategicResourcesUsage1">
         <Title>%StrategicResourcesUsage1_title</Title>
         <Description>%StrategicResourcesUsage1_description</Description>
@@ -185,6 +277,7 @@
         </Icons>
     </GuiElement>
 
+    <!-- STRAT 2 -->
     <ExtendedGuiElement Name="StrategicResourcesUsage2">
         <Title>%StrategicResourcesUsage2_title</Title>
         <Description>%StrategicResourcesUsage2_description</Description>
@@ -207,37 +300,6 @@
 
     <GuiElement Name="StrategicResourcesUsage2Effect" >
         <Title>%StrategicResourcesUsage2_effect</Title>
-    </GuiElement>
-
-    <ExtendedGuiElement Name="LuxuryResourcesUsage08">
-        <Title>%LuxuryResourcesUsage08_title</Title>
-        <Description>%LuxuryResourcesUsage08_description</Description>
-        <Icons>
-            <Icon Size="Small" Path="Gui/Luxury08" />
-            <Icon Size="Large" Path="Bitmaps/Dynamic/Luxuries/Luxury08Large" />
-        </Icons>
-        <TemporaryEffectTooltipElement TemporaryEffectName="LuxuryResourcesUsage08-1" >
-            <EffectOverride>%LuxuryResourcesUsage08-1_tooltip</EffectOverride>
-        </TemporaryEffectTooltipElement>
-        <TemporaryEffectTooltipElement TemporaryEffectName="LuxuryResourcesUsage08-1" >
-            <EffectOverride>%LuxuryResourcesUsage08-2_tooltip</EffectOverride>
-        </TemporaryEffectTooltipElement>
-    </ExtendedGuiElement>
-
-    <GuiElement Name="TemporaryEffectLuxuryResourcesUsage08-1">
-        <Title>%LuxuryResourcesUsage08_E</Title>
-        <Description>%LuxuryResourcesUsage08_F</Description>
-        <Icons>
-            <Icon Size="Small" Path="Bitmaps/Atlased/GameVariables/Upkeep" />
-        </Icons>
-    </GuiElement>
-
-    <GuiElement Name="TemporaryEffectLuxuryResourcesUsage08-2">
-        <Title>%LuxuryResourcesUsage08_E</Title>
-        <Description>%LuxuryResourcesUsage08_F</Description>
-        <Icons>
-            <Icon Size="Small" Path="Bitmaps/Atlased/GameVariables/Upkeep" />
-        </Icons>
     </GuiElement>
 
 </Datatable>

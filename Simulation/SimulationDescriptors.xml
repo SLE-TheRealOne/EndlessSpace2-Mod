@@ -64,31 +64,31 @@
     <SimulationDescriptor Name="LuxuryResourcesUsage01" Type="StarSystemImprovement" />
 
     <SimulationDescriptor Name="LuxuryResourcesUsage01Effect" Type="TemporaryEffect">
-        <Modifier TargetProperty="SystemGrowth"  Operation="Percent" Value="10" Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="SystemGrowth"      Operation="Percent"    Value="0.10"    Path="ClassColonizedStarSystem" />
     </SimulationDescriptor>
 
     <SimulationDescriptor Name="LuxuryResourcesUsage02" Type="StarSystemImprovement" />
 
     <SimulationDescriptor Name="LuxuryResourcesUsage02Effect" Type="TemporaryEffect">
-        <Modifier TargetProperty="SystemProduction"  Operation="Percent" Value="10" Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="SystemProduction"  Operation="Percent" Value="0.10" Path="ClassColonizedStarSystem" />
     </SimulationDescriptor>
 
     <SimulationDescriptor Name="LuxuryResourcesUsage03" Type="StarSystemImprovement" />
 
     <SimulationDescriptor Name="LuxuryResourcesUsage03Effect" Type="TemporaryEffect">
-        <Modifier TargetProperty="SystemMoney"  Operation="Percent" Value="10" Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="SystemMoney"  Operation="Percent" Value="0.10" Path="ClassColonizedStarSystem" />
     </SimulationDescriptor>
 
     <SimulationDescriptor Name="LuxuryResourcesUsage04" Type="StarSystemImprovement" />
 
     <SimulationDescriptor Name="LuxuryResourcesUsage04Effect" Type="TemporaryEffect">
-        <Modifier TargetProperty="SystemResearch" Operation="Percent" Value="10" Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="SystemResearch" Operation="Percent" Value="0.10" Path="ClassColonizedStarSystem" />
     </SimulationDescriptor>
 
     <SimulationDescriptor Name="LuxuryResourcesUsage05" Type="StarSystemImprovement" />
 
     <SimulationDescriptor Name="LuxuryResourcesUsage05Effect" Type="TemporaryEffect">
-        <Modifier TargetProperty="SystemEmpirePoint" Operation="Percent" Value="10" Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="SystemEmpirePoint" Operation="Percent" Value="0.10" Path="ClassColonizedStarSystem" />
     </SimulationDescriptor>
 
     <SimulationDescriptor Name="LuxuryResourcesUsage08" Type="StarSystemImprovement" />
@@ -104,25 +104,25 @@
     <SimulationDescriptor Name="LuxuryResourcesUsage10" Type="StarSystemImprovement" />
 
     <SimulationDescriptor Name="LuxuryResourcesUsage10Effect" Type="TemporaryEffect">
-        <Modifier TargetProperty="PlanetRawIndustry"        Operation="Addition" Value="1" Path="./ClassColonizedStarSystem/ClassColonizedPlanet" />
+        <Modifier TargetProperty="PlanetRawIndustry"        Operation="Addition" Value="1" Path="ClassColonizedStarSystem/ClassColonizedPlanet" />
     </SimulationDescriptor>
 
     <SimulationDescriptor Name="LuxuryResourcesUsage11" Type="StarSystemImprovement" />
 
     <SimulationDescriptor Name="LuxuryResourcesUsage11Effect" Type="TemporaryEffect">
-        <Modifier TargetProperty="PlanetRawDust"            Operation="Addition" Value="1" Path="./ClassColonizedStarSystem/ClassColonizedPlanet" />
+        <Modifier TargetProperty="PlanetRawDust"            Operation="Addition" Value="1" Path="ClassColonizedStarSystem/ClassColonizedPlanet" />
     </SimulationDescriptor>
 
     <SimulationDescriptor Name="LuxuryResourcesUsage13" Type="StarSystemImprovement" />
 
     <SimulationDescriptor Name="LuxuryResourcesUsage13Effect" Type="TemporaryEffect">
-        <Modifier TargetProperty="PlanetRawPrestige"        Operation="Addition" Value="1" Path="./ClassColonizedStarSystem/ClassColonizedPlanet" />
+        <Modifier TargetProperty="PlanetRawPrestige"        Operation="Addition" Value="1" Path="ClassColonizedStarSystem/ClassColonizedPlanet" />
     </SimulationDescriptor>
 
     <SimulationDescriptor Name="LuxuryResourcesUsage18" Type="StarSystemImprovement" />
 
     <SimulationDescriptor Name="LuxuryResourcesUsage18Effect" Type="TemporaryEffect">
-        <BinaryModifier TargetProperty="SystemProduction"   Operation="Percent" Left="0.02" BinaryOperation="Multiplication" Right="$(SystemLevel)" Path="./ClassColonizedStarSystem" SearchValueFromPath="true" />
+        <BinaryModifier TargetProperty="SystemProduction"   Operation="Percent" Left="0.02" BinaryOperation="Multiplication" Right="$(SystemLevel)" Path="ClassColonizedStarSystem" SearchValueFromPath="true" />
     </SimulationDescriptor>
 
     <!-- Strategic resources -->
