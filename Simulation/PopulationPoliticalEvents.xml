@@ -1,18 +1,46 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/PopulationEventDefinition.xsd">
-    <PopulationPoliticalEventDefinition Name="InflationReductorPopulationEvent" Category="PoliticalEventConstruction" Scale="System" Duration="20" Power="1">
+    <PopulationPoliticalEventDefinition Name="InflationReductorPopulationEvent" Category="PoliticalEventConstruction" Scale="Empire" Duration="20" Power="1">
         <Tags>BuildingConstruction,Construction</Tags>
         <Politics Name="Politics03"/>
     </PopulationPoliticalEventDefinition>
 
-    <PopulationPoliticalEventDefinition Name="Defence_to_food_event" Category="PoliticalEventConstruction" Scale="System" Duration="20" Power="1">
+    <PopulationPoliticalEventDefinition Name="Defence_to_food_event" Category="PoliticalEventConstruction" Scale="Empire" Duration="20" Power="1">
         <Tags>BuildingConstruction,Construction</Tags>
         <Politics Name="Politics03"/>
     </PopulationPoliticalEventDefinition>
 
-    <PopulationPoliticalEventDefinition Name="Food_to_industry_event" Category="PoliticalEventConstruction" Scale="System" Duration="20" Power="3">
+    <PopulationPoliticalEventDefinition Name="Food_to_industry_event" Category="PoliticalEventConstruction" Scale="Empire" Duration="20" Power="1">
         <Tags>BuildingConstruction,Construction</Tags>
         <Politics Name="Politics01"/>
+    </PopulationPoliticalEventDefinition>
+
+    <PopulationPoliticalEventDefinition Name="LuxuryResourcesUsage01Event" Category="ResourcesUsages" Scale="System" Duration="7" Power="0.5">
+        <Politics Name="Politics04"/>
+    </PopulationPoliticalEventDefinition>
+
+    <PopulationPoliticalEventDefinition Name="LuxuryResourcesUsage02Event" Category="ResourcesUsages" Scale="System" Duration="7" Power="0.5">
+        <Politics Name="Politics01"/>
+    </PopulationPoliticalEventDefinition>
+
+    <PopulationPoliticalEventDefinition Name="LuxuryResourcesUsage03Event" Category="ResourcesUsages" Scale="System" Duration="7" Power="0.5">
+        <Politics Name="Politics03"/>
+    </PopulationPoliticalEventDefinition>
+
+    <PopulationPoliticalEventDefinition Name="LuxuryResourcesUsage04Event" Category="ResourcesUsages" Scale="System" Duration="7" Power="0.5">
+        <Politics Name="Politics02"/>
+    </PopulationPoliticalEventDefinition>
+
+    <PopulationPoliticalEventDefinition Name="LuxuryResourcesUsage05Event" Category="ResourcesUsages" Scale="System" Duration="7" Power="0.5">
+        <Politics Name="Politics05"/>
+    </PopulationPoliticalEventDefinition>
+
+    <PopulationPoliticalEventDefinition Name="StrategicResourcesUsage01Event" Category="ResourcesUsages" Scale="System" Duration="7" Power="0.5">
+        <Politics Name="Politics01"/>
+    </PopulationPoliticalEventDefinition>
+
+    <PopulationPoliticalEventDefinition Name="StrategicResourcesUsage02Event" Category="ResourcesUsages" Scale="System" Duration="7" Power="0.5">
+        <Politics Name="Politics03"/>
     </PopulationPoliticalEventDefinition>
 
     <!--

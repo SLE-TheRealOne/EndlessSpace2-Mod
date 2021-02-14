@@ -102,7 +102,7 @@
         <Title>%LuxuryResourcesUsage04_title</Title>
         <Description>%LuxuryResourcesUsage04_description</Description>
         <Icons>
-            <Icon Size="Small" Path="FIDSIDust" />
+            <Icon Size="Small" Path="FIDSIScience" />
         </Icons>
     </GuiElement>
 
@@ -127,7 +127,7 @@
         <Title>%LuxuryResourcesUsage05_title</Title>
         <Description>%LuxuryResourcesUsage05_description</Description>
         <Icons>
-            <Icon Size="Small" Path="FIDSIDust" />
+            <Icon Size="Small" Path="FIDSIEmpire" />
         </Icons>
     </GuiElement>
 
@@ -270,8 +270,8 @@
     </GuiElement>
 
     <GuiElement Name="TemporaryEffectStrategicResourcesUsage1">
-        <Title>%StrategicResourcesUsage1_E</Title>
-        <Description>%StrategicResourcesUsage1_F</Description>
+        <Title>%StrategicResourcesUsage1_title</Title>
+        <Description>%StrategicResourcesUsage1_description</Description>
         <Icons>
             <Icon Size="Small" Path="FIDSIIndustry" />
         </Icons>
@@ -291,8 +291,8 @@
     </ExtendedGuiElement>
     
     <GuiElement Name="TemporaryEffectStrategicResourcesUsage2">
-        <Title>%StrategicResourcesUsage2_E</Title>
-        <Description>%StrategicResourcesUsage2_F</Description>
+        <Title>%StrategicResourcesUsage2_title</Title>
+        <Description>%StrategicResourcesUsage2_description</Description>
         <Icons>
             <Icon Size="Small" Path="FIDSIDust" />
         </Icons>

@@ -135,7 +135,7 @@
     <SimulationDescriptor Name="StrategicResourcesUsage2" Type="StarSystemImprovement" />
 
     <SimulationDescriptor Name="StrategicResourcesUsage2Effect" Type="TemporaryEffect">
-        <Modifier TargetProperty="SystemDust" Operation="Percent" Value="0.10" Path="ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemMoney" Operation="Percent" Value="0.10" Path="ClassColonizedStarSystem"/>
     </SimulationDescriptor>
 
 </Datatable>

@@ -130,6 +130,7 @@
         <InterpreterPrerequisite Flags="Prerequisite,Discard">Property(Context, @../ClassEmpire, LuxuryUnlockLevel) ge 1</InterpreterPrerequisite>
         <SimulationDescriptorReference Name="LuxuryResourcesUsage01" />
         <TemporaryEffect>LuxuryResourcesUsage01</TemporaryEffect>
+        <PopulationEvent Name="LuxuryResourcesUsage01Event"/>
     </StarSystemPopulationTransformImprovementDefinition>
 
     <StarSystemPopulationTransformImprovementDefinition Name="LuxuryResourcesUsage02" Category="CategoryStarSystemResourceImprovement" SubCategory="SubCategoryIndustry" ScoreProvider="StarSystemImprovementBuilt">
@@ -139,6 +140,7 @@
         <InterpreterPrerequisite Flags="Prerequisite,Discard">Property(Context, @../ClassEmpire, LuxuryUnlockLevel) ge 1</InterpreterPrerequisite>
         <SimulationDescriptorReference Name="LuxuryResourcesUsage02" />
         <TemporaryEffect>LuxuryResourcesUsage02</TemporaryEffect>
+        <PopulationEvent Name="LuxuryResourcesUsage02Event"/>
     </StarSystemPopulationTransformImprovementDefinition>
 
     <StarSystemPopulationTransformImprovementDefinition Name="LuxuryResourcesUsage03" Category="CategoryStarSystemResourceImprovement" SubCategory="SubCategoryDust" ScoreProvider="StarSystemImprovementBuilt">
@@ -148,6 +150,7 @@
         <InterpreterPrerequisite Flags="Prerequisite,Discard">Property(Context, @../ClassEmpire, LuxuryUnlockLevel) ge 1</InterpreterPrerequisite>
         <SimulationDescriptorReference Name="LuxuryResourcesUsage03" />
         <TemporaryEffect>LuxuryResourcesUsage03</TemporaryEffect>
+        <PopulationEvent Name="LuxuryResourcesUsage03Event"/>
     </StarSystemPopulationTransformImprovementDefinition>
 
     <StarSystemPopulationTransformImprovementDefinition Name="LuxuryResourcesUsage04" Category="CategoryStarSystemResourceImprovement" SubCategory="SubCategoryScience" ScoreProvider="StarSystemImprovementBuilt">
@@ -157,15 +160,17 @@
         <InterpreterPrerequisite Flags="Prerequisite,Discard">Property(Context, @../ClassEmpire, LuxuryUnlockLevel) ge 1</InterpreterPrerequisite>
         <SimulationDescriptorReference Name="LuxuryResourcesUsage04" />
         <TemporaryEffect>LuxuryResourcesUsage04</TemporaryEffect>
+        <PopulationEvent Name="LuxuryResourcesUsage04Event"/>
     </StarSystemPopulationTransformImprovementDefinition>
 
-    <StarSystemPopulationTransformImprovementDefinition Name="LuxuryResourcesUsage05" Category="CategoryStarSystemResourceImprovement" SubCategory="SubCategoryApproval" ScoreProvider="StarSystemImprovementBuilt">
+    <StarSystemPopulationTransformImprovementDefinition Name="LuxuryResourcesUsage05" Category="CategoryStarSystemResourceImprovement" SubCategory="SubCategoryDiplomacy" ScoreProvider="StarSystemImprovementBuilt">
         <Tags>NoBuyout</Tags>
         <CustomCost ResourceName="Luxury5" Instant="true">Property(StockLocation, @ClassColonizedStarSystem,NumberOfImprovementsBuilt) * Property(StockLocation, @ClassColonizedStarSystem, SystemLevel)</CustomCost>
         <PathPrerequisite        Flags="Prerequisite,Disable,AlreadyActive" Inverted="true">ClassColonizedStarSystem,LuxuryResourcesUsage05Effect</PathPrerequisite>
         <InterpreterPrerequisite Flags="Prerequisite,Discard">Property(Context, @../ClassEmpire, LuxuryUnlockLevel) ge 1</InterpreterPrerequisite>
         <SimulationDescriptorReference Name="LuxuryResourcesUsage05" />
         <TemporaryEffect>LuxuryResourcesUsage05</TemporaryEffect>
+        <PopulationEvent Name="LuxuryResourcesUsage05Event"/>
     </StarSystemPopulationTransformImprovementDefinition>
 
     <StarSystemPopulationTransformImprovementDefinition Name="LuxuryResourcesUsage08" Category="CategoryStarSystemResourceImprovement" SubCategory="SubCategoryIndustry" ScoreProvider="StarSystemImprovementBuilt">
@@ -221,6 +226,7 @@
         <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">TechnologyStrategicDeposit1</TechnologyPrerequisite>
         <SimulationDescriptorReference Name="StrategicResourcesUsage1" />
         <TemporaryEffect>StrategicResourcesUsage1</TemporaryEffect>
+        <PopulationEvent Name="StrategicResourcesUsage01Event"/>
     </StarSystemPopulationTransformImprovementDefinition>
 
     <StarSystemPopulationTransformImprovementDefinition Name="StrategicResourcesUsage2" Category="CategoryStarSystemResourceImprovement" SubCategory="SubCategoryIndustry" ScoreProvider="StarSystemImprovementBuilt">
@@ -230,6 +236,7 @@
         <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">TechnologyStrategicDeposit2</TechnologyPrerequisite>
         <SimulationDescriptorReference Name="StrategicResourcesUsage2" />
         <TemporaryEffect>StrategicResourcesUsage2</TemporaryEffect>
+        <PopulationEvent Name="StrategicResourcesUsage02Event"/>
     </StarSystemPopulationTransformImprovementDefinition>
 
 </Datatable>

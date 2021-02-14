@@ -85,6 +85,11 @@
         </Icons>
     </GuiElement>
 
+    <GuiElement Name="Defence_to_food_conversion">
+        <Title>%Defence_to_food_convertor_title</Title>
+        <Description>%Defence_to_food_convertor_description</Description>
+    </GuiElement>
+
     <GuiElement Name="Food_to_industry_convertor">
         <Title>%Food_to_industry_convertor_title</Title>
         <Description>%Food_to_industry_convertor_description</Description>
@@ -96,6 +101,7 @@
 
     <GuiElement Name="Food_to_industry_conversion" >
         <Title>%Food_to_industry_convertor_title</Title>
+        <Description>%Food_to_industry_convertor_description</Description>
     </GuiElement>
 
 </Datatable>
