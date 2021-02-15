@@ -54,6 +54,10 @@
     <LocalizationPair Name="%LuxuryResourcesUsage05_effect">#1595D9#Enhancement - Encens d'Eden#REVERT#</LocalizationPair>
     <LocalizationPair Name="%LuxuryResourcesUsage05EventTitle">#1595D9#Enhancement - Encens d'Eden#REVERT#</LocalizationPair>
 
+    <LocalizationPair Name="%LuxuryResourcesUsage07_title">#1595D9#Enhancement - Paillettes noires#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage07_description">Utilise le surplus de Paillettes noires pour obtenir un effet temporaire</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage07_tooltip">+10% expérience du gouverneur pendant 5 [turnColored]</LocalizationPair>
+
     <LocalizationPair Name="%LuxuryResourcesUsage08_title">#1595D9#Enhancement - Super patates#REVERT#</LocalizationPair>
     <LocalizationPair Name="%LuxuryResourcesUsage08_description">Utilise le surplus de Super patates pour obtenir un effet temporaire</LocalizationPair>
     <LocalizationPair Name="%LuxuryResourcesUsage08-1_tooltip">+10% Réduction d'achat de construction sur Système pendant 5 [turnColored]</LocalizationPair>

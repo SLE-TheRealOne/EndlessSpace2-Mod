@@ -131,6 +131,27 @@
         </Icons>
     </GuiElement>
 
+    <!-- LUX 07 -->
+    <ExtendedGuiElement Name="LuxuryResourcesUsage07">
+        <Title>%LuxuryResourcesUsage05_title</Title>
+        <Description>%LuxuryResourcesUsage05_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/Luxury07" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Luxuries/Luxury07Large" />
+        </Icons>
+        <TemporaryEffectTooltipElement TemporaryEffectName="LuxuryResourcesUsage07" >
+            <EffectOverride>%LuxuryResourcesUsage07_tooltip</EffectOverride>
+        </TemporaryEffectTooltipElement>
+    </ExtendedGuiElement>
+
+    <GuiElement Name="TemporaryEffectLuxuryResourcesUsage07">
+        <Title>%LuxuryResourcesUsage07_title</Title>
+        <Description>%LuxuryResourcesUsage07_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="FIDSIEmpire" />
+        </Icons>
+    </GuiElement>
+
     <!-- LUX 08 -->
     <ExtendedGuiElement Name="LuxuryResourcesUsage08">
         <Title>%LuxuryResourcesUsage08_title</Title>

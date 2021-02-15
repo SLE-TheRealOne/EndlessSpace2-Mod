@@ -173,6 +173,15 @@
         <PopulationEvent Name="LuxuryResourcesUsage05Event"/>
     </StarSystemPopulationTransformImprovementDefinition>
 
+    <StarSystemPopulationTransformImprovementDefinition Name="LuxuryResourcesUsage07" Category="CategoryStarSystemResourceImprovement" SubCategory="SubCategoryDiplomacy" ScoreProvider="StarSystemImprovementBuilt">
+        <Tags>NoBuyout</Tags>
+        <CustomCost ResourceName="Luxury7" Instant="true">Property(StockLocation, @ClassColonizedStarSystem,NumberOfImprovementsBuilt) * Property(StockLocation, @ClassColonizedStarSystem, SystemLevel)</CustomCost>
+        <PathPrerequisite        Flags="Prerequisite,Disable,AlreadyActive" Inverted="true">ClassColonizedStarSystem,LuxuryResourcesUsage07Effect</PathPrerequisite>
+        <InterpreterPrerequisite Flags="Prerequisite,Discard">Property(Context, @../ClassEmpire, LuxuryUnlockLevel) ge 1</InterpreterPrerequisite>
+        <SimulationDescriptorReference Name="LuxuryResourcesUsage07" />
+        <TemporaryEffect>LuxuryResourcesUsage07</TemporaryEffect>
+    </StarSystemPopulationTransformImprovementDefinition>
+
     <StarSystemPopulationTransformImprovementDefinition Name="LuxuryResourcesUsage08" Category="CategoryStarSystemResourceImprovement" SubCategory="SubCategoryIndustry" ScoreProvider="StarSystemImprovementBuilt">
         <Tags>NoBuyout</Tags>
         <CustomCost ResourceName="Luxury8" Instant="true">Property(StockLocation, @ClassColonizedStarSystem,NumberOfImprovementsBuilt) * Property(StockLocation, @ClassColonizedStarSystem, SystemLevel)</CustomCost>

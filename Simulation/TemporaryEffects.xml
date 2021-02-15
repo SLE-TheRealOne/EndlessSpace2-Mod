@@ -38,6 +38,11 @@
         <SimulationDescriptorReference Name="LuxuryResourcesUsage05Effect"/>
     </TemporaryEffectDefinition>
 
+    <TemporaryEffectDefinition Name="LuxuryResourcesUsage07" Category="ResourcesUsages" Duration="5">
+        <Path>ClassColonizedStarSystem</Path>
+        <SimulationDescriptorReference Name="LuxuryResourcesUsage07Effect"/>
+    </TemporaryEffectDefinition>
+
     <TemporaryEffectDefinition Name="LuxuryResourcesUsage10" Category="ResourcesUsages" Duration="5">
         <Path>ClassColonizedStarSystem</Path>
         <SimulationDescriptorReference Name="LuxuryResourcesUsage10Effect"/>

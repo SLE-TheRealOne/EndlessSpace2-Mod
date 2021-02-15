@@ -13,22 +13,18 @@
     <!-- Building effects -->
     <SimulationDescriptor Name="InflationReductor_1_effect" Type="StarSystemImprovement">
         <Modifier TargetProperty="DustInflation"        Operation="Percent"     Value="-0.02"   Path="../ClassEmpire" TooltipOverride="%InflationReductor_1_tooltip_effect"/>
-        <Modifier TargetProperty="Happiness"            Operation="Subtraction" Value="5"       Path="./ClassColonizedStarSystem"/>
     </SimulationDescriptor>
 
     <SimulationDescriptor Name="InflationReductor_2_effect" Type="StarSystemImprovement">
         <Modifier TargetProperty="DustInflation"        Operation="Percent"     Value="-0.04" Path="../ClassEmpire" TooltipOverride="%InflationReductor_2_tooltip_effect"/>
-        <Modifier TargetProperty="SystemResearch"       Operation="Percent"     Value="-0.05" Path="./ClassColonizedStarSystem"/>
     </SimulationDescriptor>
 
     <SimulationDescriptor Name="InflationReductor_3_effect" Type="StarSystemImprovement">
         <Modifier TargetProperty="DustInflation"       Operation="Percent"      Value="-0.06"   Path="../ClassEmpire" TooltipOverride="%InflationReductor_3_tooltip_effect"/>
-        <Modifier TargetProperty="SystemEmpirePoint"   Operation="Percent"      Value="-0.10"   Path="./ClassColonizedStarSystem"/>
     </SimulationDescriptor>
 
     <SimulationDescriptor Name="InflationReductor_4_effect" Type="StarSystemImprovement">
         <Modifier TargetProperty="DustInflation"       Operation="Percent"      Value="-0.08"    Path="../ClassEmpire" TooltipOverride="%InflationReductor_4_tooltip_effect"/>
-        <Modifier TargetProperty="SystemProduction"    Operation="Percent"      Value="-0.20"    Path="./ClassColonizedStarSystem"/>
     </SimulationDescriptor>
 
     <!-- Queued during building constructions -->
@@ -89,6 +85,14 @@
 
     <SimulationDescriptor Name="LuxuryResourcesUsage05Effect" Type="TemporaryEffect">
         <Modifier TargetProperty="SystemEmpirePoint" Operation="Percent" Value="0.10" Path="ClassColonizedStarSystem" />
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="LuxuryResourcesUsage07" Type="StarSystemImprovement" />
+
+    <SimulationDescriptor Name="LuxuryResourcesUsage07Effect" Type="TemporaryEffect">
+        <Modifier TargetProperty="ExperiencePerTurn"    Operation="Percent" Value="0.1" Path="ClassStarSystem/ClassHero" />
+        <!--<Modifier TargetProperty="ExperiencePerTurn"                                Operation="Percent" Value="0.8" Path="ClassEmpire/ClassGarrisonFleet/ClassHero" />
+        <Modifier TargetProperty="PassiveShipExperienceRewardForAdmirals"           Operation="Percent" Value="0.6" Path="ClassEmpire/ClassGarrisonFleet/ClassShip" />-->
     </SimulationDescriptor>
 
     <SimulationDescriptor Name="LuxuryResourcesUsage08" Type="StarSystemImprovement" />
