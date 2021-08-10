@@ -323,4 +323,54 @@
         <Title>%StrategicResourcesUsage2_effect</Title>
     </GuiElement>
 
+    <!-- STRAT 3 -->
+    <ExtendedGuiElement Name="StrategicResourcesUsage3">
+        <Title>%StrategicResourcesUsage3_title</Title>
+        <Description>%StrategicResourcesUsage3_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/Strategic3" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Strategics/Strategic03Large" />
+        </Icons>
+        <TemporaryEffectTooltipElement TemporaryEffectName="StrategicResourcesUsage3" >
+            <EffectOverride>%StrategicResourcesUsage3_tooltip</EffectOverride>
+        </TemporaryEffectTooltipElement>
+    </ExtendedGuiElement>
+
+    <GuiElement Name="TemporaryEffectStrategicResourcesUsage3">
+        <Title>%StrategicResourcesUsage3_title</Title>
+        <Description>%StrategicResourcesUsage3_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="FIDSIDust" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="StrategicResourcesUsage3Effect" >
+        <Title>%StrategicResourcesUsage3_effect</Title>
+    </GuiElement>
+
+    <!-- STRAT 4 -->
+    <ExtendedGuiElement Name="StrategicResourcesUsage4">
+        <Title>%StrategicResourcesUsage4_title</Title>
+        <Description>%StrategicResourcesUsage4_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/Strategic4" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Strategics/Strategic04Large" />
+        </Icons>
+        <TemporaryEffectTooltipElement TemporaryEffectName="StrategicResourcesUsage4" >
+            <EffectOverride>%StrategicResourcesUsage4_tooltip</EffectOverride>
+        </TemporaryEffectTooltipElement>
+    </ExtendedGuiElement>
+
+    <GuiElement Name="TemporaryEffectStrategicResourcesUsage4">
+        <Title>%StrategicResourcesUsage4_title</Title>
+        <Description>%StrategicResourcesUsage4_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="FIDSIDust" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="StrategicResourcesUsage4Effect" >
+        <Title>%StrategicResourcesUsage4_effect</Title>
+    </GuiElement>
+
 </Datatable>

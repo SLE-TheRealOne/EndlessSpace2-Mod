@@ -142,4 +142,16 @@
         <Modifier TargetProperty="SystemMoney" Operation="Percent" Value="0.10" Path="ClassColonizedStarSystem"/>
     </SimulationDescriptor>
 
+    <SimulationDescriptor Name="StrategicResourcesUsage3" Type="StarSystemImprovement" />
+
+    <SimulationDescriptor Name="StrategicResourcesUsage3Effect" Type="TemporaryEffect">
+        <Modifier TargetProperty="SystemProduction" Operation="Percent" Value="0.15" Path="ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="StrategicResourcesUsage4" Type="StarSystemImprovement" />
+
+    <SimulationDescriptor Name="StrategicResourcesUsage4Effect" Type="TemporaryEffect">
+        <Modifier TargetProperty="SystemMoney" Operation="Percent" Value="0.15" Path="ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+
 </Datatable>

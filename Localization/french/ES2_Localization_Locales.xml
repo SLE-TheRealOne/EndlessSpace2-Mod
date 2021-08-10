@@ -95,6 +95,18 @@
     <LocalizationPair Name="%StrategicResourcesUsage2_effect">#1595D9#Enhancement - Hypérium#REVERT#</LocalizationPair>
     <LocalizationPair Name="%StrategicResourcesUsage02EventTitle">#1595D9#Enhancement - Hypérium#REVERT#</LocalizationPair>
 
+    <LocalizationPair Name="%StrategicResourcesUsage3_title">#1595D9#Enhancement - Adamantian#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%StrategicResourcesUsage3_description">Utilise le surplus d'Adamantian pour obtenir un effet temporaire</LocalizationPair>
+    <LocalizationPair Name="%StrategicResourcesUsage3_tooltip">+15 % [industryColored] pendant 5 [turnColored]</LocalizationPair>
+    <LocalizationPair Name="%StrategicResourcesUsage3_effect">#1595D9#Enhancement - Adamantian#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%StrategicResourcesUsage03EventTitle">#1595D9#Enhancement - Adamantian#REVERT#</LocalizationPair>
+
+    <LocalizationPair Name="%StrategicResourcesUsage4_title">#1595D9#Enhancement - Antimatière#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%StrategicResourcesUsage4_description">Utilise le surplus d'Antimatière pour obtenir un effet temporaire</LocalizationPair>
+    <LocalizationPair Name="%StrategicResourcesUsage4_tooltip">+15 % [dustColored] pendant 5 [turnColored]</LocalizationPair>
+    <LocalizationPair Name="%StrategicResourcesUsage4_effect">#1595D9#Enhancement - Antimatière#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%StrategicResourcesUsage04EventTitle">#1595D9#Enhancement - Antimatière#REVERT#</LocalizationPair>
+
     <!-- Tooltips -->
     <LocalizationPair Name="%InflationReductor_1_tooltip_system_level_limitation">Ne peut être construit que sur une colonie de niveau [green]1#REVERT# [red]uniquement#REVERT#</LocalizationPair>
     <LocalizationPair Name="%InflationReductor_2_tooltip_system_level_limitation">Ne peut être construit que sur une colonie de niveau [green]2#REVERT# [red]uniquement#REVERT#</LocalizationPair>

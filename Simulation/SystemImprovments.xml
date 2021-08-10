@@ -231,7 +231,7 @@
     <StarSystemPopulationTransformImprovementDefinition Name="StrategicResourcesUsage1" Category="CategoryStarSystemResourceImprovement" SubCategory="SubCategoryIndustry" ScoreProvider="StarSystemImprovementBuilt">
         <Tags>NoBuyout</Tags>
         <CustomCost ResourceName="Strategic1" Instant="true">Property(StockLocation, @ClassColonizedStarSystem,NumberOfImprovementsBuilt) * Property(StockLocation, @ClassColonizedStarSystem, SystemLevel)</CustomCost>
-        <PathPrerequisite        Flags="Prerequisite,Disable,AlreadyActive" Inverted="true">ClassColonizedStarSystem,StrategicResourcesUsage1Effect</PathPrerequisite>
+        <PathPrerequisite       Flags="Prerequisite,Disable,AlreadyActive" Inverted="true">ClassColonizedStarSystem,StrategicResourcesUsage1Effect</PathPrerequisite>
         <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">TechnologyStrategicDeposit1</TechnologyPrerequisite>
         <SimulationDescriptorReference Name="StrategicResourcesUsage1" />
         <TemporaryEffect>StrategicResourcesUsage1</TemporaryEffect>
@@ -246,6 +246,26 @@
         <SimulationDescriptorReference Name="StrategicResourcesUsage2" />
         <TemporaryEffect>StrategicResourcesUsage2</TemporaryEffect>
         <PopulationEvent Name="StrategicResourcesUsage02Event"/>
+    </StarSystemPopulationTransformImprovementDefinition>
+
+    <StarSystemPopulationTransformImprovementDefinition Name="StrategicResourcesUsage3" Category="CategoryStarSystemResourceImprovement" SubCategory="SubCategoryIndustry" ScoreProvider="StarSystemImprovementBuilt">
+        <Tags>NoBuyout</Tags>
+        <CustomCost ResourceName="Strategic3" Instant="true">Property(StockLocation, @ClassColonizedStarSystem,NumberOfImprovementsBuilt)</CustomCost>
+        <PathPrerequisite       Flags="Prerequisite,Disable,AlreadyActive" Inverted="true">ClassColonizedStarSystem,StrategicResourcesUsage3Effect</PathPrerequisite>
+        <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">TechnologyStrategicDeposit3</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="StrategicResourcesUsage3" />
+        <TemporaryEffect>StrategicResourcesUsage3</TemporaryEffect>
+        <PopulationEvent Name="StrategicResourcesUsage03Event"/>
+    </StarSystemPopulationTransformImprovementDefinition>
+
+    <StarSystemPopulationTransformImprovementDefinition Name="StrategicResourcesUsage4" Category="CategoryStarSystemResourceImprovement" SubCategory="SubCategoryIndustry" ScoreProvider="StarSystemImprovementBuilt">
+        <Tags>NoBuyout</Tags>
+        <CustomCost ResourceName="Strategic4" Instant="true">Property(StockLocation, @ClassColonizedStarSystem,NumberOfImprovementsBuilt)</CustomCost>
+        <PathPrerequisite       Flags="Prerequisite,Disable,AlreadyActive" Inverted="true">ClassColonizedStarSystem,StrategicResourcesUsage4Effect</PathPrerequisite>
+        <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">TechnologyStrategicDeposit4</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="StrategicResourcesUsage4" />
+        <TemporaryEffect>StrategicResourcesUsage4</TemporaryEffect>
+        <PopulationEvent Name="StrategicResourcesUsage04Event"/>
     </StarSystemPopulationTransformImprovementDefinition>
 
 </Datatable>

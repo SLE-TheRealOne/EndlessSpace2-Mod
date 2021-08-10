@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Documentation/Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
     <!-- Replacing base tech -->
-    <TechnologyGuiElement2 Name="TechnologyDefinitionEconomyAndTrade3" X="-3" Y="0">
+    <TechnologyGuiElement2 Name="TechnologyDefinitionEconomyAndTrade3" X="-2.5" Y="0">
         <Title>%TechnologyDefinitionEconomyAndTrade3Title</Title>
         <Description>%TechnologyDefinitionEconomyAndTrade3Description</Description>
         <Icons>
@@ -9,7 +9,7 @@
         </Icons>
     </TechnologyGuiElement2>
 
-    <TechnologyGuiElement2 Name="InflationReductionTechnology_1" X="-2.15" Y="0">
+    <TechnologyGuiElement2 Name="InflationReductionTechnology_1" X="-1.75" Y="0">
         <Title>%InflationReductionTechnology_1Title</Title>
         <Description>%InflationReductionTechnology_1Description</Description>
         <Icons>
@@ -17,11 +17,29 @@
         </Icons>
     </TechnologyGuiElement2>
 
-    <TechnologyGuiElement2 Name="InflationReductionTechnology_2" X="-2" Y="0">
+    <TechnologyGuiElement2 Name="InflationReductionTechnology_2" X="-1.75" Y="0">
         <Title>%InflationReductionTechnology_2Title</Title>
         <Description>%InflationReductionTechnology_2Description</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionEconomyAndTrade12Small" />
+        </Icons>
+    </TechnologyGuiElement2>
+
+    <!-- Flexibilité de la mission -->
+    <TechnologyGuiElement2 Name="TechnologyDefinitionEconomyAndTradeJuggernaut2" IsJuggernautTechnology="true" X="-2.70" Y="0">
+        <Title>%TechnologyDefinitionEconomyAndTradeJuggernaut2Title</Title>
+        <Description>%TechnologyDefinitionEconomyAndTradeJuggernaut2Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionEconomyAndTradeJuggernaut2Small" />
+        </Icons>
+    </TechnologyGuiElement2>
+
+    <!-- Sites propres -->
+    <TechnologyGuiElement2 Name="TechnologyDefinitionEconomyAndTrade6" X="-3.6" Y="0">
+        <Title>%TechnologyDefinitionEconomyAndTrade6Title</Title>
+        <Description>%TechnologyDefinitionEconomyAndTrade6Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionEconomyAndTrade6Small" />
         </Icons>
     </TechnologyGuiElement2>
 
