@@ -131,6 +131,31 @@
         </Icons>
     </GuiElement>
 
+    <!-- LUX 06 -->
+    <ExtendedGuiElement Name="LuxuryResourcesUsage06">
+        <Title>%LuxuryResourcesUsage06_title</Title>
+        <Description>%LuxuryResourcesUsage06_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/Luxury06" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Luxuries/Luxury06Large" />
+        </Icons>
+        <TemporaryEffectTooltipElement TemporaryEffectName="LuxuryResourcesUsage06" >
+            <EffectOverride>%LuxuryResourcesUsage06_tooltip</EffectOverride>
+        </TemporaryEffectTooltipElement>
+    </ExtendedGuiElement>
+
+    <GuiElement Name="LuxuryResourcesUsage06Effect" >
+        <Title>%LuxuryResourcesUsage06_effect</Title>
+    </GuiElement>
+
+    <GuiElement Name="TemporaryEffectLuxuryResourcesUsage06">
+        <Title>%LuxuryResourcesUsage06_title</Title>
+        <Description>%LuxuryResourcesUsage06_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="FIDSIEmpire" />
+        </Icons>
+    </GuiElement>
+
     <!-- LUX 07 -->
     <ExtendedGuiElement Name="LuxuryResourcesUsage07">
         <Title>%LuxuryResourcesUsage05_title</Title>
@@ -169,16 +194,16 @@
     </ExtendedGuiElement>
 
     <GuiElement Name="TemporaryEffectLuxuryResourcesUsage08-1">
-        <Title>%LuxuryResourcesUsage08_E</Title>
-        <Description>%LuxuryResourcesUsage08_F</Description>
+        <Title>%LuxuryResourcesUsage08_title</Title>
+        <Description>%LuxuryResourcesUsage08_description</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/GameVariables/Upkeep" />
         </Icons>
     </GuiElement>
 
     <GuiElement Name="TemporaryEffectLuxuryResourcesUsage08-2">
-        <Title>%LuxuryResourcesUsage08_E</Title>
-        <Description>%LuxuryResourcesUsage08_F</Description>
+        <Title>%LuxuryResourcesUsage08_title</Title>
+        <Description>%LuxuryResourcesUsage08_description</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/GameVariables/Upkeep" />
         </Icons>
@@ -340,7 +365,7 @@
         <Title>%StrategicResourcesUsage3_title</Title>
         <Description>%StrategicResourcesUsage3_description</Description>
         <Icons>
-            <Icon Size="Small" Path="FIDSIDust" />
+            <Icon Size="Small" Path="FIDSIIndustry" />
         </Icons>
     </GuiElement>
 
@@ -371,6 +396,56 @@
 
     <GuiElement Name="StrategicResourcesUsage4Effect" >
         <Title>%StrategicResourcesUsage4_effect</Title>
+    </GuiElement>
+
+    <!-- STRAT 5 -->
+    <ExtendedGuiElement Name="StrategicResourcesUsage5">
+        <Title>%StrategicResourcesUsage5_title</Title>
+        <Description>%StrategicResourcesUsage5_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/Strategic5" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Strategics/Strategic05Large" />
+        </Icons>
+        <TemporaryEffectTooltipElement TemporaryEffectName="StrategicResourcesUsage5" >
+            <EffectOverride>%StrategicResourcesUsage5_tooltip</EffectOverride>
+        </TemporaryEffectTooltipElement>
+    </ExtendedGuiElement>
+
+    <GuiElement Name="TemporaryEffectStrategicResourcesUsage5">
+        <Title>%StrategicResourcesUsage5_title</Title>
+        <Description>%StrategicResourcesUsage5_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="FIDSIIndustry" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="StrategicResourcesUsage5Effect" >
+        <Title>%StrategicResourcesUsage5_effect</Title>
+    </GuiElement>
+
+    <!-- STRAT 5 -->
+    <ExtendedGuiElement Name="StrategicResourcesUsage6">
+        <Title>%StrategicResourcesUsage6_title</Title>
+        <Description>%StrategicResourcesUsage6_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/Strategic6" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Strategics/Strategic06Large" />
+        </Icons>
+        <TemporaryEffectTooltipElement TemporaryEffectName="StrategicResourcesUsage6" >
+            <EffectOverride>%StrategicResourcesUsage6_tooltip</EffectOverride>
+        </TemporaryEffectTooltipElement>
+    </ExtendedGuiElement>
+
+    <GuiElement Name="TemporaryEffectStrategicResourcesUsage6">
+        <Title>%StrategicResourcesUsage6_title</Title>
+        <Description>%StrategicResourcesUsage6_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="FIDSIDust" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="StrategicResourcesUsage6Effect" >
+        <Title>%StrategicResourcesUsage6_effect</Title>
     </GuiElement>
 
 </Datatable>

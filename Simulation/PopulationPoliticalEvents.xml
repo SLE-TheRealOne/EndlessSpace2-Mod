@@ -35,6 +35,14 @@
         <Politics Name="Politics05"/>
     </PopulationPoliticalEventDefinition>
 
+    <PopulationPoliticalEventDefinition Name="LuxuryResourcesUsage06Event" Category="ResourcesUsages" Scale="System" Duration="7" Power="0.5">
+        <Politics Name="Politics03"/>
+    </PopulationPoliticalEventDefinition>
+
+    <PopulationPoliticalEventDefinition Name="LuxuryResourcesUsage08Event" Category="ResourcesUsages" Scale="System" Duration="7" Power="0.5">
+        <Politics Name="Politics03"/>
+    </PopulationPoliticalEventDefinition>
+
     <PopulationPoliticalEventDefinition Name="StrategicResourcesUsage01Event" Category="ResourcesUsages" Scale="System" Duration="7" Power="0.5">
         <Politics Name="Politics01"/>
     </PopulationPoliticalEventDefinition>
@@ -48,6 +56,14 @@
     </PopulationPoliticalEventDefinition>
 
     <PopulationPoliticalEventDefinition Name="StrategicResourcesUsage04Event" Category="ResourcesUsages" Scale="System" Duration="7" Power="0.75">
+        <Politics Name="Politics03"/>
+    </PopulationPoliticalEventDefinition>
+
+    <PopulationPoliticalEventDefinition Name="StrategicResourcesUsage05Event" Category="ResourcesUsages" Scale="System" Duration="7" Power="1">
+        <Politics Name="Politics01"/>
+    </PopulationPoliticalEventDefinition>
+
+    <PopulationPoliticalEventDefinition Name="StrategicResourcesUsage06Event" Category="ResourcesUsages" Scale="System" Duration="7" Power="1">
         <Politics Name="Politics03"/>
     </PopulationPoliticalEventDefinition>
 

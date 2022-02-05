@@ -87,22 +87,33 @@
         <Modifier TargetProperty="SystemEmpirePoint" Operation="Percent" Value="0.10" Path="ClassColonizedStarSystem" />
     </SimulationDescriptor>
 
+    <SimulationDescriptor Name="LuxuryResourcesUsage06" Type="StarSystemImprovement" />
+
+    <SimulationDescriptor Name="LuxuryResourcesUsage06Effect" Type="TemporaryEffect">
+        <Modifier TargetProperty="Happiness" Operation="Addition" Value="5" Path="ClassColonizedStarSystem" />
+    </SimulationDescriptor>
+
     <SimulationDescriptor Name="LuxuryResourcesUsage07" Type="StarSystemImprovement" />
 
     <SimulationDescriptor Name="LuxuryResourcesUsage07Effect" Type="TemporaryEffect">
-        <Modifier TargetProperty="ExperiencePerTurn"    Operation="Percent" Value="0.1" Path="ClassStarSystem/ClassHero" />
-        <!--<Modifier TargetProperty="ExperiencePerTurn"                                Operation="Percent" Value="0.8" Path="ClassEmpire/ClassGarrisonFleet/ClassHero" />
-        <Modifier TargetProperty="PassiveShipExperienceRewardForAdmirals"           Operation="Percent" Value="0.6" Path="ClassEmpire/ClassGarrisonFleet/ClassShip" />-->
+        <Modifier TargetProperty="ExperiencePerTurn"    Operation="Percent" Value="0.50" Path="ClassStarSystem/ClassHero" />
     </SimulationDescriptor>
 
     <SimulationDescriptor Name="LuxuryResourcesUsage08" Type="StarSystemImprovement" />
 
+    <!-- 1 + DustImprovmentCount * 0.1  -->
+    <!--<Modifier TargetProperty="TradingRouteIncomeEfficiency_EmpireMoney"        Operation="Percent"  Value="10" Path="DepartmentOfCommerce/ClassTradingCompany" /> -->
+    <!-- AverageImprovmentCount = (DustImprovmentCount + LuxuryImprovmentCount) / 2 -->
+    <!-- 1 + AverageImprovmentCount * 0.05  -->
+    <!--<Modifier TargetProperty="TradingRouteIncomeEfficiency_EmpireResearch"     Operation="Percent"  Value="10" Path="DepartmentOfCommerce/ClassTradingCompany" />-->
+
     <SimulationDescriptor Name="LuxuryResourcesUsage08Effect_1" Type="TemporaryEffect">
-        <Modifier TargetProperty="BuildingBuyoutReduction"  Operation="Addition" Value="0.1" Path="ClassColonizedStarSystem" />
+        <Modifier TargetProperty="TradingRouteIncomeModifier"          Operation="Percent"  Value="0.25" Path="ClassColonizedStarSystem" />
     </SimulationDescriptor>
 
+    <!-- Bonus to Food and Industry when trading routes goes through system -->
     <SimulationDescriptor Name="LuxuryResourcesUsage08Effect_2" Type="TemporaryEffect">
-        <Modifier TargetProperty="ShipBuyoutReduction"      Operation="Addition" Value="0.1" Path="ClassColonizedStarSystem" />
+        <Modifier TargetProperty="TradingRoutesSystemOutputBonus"        Operation="Percent"  Value="0.25" Path="ClassColonizedStarSystem" Priority="5" />
     </SimulationDescriptor>
 
     <SimulationDescriptor Name="LuxuryResourcesUsage10" Type="StarSystemImprovement" />
@@ -152,6 +163,18 @@
 
     <SimulationDescriptor Name="StrategicResourcesUsage4Effect" Type="TemporaryEffect">
         <Modifier TargetProperty="SystemMoney" Operation="Percent" Value="0.15" Path="ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="StrategicResourcesUsage5" Type="StarSystemImprovement" />
+
+    <SimulationDescriptor Name="StrategicResourcesUsage5Effect" Type="TemporaryEffect">
+        <Modifier TargetProperty="SystemProduction" Operation="Percent" Value="0.20" Path="ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="StrategicResourcesUsage6" Type="StarSystemImprovement" />
+
+    <SimulationDescriptor Name="StrategicResourcesUsage6Effect" Type="TemporaryEffect">
+        <Modifier TargetProperty="SystemMoney" Operation="Percent" Value="0.20" Path="ClassColonizedStarSystem"/>
     </SimulationDescriptor>
 
 </Datatable>
