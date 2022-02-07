@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Documentation/Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+    <!--
+    Each boos should have 3 GUI elements
+      * An ExtendedGuiElement for the construction item
+      * A GuiElement for the effect itself where it applies
+      * A GuiElement to indicate that boost is active on StarSystem screen
+    -->
+
+    <!-- STRAT 1 -->
+    <ExtendedGuiElement Name="StrategicResourcesUsage1">
+        <Title>%StrategicResourcesUsage1_title</Title>
+        <Description>%StrategicResourcesUsage1_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/Strategic1" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Strategics/Strategic01Large" />
+        </Icons>
+        <TemporaryEffectTooltipElement TemporaryEffectName="StrategicResourcesUsage1" >
+            <EffectOverride>%StrategicResourcesUsage1_tooltip</EffectOverride>
+        </TemporaryEffectTooltipElement>
+    </ExtendedGuiElement>
+
+    <GuiElement Name="StrategicResourcesUsage1Effect" >
+        <Title>%StrategicResourcesUsage1_effect</Title>
+    </GuiElement>
+
+    <GuiElement Name="TemporaryEffectStrategicResourcesUsage1">
+        <Title>%StrategicResourcesUsage1_title</Title>
+        <Description>%StrategicResourcesUsage1_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="FIDSIIndustry" />
+        </Icons>
+    </GuiElement>
+
+    <!-- STRAT 2 -->
+    <ExtendedGuiElement Name="StrategicResourcesUsage2">
+        <Title>%StrategicResourcesUsage2_title</Title>
+        <Description>%StrategicResourcesUsage2_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/Strategic2" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Strategics/Strategic02Large" />
+        </Icons>
+        <TemporaryEffectTooltipElement TemporaryEffectName="StrategicResourcesUsage2" >
+            <EffectOverride>%StrategicResourcesUsage2_tooltip</EffectOverride>
+        </TemporaryEffectTooltipElement>
+    </ExtendedGuiElement>
+    
+    <GuiElement Name="TemporaryEffectStrategicResourcesUsage2">
+        <Title>%StrategicResourcesUsage2_title</Title>
+        <Description>%StrategicResourcesUsage2_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="FIDSIDust" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="StrategicResourcesUsage2Effect" >
+        <Title>%StrategicResourcesUsage2_effect</Title>
+    </GuiElement>
+
+    <!-- STRAT 3 -->
+    <ExtendedGuiElement Name="StrategicResourcesUsage3">
+        <Title>%StrategicResourcesUsage3_title</Title>
+        <Description>%StrategicResourcesUsage3_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/Strategic3" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Strategics/Strategic03Large" />
+        </Icons>
+        <TemporaryEffectTooltipElement TemporaryEffectName="StrategicResourcesUsage3" >
+            <EffectOverride>%StrategicResourcesUsage3_tooltip</EffectOverride>
+        </TemporaryEffectTooltipElement>
+    </ExtendedGuiElement>
+
+    <GuiElement Name="TemporaryEffectStrategicResourcesUsage3">
+        <Title>%StrategicResourcesUsage3_title</Title>
+        <Description>%StrategicResourcesUsage3_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="FIDSIIndustry" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="StrategicResourcesUsage3Effect" >
+        <Title>%StrategicResourcesUsage3_effect</Title>
+    </GuiElement>
+
+    <!-- STRAT 4 -->
+    <ExtendedGuiElement Name="StrategicResourcesUsage4">
+        <Title>%StrategicResourcesUsage4_title</Title>
+        <Description>%StrategicResourcesUsage4_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/Strategic4" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Strategics/Strategic04Large" />
+        </Icons>
+        <TemporaryEffectTooltipElement TemporaryEffectName="StrategicResourcesUsage4" >
+            <EffectOverride>%StrategicResourcesUsage4_tooltip</EffectOverride>
+        </TemporaryEffectTooltipElement>
+    </ExtendedGuiElement>
+
+    <GuiElement Name="TemporaryEffectStrategicResourcesUsage4">
+        <Title>%StrategicResourcesUsage4_title</Title>
+        <Description>%StrategicResourcesUsage4_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="FIDSIDust" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="StrategicResourcesUsage4Effect" >
+        <Title>%StrategicResourcesUsage4_effect</Title>
+    </GuiElement>
+
+    <!-- STRAT 5 -->
+    <ExtendedGuiElement Name="StrategicResourcesUsage5">
+        <Title>%StrategicResourcesUsage5_title</Title>
+        <Description>%StrategicResourcesUsage5_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/Strategic5" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Strategics/Strategic05Large" />
+        </Icons>
+        <TemporaryEffectTooltipElement TemporaryEffectName="StrategicResourcesUsage5" >
+            <EffectOverride>%StrategicResourcesUsage5_tooltip</EffectOverride>
+        </TemporaryEffectTooltipElement>
+    </ExtendedGuiElement>
+
+    <GuiElement Name="TemporaryEffectStrategicResourcesUsage5">
+        <Title>%StrategicResourcesUsage5_title</Title>
+        <Description>%StrategicResourcesUsage5_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="FIDSIIndustry" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="StrategicResourcesUsage5Effect" >
+        <Title>%StrategicResourcesUsage5_effect</Title>
+    </GuiElement>
+
+    <!-- STRAT 5 -->
+    <ExtendedGuiElement Name="StrategicResourcesUsage6">
+        <Title>%StrategicResourcesUsage6_title</Title>
+        <Description>%StrategicResourcesUsage6_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/Strategic6" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Strategics/Strategic06Large" />
+        </Icons>
+        <TemporaryEffectTooltipElement TemporaryEffectName="StrategicResourcesUsage6" >
+            <EffectOverride>%StrategicResourcesUsage6_tooltip</EffectOverride>
+        </TemporaryEffectTooltipElement>
+    </ExtendedGuiElement>
+
+    <GuiElement Name="TemporaryEffectStrategicResourcesUsage6">
+        <Title>%StrategicResourcesUsage6_title</Title>
+        <Description>%StrategicResourcesUsage6_description</Description>
+        <Icons>
+            <Icon Size="Small" Path="FIDSIDust" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="StrategicResourcesUsage6Effect" >
+        <Title>%StrategicResourcesUsage6_effect</Title>
+    </GuiElement>
+
+</Datatable>

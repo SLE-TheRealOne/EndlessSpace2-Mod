@@ -31,8 +31,8 @@
         <Title>%InflationReductor_4Title</Title>
         <Description>%InflationReductor_4Description</Description>
         <Icons>
-            <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/Planetary/PlanetaryImprovementDust4Small" />
-            <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/Planetary/PlanetaryImprovementDust4Large" />
+            <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/Planetary/PlanetaryImprovementDust3Small" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/Planetary/PlanetaryImprovementDust3Large" />
         </Icons>
     </GuiElement>
 

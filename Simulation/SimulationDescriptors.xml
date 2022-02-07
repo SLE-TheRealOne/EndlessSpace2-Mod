@@ -134,10 +134,22 @@
         <Modifier TargetProperty="PlanetRawPrestige"        Operation="Addition" Value="1" Path="ClassColonizedStarSystem/ClassColonizedPlanet" />
     </SimulationDescriptor>
 
+    <SimulationDescriptor Name="LuxuryResourcesUsage14" Type="StarSystemImprovement" />
+
+    <SimulationDescriptor Name="LuxuryResourcesUsage14Effect" Type="TemporaryEffect">
+        <BinaryModifier  TargetProperty="Happiness" Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(Population)" />
+    </SimulationDescriptor>
+
     <SimulationDescriptor Name="LuxuryResourcesUsage18" Type="StarSystemImprovement" />
 
     <SimulationDescriptor Name="LuxuryResourcesUsage18Effect" Type="TemporaryEffect">
         <BinaryModifier TargetProperty="SystemProduction"   Operation="Percent" Left="0.02" BinaryOperation="Multiplication" Right="$(SystemLevel)" Path="ClassColonizedStarSystem" SearchValueFromPath="true" />
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="LuxuryResourcesUsage22" Type="StarSystemImprovement" />
+
+    <SimulationDescriptor Name="LuxuryResourcesUsage22Effect" Type="TemporaryEffect">
+        <BinaryModifier TargetProperty="Happiness"  Operation="Addition" Left="5" BinaryOperation="Multiplication" Right="$(SystemLevel)" Path="ClassColonizedStarSystem" SearchValueFromPath="true" />
     </SimulationDescriptor>
 
     <!-- Strategic resources -->

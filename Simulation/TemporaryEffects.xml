@@ -93,9 +93,19 @@
         <SimulationDescriptorReference Name="LuxuryResourcesUsage13Effect"/>
     </TemporaryEffectDefinition>
 
+    <TemporaryEffectDefinition Name="LuxuryResourcesUsage14" Category="ResourcesUsages" Duration="5">
+        <Path>ClassColonizedStarSystem</Path>
+        <SimulationDescriptorReference Name="LuxuryResourcesUsage14Effect"/>
+    </TemporaryEffectDefinition>
+
     <TemporaryEffectDefinition Name="LuxuryResourcesUsage18" Category="ResourcesUsages" Duration="5">
         <Path>ClassColonizedStarSystem</Path>
         <SimulationDescriptorReference Name="LuxuryResourcesUsage18Effect"/>
+    </TemporaryEffectDefinition>
+
+    <TemporaryEffectDefinition Name="LuxuryResourcesUsage22" Category="ResourcesUsages" Duration="5">
+        <Path>ClassColonizedStarSystem</Path>
+        <SimulationDescriptorReference Name="LuxuryResourcesUsage22Effect"/>
     </TemporaryEffectDefinition>
 
 

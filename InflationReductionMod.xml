@@ -49,7 +49,9 @@
 					<ExtraType DataType="StarSystemResourceImprovementGuiElement, Assembly-CSharp" />
 				</ExtraTypes>
 				<FilePath>Gui/BuildingsGuiElements.xml</FilePath>
-				<FilePath>Gui/RessourcesUsageGuiElements.xml</FilePath>
+				<FilePath>Gui/LuxuryResourcesUsageGuiElements.xml</FilePath>
+				<FilePath>Gui/StrategicResourcesUsageGuiElements.xml</FilePath>
+				<FilePath>Gui/OtherGuiElements.xml</FilePath>
 				<FilePath>Gui/TechnologiesGuiElements.xml</FilePath>
 			</DatabasePlugin>
 			

@@ -39,6 +39,14 @@
         <Politics Name="Politics03"/>
     </PopulationPoliticalEventDefinition>
 
+    <PopulationPoliticalEventDefinition Name="LuxuryResourcesUsage14Event" Category="ResourcesUsages" Scale="System" Duration="7" Power="0.5">
+        <Politics Name="Politics03"/>
+    </PopulationPoliticalEventDefinition>
+
+    <PopulationPoliticalEventDefinition Name="LuxuryResourcesUsage22Event" Category="ResourcesUsages" Scale="System" Duration="7" Power="1">
+        <Politics Name="Politics03"/>
+    </PopulationPoliticalEventDefinition>
+
     <PopulationPoliticalEventDefinition Name="LuxuryResourcesUsage08Event" Category="ResourcesUsages" Scale="System" Duration="7" Power="0.5">
         <Politics Name="Politics03"/>
     </PopulationPoliticalEventDefinition>

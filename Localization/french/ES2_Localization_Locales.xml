@@ -58,7 +58,7 @@
     <LocalizationPair Name="%LuxuryResourcesUsage06_description">Utilise le surplus de resources de luxe pour obtenir un effet temporaire</LocalizationPair>
     <LocalizationPair Name="%LuxuryResourcesUsage06_tooltip">+5 [happinessColored] pendant 5 [turnColored]</LocalizationPair>
     <LocalizationPair Name="%LuxuryResourcesUsage06_effect">#1595D9#Enhancement - Transliane#REVERT#</LocalizationPair>
-    <LocalizationPair Name="%LuxuryResourcesUsage06EventTitle">#1595D9#Enhancement - Transliane#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage06PopulationEventTitle">#1595D9#Enhancement - Transliane#REVERT#</LocalizationPair>
 
     <LocalizationPair Name="%LuxuryResourcesUsage07_title">#1595D9#Enhancement - Paillettes noires#REVERT#</LocalizationPair>
     <LocalizationPair Name="%LuxuryResourcesUsage07_description">Utilise le surplus de resources de luxe pour obtenir un effet temporaire</LocalizationPair>
@@ -84,10 +84,22 @@
     <LocalizationPair Name="%LuxuryResourcesUsage13_tooltip">Convertit 100 [Lux13GigaLattice] en +2 [prestigeColored] par [population] sur Système</LocalizationPair>
     <LocalizationPair Name="%LuxuryResourcesUsage13_effect">#1595D9#Enhancement-Giga lacis#REVERT#</LocalizationPair>
 
+    <LocalizationPair Name="%LuxuryResourcesUsage14_title">#1595D9#A - Enhancement - Cité perdue#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage14_description">Utilise le surplus de resources de luxe pour obtenir un effet temporaire</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage14_tooltip">+1 [happinessColored] par [population] pendant 5 [turnColored]</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage14_effect">#1595D9#B - Enhancement - Cité perdue#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage14PopulationEventTitle">#1595D9#C - Enhancement - Cité perdue#REVERT#</LocalizationPair>
+
     <LocalizationPair Name="%LuxuryResourcesUsage18_title">#1595D9#Enhancement-Fonderies endless#REVERT#</LocalizationPair>
     <LocalizationPair Name="%LuxuryResourcesUsage18_description">Utilise le surplus de resources de luxe pour obtenir un effet temporaire</LocalizationPair>
     <LocalizationPair Name="%LuxuryResourcesUsage18_tooltip">Convertit 50 [Lux18EndlessFoundries] en +1 % [industryColored] par niveau de Système</LocalizationPair>
     <LocalizationPair Name="%LuxuryResourcesUsage18_effect">#1595D9#Enhancement-Fonderies endless#REVERT#</LocalizationPair>
+
+    <LocalizationPair Name="%LuxuryResourcesUsage22_title">#1595D9#Enhancement - Gemmes benthiques#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage22_description">Utilise le surplus de resources de luxe pour obtenir un effet temporaire</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage22_tooltip">+5 [happinessColored] par Niveau du système sur système pendant 5 [turnColored]</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage22_effect">#1595D9#Enhancement - Gemmes benthiques#REVERT#</LocalizationPair>
+    <LocalizationPair Name="%LuxuryResourcesUsage22PopulationEventTitle">#1595D9#Enhancement - Gemmes benthiques#REVERT#</LocalizationPair>
 
     <LocalizationPair Name="%StrategicResourcesUsage1_title">#1595D9#Enhancement - Titane#REVERT#</LocalizationPair>
     <LocalizationPair Name="%StrategicResourcesUsage1_description">Utilise le surplus de Titane pour obtenir un effet temporaire</LocalizationPair>

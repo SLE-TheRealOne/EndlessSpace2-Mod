@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Documentation/Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+
+    <GuiElement Name="EmpireImprovementAutomatedShipMovementAdditional">
+        <Title>%EmpireImprovementAutomatedShipMovementTitle</Title>
+        <Description>%EmpireImprovementAutomatedShipMovementDescription</Description>
+    </GuiElement>
+
+    <ExtendedGuiElement Name="ModuleSupportSiegeStrategic3">
+        <Title>%ModuleSupportSiegeStrategic3Title</Title>
+        <Description>%ModuleSupportSiegeStrategic3Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/Modules/ModuleSupportSiege1Strategic1" />
+        </Icons>
+        <Sounds>
+            <Sound EventName="Play_ES2_GUI_ShipDesignScreen_AddSupportModule" Type="OnEquipModule" />
+            <Sound EventName="Play_ES2_GUI_ShipDesignScreen_RemoveModule" Type="OnUnequipModule" />
+        </Sounds>
+    </ExtendedGuiElement>
+
+</Datatable>
